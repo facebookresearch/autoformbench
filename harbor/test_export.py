@@ -46,7 +46,6 @@ class ExportTest(unittest.TestCase):
             "Submission.lean": declarations.encode(),
             "Submission/Helpers.lean": b"-- intentionally empty\n",
             "WorkspaceTest.lean": b"import Lean\ndef main : IO UInt32 := pure 0\n",
-            "README.md": f"# {problem_id}\n".encode(),
             "lakefile.toml": b'name = "fixture"\n',
             "lean-toolchain": b"leanprover/lean4:v4.32.2\n",
             "lake-manifest.json": (
@@ -70,23 +69,6 @@ class ExportTest(unittest.TestCase):
                         "theorem_names": list(targets),
                         "permitted_axioms": ["propext"],
                         "enable_nanoda": False,
-                    }
-                )
-                + "\n"
-            ).encode(),
-            "holes.json": (
-                json.dumps(
-                    {
-                        "id": problem_id,
-                        "holes": [
-                            {
-                                "name": target,
-                                "basename": basename,
-                                "kind": "theorem",
-                                "body": f"theorem {basename} : True := by sorry",
-                            }
-                            for target, basename in zip(targets, basenames)
-                        ],
                     }
                 )
                 + "\n"
@@ -167,7 +149,7 @@ class ExportTest(unittest.TestCase):
             )
             agent = task / "environment/workspace"
             self.assertFalse((agent / "book").exists())
-            for hidden in ("README.md", "WorkspaceTest.lean", "config.json", "holes.json"):
+            for hidden in ("WorkspaceTest.lean", "config.json"):
                 self.assertFalse((agent / hidden).exists())
             for relative in benchmark.problems["problem_a"].agent_files:
                 self.assertEqual(

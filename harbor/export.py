@@ -51,9 +51,8 @@ MANIFEST_FIELDS = (
 )
 SOURCE_FIELDS = ("book", "title", "authors", "url")
 
-# These are the only canonical files exposed to the solver.  In particular,
-# config.json, holes.json, WorkspaceTest.lean, and README.md stay inside the
-# trusted verifier image.
+# These are the only canonical files exposed to the solver. In particular,
+# config.json and WorkspaceTest.lean stay inside the trusted verifier image.
 AGENT_FILES = (
     "Challenge.lean",
     "Solution.lean",
@@ -69,10 +68,8 @@ CANONICAL_FILES = frozenset(
     {
         *AGENT_FILES,
         *OPTIONAL_AGENT_FILES,
-        "README.md",
         "WorkspaceTest.lean",
         "config.json",
-        "holes.json",
     }
 )
 REQUIRED_CANONICAL_FILES = frozenset(CANONICAL_FILES - set(OPTIONAL_AGENT_FILES))
@@ -300,7 +297,6 @@ def _validate_targets(
     targets: tuple[str, ...],
 ) -> None:
     config = _load_json(workspace / "config.json")
-    holes_data = _load_json(workspace / "holes.json")
     if not isinstance(config, dict):
         raise ExportError(f"{problem_id}: config.json must contain an object")
     configured = config.get("theorem_names")
@@ -309,21 +305,6 @@ def _validate_targets(
             f"{problem_id}: MANIFEST targets do not exactly match config.json; "
             f"manifest={list(targets)!r}, config={configured!r}"
         )
-    if not isinstance(holes_data, dict) or holes_data.get("id") != problem_id:
-        raise ExportError(f"{problem_id}: holes.json has the wrong problem ID")
-    holes = holes_data.get("holes")
-    if not isinstance(holes, list) or len(holes) != len(targets):
-        raise ExportError(
-            f"{problem_id}: hole count does not match MANIFEST target count"
-        )
-    for index, (target, hole) in enumerate(zip(targets, holes)):
-        if not isinstance(hole, dict):
-            raise ExportError(f"{problem_id}: hole {index} is not an object")
-        if target not in {hole.get("name"), hole.get("basename")}:
-            raise ExportError(
-                f"{problem_id}: target {target!r} does not match hole {index} "
-                f"({hole.get('name')!r}, {hole.get('basename')!r})"
-            )
 
 
 def load_benchmark(root: Path = FINAL_BENCHMARK_ROOT) -> Benchmark:
