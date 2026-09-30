@@ -68,7 +68,6 @@ IDs are the `problem_id` column of [`MANIFEST.csv`](MANIFEST.csv).
 | [`SOURCES.csv`](SOURCES.csv) | Bibliographic metadata and public source URLs |
 | [`leaderboard_data/`](leaderboard_data/) | Public task-level evaluation outcomes |
 | [`harbor/`](harbor/) | Deterministic Harbor 0.22 adapter and verifier images |
-| [`SHA256SUMS`](SHA256SUMS) | Integrity hashes for the release |
 
 This release contains no textbook excerpts, PDFs, informal source files, model
 traces, accepted submissions, gold proofs, or internal audit records. Source
