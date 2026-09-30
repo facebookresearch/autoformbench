@@ -102,21 +102,6 @@ make check
 The generated `harbor/tasks/` directory is intentionally not tracked. See the
 [Harbor guide](harbor/README.md) for image construction and runner commands.
 
-## Reproducibility and integrity
-
-`make check` verifies:
-
-- the 241-way parity among the manifest, workspaces, and leaderboard;
-- deterministic Harbor generation;
-- release checksums and privacy invariants; and
-- the adapter and verifier unit tests.
-
-To verify file integrity alone:
-
-```bash
-sha256sum -c SHA256SUMS
-```
-
 ## Citation
 
 Please cite AutoformBench using [`CITATION.cff`](CITATION.cff). Bibliographic
