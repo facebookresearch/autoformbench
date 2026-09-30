@@ -1,0 +1,21 @@
+# `alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf`
+
+This directory is one source-free AutoformBench proof-completion workspace.
+
+- Problem ID: `alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf`
+- Graded declarations:
+- `Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.affineOver_equiv_qcohAlgebra_op`
+- `Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.pushforwardStructureSheaf_isQuasiCoherentOAlgebra`
+- `Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.pushforwardModulesOverPushforwardStructureSheaf_forgetToOY`
+- `Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.pushforwardModulesOverPushforwardStructureSheaf_preservesQuasicoherent`
+- `Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.pushforwardQCohAsModule_forgetToOY`
+- `Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.affine_qcoh_equiv_modules_over_pushforward_structure_sheaf`
+
+Replace every target `sorry` in `Submission.lean`. Auxiliary definitions and
+lemmas may be added below `Submission/` and imported by `Submission.lean`.
+Do not modify the trusted challenge or grading files.
+
+`lake build` checks that the local project elaborates. Official clean-room
+grading uses the Harbor verifier documented in `../../harbor/README.md`; direct
+`lake test` additionally requires the pinned Comparator, lean4export, nanoda,
+and landrun binaries.

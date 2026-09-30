@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "lemma_1_5",
+      "body": "theorem lemma_1_5\n    {Ω : Type*} [MeasurableSpace Ω]\n    {μ : Measure Ω} [IsProbabilityMeasure μ]\n    {X : Ω → ℝ} {sigma : ℝ}\n    (hX_centered_tail : SatisfiesCenteredSubGaussianTailBound μ X sigma) :\n    ∀ s : ℝ, 0 < s →\n      Integrable (fun ω => Real.exp (s * X ω)) μ ∧\n        momentGeneratingFunction μ X s ≤ Real.exp (4 * sigma ^ 2 * s ^ 2) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_High_Dimensional_Statistics_high_dim_stats_lemma_1_5.lemma_1_5"
+    }
+  ],
+  "id": "high_dim_stats_lemma_1_5",
+  "module": "LeanEval.AutoformBench.High_Dimensional_Statistics.high_dim_stats_lemma_1_5"
+}

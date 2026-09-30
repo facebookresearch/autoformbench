@@ -1,0 +1,41 @@
+# `lie_listed_dynkinGraph_is_realized`
+
+This directory is one source-free AutoformBench proof-completion workspace.
+
+- Problem ID: `lie_listed_dynkinGraph_is_realized`
+- Graded declarations:
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.ofCartanMatrix_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.ofCartanMatrix_edge_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeA_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeA_adj_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeB_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeB_edge_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeC_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeC_edge_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeD_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeD_adj_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE6_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE6_adj_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE7_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE7_adj_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE8_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE8_adj_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeF4_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeF4_edge_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeG2_loopless`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeG2_edge_symm`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.existsSimpleRootDatum`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.dynkinGraph_rootDatum_isomorphic`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.simpleLieAlgebra_dynkinDiagram_isListed`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.simpleLieAlgebra_lieEquiv_of_dynkinDiagram_iso`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.lieEquiv_of_rootDatum_dynkinGraph_iso`
+- `Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.listed_dynkinGraph_is_realized`
+
+Replace every target `sorry` in `Submission.lean`. Auxiliary definitions and
+lemmas may be added below `Submission/` and imported by `Submission.lean`.
+Do not modify the trusted challenge or grading files.
+
+`lake build` checks that the local project elaborates. Official clean-room
+grading uses the Harbor verifier documented in `../../harbor/README.md`; direct
+`lake test` additionally requires the pinned Comparator, lean4export, nanoda,
+and landrun binaries.

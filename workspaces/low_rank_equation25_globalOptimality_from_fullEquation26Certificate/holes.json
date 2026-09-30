@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "equation25_globalOptimality_from_fullEquation26Certificate",
+      "body": "theorem equation25_globalOptimality_from_fullEquation26Certificate\n    {m n r : ℕ}\n    {L : Mat m n → ℝ} {γ : ℝ}\n    {Z G : Mat m n}\n    {U : Mat m r} {σ : Fin r → ℝ} {V : Mat n r}\n    (hγ : 0 < γ)\n    (hLconvex : IsConvexLoss L)\n    (hcert : FullEquation26Certificate L γ Z G U σ V) :\n    IsEquation25Solution L γ Z := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Generalized_Low_Rank_Models_low_rank_equation25_globalOptimality_from_fullEquation26Certificate.equation25_globalOptimality_from_fullEquation26Certificate"
+    }
+  ],
+  "id": "low_rank_equation25_globalOptimality_from_fullEquation26Certificate",
+  "module": "LeanEval.AutoformBench.Generalized_Low_Rank_Models.low_rank_equation25_globalOptimality_from_fullEquation26Certificate"
+}

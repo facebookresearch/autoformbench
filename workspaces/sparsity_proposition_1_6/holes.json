@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_1_6",
+      "body": "theorem proposition_1_6 {p : ℕ}\n    (f : EuclideanSpace ℝ (Fin p) → ℝ)\n    (Ω : Seminorm ℝ (EuclideanSpace ℝ (Fin p)))\n    (χ : ℝ)\n    (hf_convex :\n      ConvexOn ℝ\n        (Set.univ : Set (EuclideanSpace ℝ (Fin p))) f)\n    (hf_differentiable : Differentiable ℝ f)\n    \n    (hΩ_definite : ∀ w, Ω w = 0 → w = 0)\n    (hχ : 0 ≤ χ) :\n    let primal : EReal :=\n      ⨅ w : EuclideanSpace ℝ (Fin p),\n        ((f w + χ * Ω w : ℝ) : EReal)\n    let dual : EReal :=\n      ⨆ z :\n          {z : EuclideanSpace ℝ (Fin p) // dualNorm Ω z ≤ χ},\n        -(fenchelConjugate f z.1)\n    dual ≤ primal ∧\n      ((interior\n          (Set.univ : Set (EuclideanSpace ℝ (Fin p)))).Nonempty →\n        dual = primal) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Optimizing_with_sparsity_inducing_penalties_sparsity_proposition_1_6.proposition_1_6"
+    }
+  ],
+  "id": "sparsity_proposition_1_6",
+  "module": "LeanEval.AutoformBench.Optimizing_with_sparsity_inducing_penalties.sparsity_proposition_1_6"
+}

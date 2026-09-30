@@ -1,0 +1,42 @@
+# `tensor_cat_theorem_2_14_6`
+
+This directory is one source-free AutoformBench proof-completion workspace.
+
+- Problem ID: `tensor_cat_theorem_2_14_6`
+- Graded declarations:
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByActingObject_map_id`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByActingObject_map_comp`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByModuleObject_map_id`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByModuleObject_map_comp`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_id_compatible`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_comp_compatible`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_id_comp`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_comp_id`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_assoc`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_naturality_left`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_naturality_right`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_assoc`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_unit`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_id_compatible`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_comp_compatible`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_id_comp`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_comp_id`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_assoc`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_naturality_m`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_naturality_F`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_unit`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_comp`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_naturality`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_compatible`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_id`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_comp`
+- `Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.theorem_2_14_6`
+
+Replace every target `sorry` in `Submission.lean`. Auxiliary definitions and
+lemmas may be added below `Submission/` and imported by `Submission.lean`.
+Do not modify the trusted challenge or grading files.
+
+`lake build` checks that the local project elaborates. Official clean-room
+grading uses the Harbor verifier documented in `../../harbor/README.md`; direct
+`lake test` additionally requires the pinned Comparator, lean4export, nanoda,
+and landrun binaries.

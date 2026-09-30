@@ -1,0 +1,78 @@
+{
+  "holes": [
+    {
+      "basename": "range_ker_isCompl_oneMinus",
+      "body": "theorem range_ker_isCompl_oneMinus\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (s : SymplecticReflection ρ) :\n    IsCompl\n      (LinearMap.range (oneMinus ρ s.1))\n      (LinearMap.ker (oneMinus ρ s.1)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.range_ker_isCompl_oneMinus"
+    },
+    {
+      "basename": "conjugateSymplecticReflection_isSymplecticReflection",
+      "body": "theorem conjugateSymplecticReflection_isSymplecticReflection\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (g : G)\n    (s : SymplecticReflection ρ) :\n    IsSymplecticReflection ρ (g * s.1 * g⁻¹) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.conjugateSymplecticReflection_isSymplecticReflection"
+    },
+    {
+      "basename": "ofFiltered_mul",
+      "body": "theorem ofFiltered_mul\n    (F : ℕ → Submodule ℂ A)\n    (hFmono : IsIncreasingFiltration F)\n    (hFmul : IsMultiplicativeFiltration F)\n    (hFone : HasUnitInDegreeZero F)\n    (m n : ℕ)\n    (x : F m)\n    (y : F n) :\n    ofFiltered F hFmono hFmul hFone m x\n      * ofFiltered F hFmono hFmul hFone n y\n      = ofFiltered F hFmono hFmul hFone (m + n)\n          (filteredMul F hFmul m n x y) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.ofFiltered_mul"
+    },
+    {
+      "basename": "ofFiltered_of_previous_eq_zero",
+      "body": "theorem ofFiltered_of_previous_eq_zero\n    (F : ℕ → Submodule ℂ A)\n    (hFmono : IsIncreasingFiltration F)\n    (hFmul : IsMultiplicativeFiltration F)\n    (hFone : HasUnitInDegreeZero F)\n    (n : ℕ)\n    (x : F n)\n    (hx : x ∈ PreviousPiece F n) :\n    ofFiltered F hFmono hFmul hFone n x = 0 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.ofFiltered_of_previous_eq_zero"
+    },
+    {
+      "basename": "ofFiltered_one",
+      "body": "theorem ofFiltered_one\n    (F : ℕ → Submodule ℂ A)\n    (hFmono : IsIncreasingFiltration F)\n    (hFmul : IsMultiplicativeFiltration F)\n    (hFone : HasUnitInDegreeZero F) :\n    ofFiltered F hFmono hFmul hFone 0 (filteredOne F hFone) = 1 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.ofFiltered_one"
+    },
+    {
+      "basename": "HkappaFiltration_mul",
+      "body": "theorem HkappaFiltration_mul\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (hTensor : TensorActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (κ : AlternatingMap ℂ V (MonoidAlgebra ℂ G) (Fin 2)) :\n    IsMultiplicativeFiltration\n      (HkappaFiltration (G := G) (V := V) ρ hTensor κ) := by\n  \n  \n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.HkappaFiltration_mul"
+    },
+    {
+      "basename": "HkappaFiltration_one",
+      "body": "theorem HkappaFiltration_one\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (hTensor : TensorActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (κ : AlternatingMap ℂ V (MonoidAlgebra ℂ G) (Fin 2)) :\n    HasUnitInDegreeZero\n      (HkappaFiltration (G := G) (V := V) ρ hTensor κ) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.HkappaFiltration_one"
+    },
+    {
+      "basename": "hκGroup_mem_zero",
+      "body": "theorem hκGroup_mem_zero\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (hTensor : TensorActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (κ : AlternatingMap ℂ V (MonoidAlgebra ℂ G) (Fin 2))\n    (g : G) :\n    hκGroup (G := G) (V := V) ρ hTensor κ g\n      ∈ HkappaFiltration (G := G) (V := V) ρ hTensor κ 0 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.hκGroup_mem_zero"
+    },
+    {
+      "basename": "hκVar_mem_one",
+      "body": "theorem hκVar_mem_one\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (hTensor : TensorActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (κ : AlternatingMap ℂ V (MonoidAlgebra ℂ G) (Fin 2))\n    (x : V) :\n    hκVar (G := G) (V := V) ρ hTensor κ x\n      ∈ HkappaFiltration (G := G) (V := V) ρ hTensor κ 1 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.hκVar_mem_one"
+    },
+    {
+      "basename": "canonicalPBWMap_exists_unique",
+      "body": "theorem canonicalPBWMap_exists_unique\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (hTensor : TensorActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (hSymmetric : SymmetricActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (κ : AlternatingMap ℂ V (MonoidAlgebra ℂ G) (Fin 2)) :\n    ∃! ξ : SymmetricSmash (G := G) (V := V) ρ hSymmetric →ₐ[ℂ]\n      GrHkappa (G := G) (V := V) ρ hTensor κ,\n      IsCanonicalPBWMap (G := G) (V := V) ρ hTensor hSymmetric κ ξ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.canonicalPBWMap_exists_unique"
+    },
+    {
+      "basename": "pbwMap_surjective",
+      "body": "theorem pbwMap_surjective\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (hTensor : TensorActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (hSymmetric : SymmetricActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (κ : AlternatingMap ℂ V (MonoidAlgebra ℂ G) (Fin 2)) :\n    Function.Surjective\n      (pbwMap (G := G) (V := V) ρ hTensor hSymmetric κ) := by\n  \n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.pbwMap_surjective"
+    },
+    {
+      "basename": "theorem_8_6",
+      "body": "theorem theorem_8_6\n    (ρ : G →* (V ≃ₗ[ℂ] V))\n    (ω : AlternatingMap ℂ V ℂ (Fin 2))\n    (κ : AlternatingMap ℂ V (MonoidAlgebra ℂ G) (Fin 2))\n    (hω : IsSymplecticForm ω)\n    (hρ : IsSymplecticAction ρ ω)\n    (hSpan : InvariantAlternatingFormsGeneratedBy ρ ω)\n    (hFaithful : FaithfulRepresentation ρ)\n    (hκ : KappaEquivariant ρ κ)\n    (hTensor : TensorActionAgreesWithRepresentation (G := G) (V := V) ρ)\n    (hSymmetric : SymmetricActionAgreesWithRepresentation (G := G) (V := V) ρ) :\n    PBWProperty (G := G) (V := V) ρ hTensor hSymmetric κ ↔\n      HasSymplecticReflectionForm ρ ω κ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_6.theorem_8_6"
+    }
+  ],
+  "id": "double_hecke_theorem_8_6",
+  "module": "LeanEval.AutoformBench.value_pinned.Double_Hecke_Algebras.double_hecke_theorem_8_6"
+}

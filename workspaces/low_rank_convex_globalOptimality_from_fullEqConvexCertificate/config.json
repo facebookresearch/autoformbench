@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Generalized_Low_Rank_Models_low_rank_convex_globalOptimality_from_fullEqConvexCertificate.nuclearNormSubgradientAt_from_fullEqConvexCertificate",
+    "Autoform_Generalized_Low_Rank_Models_low_rank_convex_globalOptimality_from_fullEqConvexCertificate.convex_globalOptimality_from_fullEqConvexCertificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

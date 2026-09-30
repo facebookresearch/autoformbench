@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "legendre_2_6",
+      "body": "theorem legendre_2_6\n    (a b c : ℤ)\n    (ha : SquarefreeInt a) (hb : SquarefreeInt b) (hc : SquarefreeInt c)\n    (hcoprime : PairwiseCoprime3 a b c)\n    (hsign : SignsNotAllSame a b c) :\n    HasNonzeroRationalSolution a b c ↔ LegendreCongruencesSolvable a b c := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_legendre_2_6.legendre_2_6"
+    }
+  ],
+  "id": "arith_geom_legendre_2_6",
+  "module": "LeanEval.AutoformBench.Introduction_to_Arithmetic_Geometry.arith_geom_legendre_2_6"
+}

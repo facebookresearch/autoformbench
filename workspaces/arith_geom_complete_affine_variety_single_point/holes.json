@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "complete_affine_variety_single_point",
+      "body": "theorem complete_affine_variety_single_point\n    (k R : Type u) [Field k] [IsAlgClosed k]\n    [CommRing R] [IsDomain R] [Algebra k R] [Algebra.FiniteType k R]\n    (hcomplete : IsCompleteAffineVarietyAlgebra k R) :\n    AffineVarietyConsistsOfSinglePoint k R := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_complete_affine_variety_single_point.complete_affine_variety_single_point"
+    }
+  ],
+  "id": "arith_geom_complete_affine_variety_single_point",
+  "module": "LeanEval.AutoformBench.Introduction_to_Arithmetic_Geometry.arith_geom_complete_affine_variety_single_point"
+}

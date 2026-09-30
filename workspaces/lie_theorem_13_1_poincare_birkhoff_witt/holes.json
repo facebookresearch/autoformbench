@@ -1,0 +1,186 @@
+{
+  "holes": [
+    {
+      "basename": "pieceMul_wellDefined",
+      "body": "theorem pieceMul_wellDefined\n    (F : AlgebraFiltration k A) (i j : ℕ)\n    (a₁ : F.F i) (b₁ : F.F j) (a₂ : F.F i) (b₂ : F.F j)\n    (ha : (lower F i).quotientRel a₁ a₂)\n    (hb : (lower F j).quotientRel b₁ b₂) :\n    mk F (i + j) (a₁.1 * b₁.1) (F.mul_mem a₁.2 b₁.2)\n      = mk F (i + j) (a₂.1 * b₂.1) (F.mul_mem a₂.2 b₂.2) := by\n  \n  \n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.pieceMul_wellDefined"
+    },
+    {
+      "basename": "commSemiring_zero_add",
+      "body": "theorem commSemiring_zero_add (F : AlgebraFiltration k A)\n    (a : associatedGraded F) : 0 + a = a := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_zero_add"
+    },
+    {
+      "basename": "commSemiring_add_zero",
+      "body": "theorem commSemiring_add_zero (F : AlgebraFiltration k A)\n    (a : associatedGraded F) : a + 0 = a := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_add_zero"
+    },
+    {
+      "basename": "commSemiring_add_assoc",
+      "body": "theorem commSemiring_add_assoc (F : AlgebraFiltration k A)\n    (a b c : associatedGraded F) : a + b + c = a + (b + c) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_add_assoc"
+    },
+    {
+      "basename": "commSemiring_add_comm",
+      "body": "theorem commSemiring_add_comm (F : AlgebraFiltration k A)\n    (a b : associatedGraded F) : a + b = b + a := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_add_comm"
+    },
+    {
+      "basename": "commSemiring_nsmul_zero",
+      "body": "theorem commSemiring_nsmul_zero (F : AlgebraFiltration k A)\n    (x : associatedGraded F) : nsmulRec 0 x = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_nsmul_zero"
+    },
+    {
+      "basename": "commSemiring_nsmul_succ",
+      "body": "theorem commSemiring_nsmul_succ (F : AlgebraFiltration k A)\n    (n : ℕ) (x : associatedGraded F) :\n    nsmulRec (n + 1) x = nsmulRec n x + x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_nsmul_succ"
+    },
+    {
+      "basename": "commSemiring_left_distrib",
+      "body": "theorem commSemiring_left_distrib (F : AlgebraFiltration k A)\n    (a b c : associatedGraded F) :\n    mul F a (b + c) = mul F a b + mul F a c := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_left_distrib"
+    },
+    {
+      "basename": "commSemiring_right_distrib",
+      "body": "theorem commSemiring_right_distrib (F : AlgebraFiltration k A)\n    (a b c : associatedGraded F) :\n    mul F (a + b) c = mul F a c + mul F b c := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_right_distrib"
+    },
+    {
+      "basename": "commSemiring_zero_mul",
+      "body": "theorem commSemiring_zero_mul (F : AlgebraFiltration k A)\n    (a : associatedGraded F) : mul F 0 a = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_zero_mul"
+    },
+    {
+      "basename": "commSemiring_mul_zero",
+      "body": "theorem commSemiring_mul_zero (F : AlgebraFiltration k A)\n    (a : associatedGraded F) : mul F a 0 = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_mul_zero"
+    },
+    {
+      "basename": "commSemiring_mul_assoc",
+      "body": "theorem commSemiring_mul_assoc (F : AlgebraFiltration k A)\n    (a b c : associatedGraded F) :\n    mul F (mul F a b) c = mul F a (mul F b c) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_mul_assoc"
+    },
+    {
+      "basename": "commSemiring_one_mul",
+      "body": "theorem commSemiring_one_mul (F : AlgebraFiltration k A)\n    (a : associatedGraded F) : mul F (one F) a = a := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_one_mul"
+    },
+    {
+      "basename": "commSemiring_mul_one",
+      "body": "theorem commSemiring_mul_one (F : AlgebraFiltration k A)\n    (a : associatedGraded F) : mul F a (one F) = a := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_mul_one"
+    },
+    {
+      "basename": "commSemiring_natCast_zero",
+      "body": "theorem commSemiring_natCast_zero (F : AlgebraFiltration k A) :\n    (Nat.recOn (motive := fun _ => associatedGraded F) 0 0\n      (fun _ y => one F + y)) = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_natCast_zero"
+    },
+    {
+      "basename": "commSemiring_natCast_succ",
+      "body": "theorem commSemiring_natCast_succ (F : AlgebraFiltration k A) (n : ℕ) :\n    (Nat.recOn (motive := fun _ => associatedGraded F) (n + 1) 0\n        (fun _ y => one F + y))\n      = (Nat.recOn (motive := fun _ => associatedGraded F) n 0\n          (fun _ y => one F + y)) + one F := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_natCast_succ"
+    },
+    {
+      "basename": "commSemiring_npow_zero",
+      "body": "theorem commSemiring_npow_zero (F : AlgebraFiltration k A)\n    (x : associatedGraded F) :\n    (Nat.recOn (motive := fun _ => associatedGraded F) 0 (one F)\n      (fun _ y => mul F y x)) = one F := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_npow_zero"
+    },
+    {
+      "basename": "commSemiring_npow_succ",
+      "body": "theorem commSemiring_npow_succ (F : AlgebraFiltration k A)\n    (n : ℕ) (x : associatedGraded F) :\n    (Nat.recOn (motive := fun _ => associatedGraded F) (n + 1) (one F)\n        (fun _ y => mul F y x))\n      = mul F (Nat.recOn (motive := fun _ => associatedGraded F) n (one F)\n          (fun _ y => mul F y x)) x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_npow_succ"
+    },
+    {
+      "basename": "commSemiring_mul_comm",
+      "body": "theorem commSemiring_mul_comm (F : AlgebraFiltration k A)\n    (a b : associatedGraded F) : mul F a b = mul F b a := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.commSemiring_mul_comm"
+    },
+    {
+      "basename": "degreeZeroRingHom_map_zero",
+      "body": "theorem degreeZeroRingHom_map_zero (F : AlgebraFiltration k A) :\n    scalar F 0 = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.degreeZeroRingHom_map_zero"
+    },
+    {
+      "basename": "degreeZeroRingHom_map_one",
+      "body": "theorem degreeZeroRingHom_map_one (F : AlgebraFiltration k A) :\n    scalar F 1 = 1 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.degreeZeroRingHom_map_one"
+    },
+    {
+      "basename": "degreeZeroRingHom_map_add",
+      "body": "theorem degreeZeroRingHom_map_add (F : AlgebraFiltration k A) (x y : k) :\n    scalar F (x + y) = scalar F x + scalar F y := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.degreeZeroRingHom_map_add"
+    },
+    {
+      "basename": "degreeZeroRingHom_map_mul",
+      "body": "theorem degreeZeroRingHom_map_mul (F : AlgebraFiltration k A) (x y : k) :\n    scalar F (x * y) = scalar F x * scalar F y := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.degreeZeroRingHom_map_mul"
+    },
+    {
+      "basename": "algebra_smul_def",
+      "body": "theorem algebra_smul_def (F : AlgebraFiltration k A)\n    (r : k) (x : associatedGraded F) :\n    r • x = degreeZeroRingHom F r * x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.algebra_smul_def"
+    },
+    {
+      "basename": "pbwFiltration_union_all",
+      "body": "theorem pbwFiltration_union_all\n    (k : Type u) (L : Type v)\n    [CommRing k] [LieRing L] [LieAlgebra k L] :\n    ⋃ n : ℕ,\n        (Submodule.span k\n          {a : UniversalEnvelopingAlgebra k L |\n            ∃ xs : List L, xs.length ≤ n ∧ a = ueaWord k L xs}).carrier = ⊤ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.pbwFiltration_union_all"
+    },
+    {
+      "basename": "pbwFiltration_mul_mem",
+      "body": "theorem pbwFiltration_mul_mem\n    (k : Type u) (L : Type v)\n    [CommRing k] [LieRing L] [LieAlgebra k L]\n    (i j : ℕ) (a b : UniversalEnvelopingAlgebra k L)\n    (ha : a ∈ Submodule.span k\n      {a : UniversalEnvelopingAlgebra k L |\n        ∃ xs : List L, xs.length ≤ i ∧ a = ueaWord k L xs})\n    (hb : b ∈ Submodule.span k\n      {a : UniversalEnvelopingAlgebra k L |\n        ∃ xs : List L, xs.length ≤ j ∧ a = ueaWord k L xs}) :\n    a * b ∈ Submodule.span k\n      {a : UniversalEnvelopingAlgebra k L |\n        ∃ xs : List L, xs.length ≤ i + j ∧ a = ueaWord k L xs} := by\n  \n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.pbwFiltration_mul_mem"
+    },
+    {
+      "basename": "pbwFiltration_commutator_mem_lower",
+      "body": "theorem pbwFiltration_commutator_mem_lower\n    (k : Type u) (L : Type v)\n    [CommRing k] [LieRing L] [LieAlgebra k L]\n    (i j : ℕ) (a b : UniversalEnvelopingAlgebra k L)\n    (ha : a ∈ Submodule.span k\n      {a : UniversalEnvelopingAlgebra k L |\n        ∃ xs : List L, xs.length ≤ i ∧ a = ueaWord k L xs})\n    (hb : b ∈ Submodule.span k\n      {a : UniversalEnvelopingAlgebra k L |\n        ∃ xs : List L, xs.length ≤ j ∧ a = ueaWord k L xs}) :\n    a * b - b * a ∈\n      match i + j with\n      | 0 => ⊥\n      | n + 1 =>\n        Submodule.span k\n          {a : UniversalEnvelopingAlgebra k L |\n            ∃ xs : List L, xs.length ≤ n ∧ a = ueaWord k L xs} := by\n  \n  \n  \n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.pbwFiltration_commutator_mem_lower"
+    },
+    {
+      "basename": "pbwMap_degreeOne_map_add",
+      "body": "theorem pbwMap_degreeOne_map_add\n    (k : Type u) (L : Type v)\n    [Field k] [LieRing L] [LieAlgebra k L]\n    (x y : L) :\n    ofPiece (pbwFiltration k L) 1\n        (mk (pbwFiltration k L) 1 (UniversalEnvelopingAlgebra.ι k (x + y))\n          (by\n            apply Submodule.subset_span\n            exact ⟨[x + y], by simp, by simp [ueaWord]⟩))\n      = ofPiece (pbwFiltration k L) 1\n          (mk (pbwFiltration k L) 1 (UniversalEnvelopingAlgebra.ι k x)\n            (by\n              apply Submodule.subset_span\n              exact ⟨[x], by simp, by simp [ueaWord]⟩))\n        + ofPiece (pbwFiltration k L) 1\n          (mk (pbwFiltration k L) 1 (UniversalEnvelopingAlgebra.ι k y)\n            (by\n              apply Submodule.subset_span\n              exact ⟨[y], by simp, by simp [ueaWord]⟩)) := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.pbwMap_degreeOne_map_add"
+    },
+    {
+      "basename": "pbwMap_degreeOne_map_smul",
+      "body": "theorem pbwMap_degreeOne_map_smul\n    (k : Type u) (L : Type v)\n    [Field k] [LieRing L] [LieAlgebra k L]\n    (r : k) (x : L) :\n    ofPiece (pbwFiltration k L) 1\n        (mk (pbwFiltration k L) 1 (UniversalEnvelopingAlgebra.ι k (r • x))\n          (by\n            apply Submodule.subset_span\n            exact ⟨[r • x], by simp, by simp [ueaWord]⟩))\n      = (RingHom.id k) r •\n          ofPiece (pbwFiltration k L) 1\n            (mk (pbwFiltration k L) 1 (UniversalEnvelopingAlgebra.ι k x)\n              (by\n                apply Submodule.subset_span\n                exact ⟨[x], by simp, by simp [ueaWord]⟩)) := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.pbwMap_degreeOne_map_smul"
+    },
+    {
+      "basename": "theorem_13_1_poincare_birkhoff_witt",
+      "body": "theorem theorem_13_1_poincare_birkhoff_witt\n    (k : Type u) (L : Type v)\n    [Field k] [LieRing L] [LieAlgebra k L] :\n    Function.Bijective (pbwMap k L) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_13_1_poincare_birkhoff_witt.theorem_13_1_poincare_birkhoff_witt"
+    }
+  ],
+  "id": "lie_theorem_13_1_poincare_birkhoff_witt",
+  "module": "LeanEval.AutoformBench.value_pinned.Lie_groups_lie_algebras.lie_theorem_13_1_poincare_birkhoff_witt"
+}

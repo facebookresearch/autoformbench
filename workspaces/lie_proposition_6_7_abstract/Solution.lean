@@ -1,0 +1,19 @@
+import ChallengeDeps
+import Submission
+
+open Autoform_Lie_groups_lie_algebras_lie_proposition_6_7_abstract
+open scoped Quaternion
+
+theorem proposition_6_7_abstract :
+    ∃ e : UnitQuaternion ≃* SU2,
+      Continuous (e : UnitQuaternion → SU2) ∧
+      Continuous (e.symm : SU2 → UnitQuaternion) ∧
+      (∃ F : ℍ → (Fin 2 × Fin 2 → ℂ),
+        ContDiff ℝ (⊤ : WithTop ℕ∞) F ∧
+        ∀ (q : UnitQuaternion) (i j : Fin 2),
+          F q (i, j) = (e q : Matrix (Fin 2) (Fin 2) ℂ) i j) ∧
+      (∃ G : (Fin 2 × Fin 2 → ℂ) → ℍ,
+        ContDiff ℝ (⊤ : WithTop ℕ∞) G ∧
+        ∀ A : SU2,
+          G (fun ij ↦ (A : Matrix (Fin 2) (Fin 2) ℂ) ij.1 ij.2) = (e.symm A : ℍ)) := by
+  exact Submission.proposition_6_7_abstract

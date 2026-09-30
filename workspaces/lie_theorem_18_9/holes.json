@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_18_9",
+      "body": "theorem theorem_18_9\n    (k : Type u) (L : Type v) (V : Type w)\n    [Field k] [CharZero k]\n    [LieRing L] [LieAlgebra k L]\n    [FiniteDimensional k L]\n    [LieAlgebra.HasTrivialRadical k L]\n    [AddCommGroup V] [Module k V]\n    [LieRingModule L V] [LieModule k L V]\n    [FiniteDimensional k V] :\n    CompletelyReducibleLieModule k L V := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem_18_9.theorem_18_9"
+    }
+  ],
+  "id": "lie_theorem_18_9",
+  "module": "LeanEval.AutoformBench.Lie_groups_lie_algebras.lie_theorem_18_9"
+}

@@ -1,0 +1,24 @@
+{
+  "holes": [
+    {
+      "basename": "cuspSMul_one_smul",
+      "body": "theorem cuspSMul_one_smul (x : Cusp) : Cusp.cuspSMul 1 x = x := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_18_10.cuspSMul_one_smul"
+    },
+    {
+      "basename": "cuspSMul_mul_smul",
+      "body": "theorem cuspSMul_mul_smul (g h : SL2Z) (x : Cusp) :\n    Cusp.cuspSMul (g * h) x = Cusp.cuspSMul g (Cusp.cuspSMul h x) := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_18_10.cuspSMul_mul_smul"
+    },
+    {
+      "basename": "theorem_18_10",
+      "body": "theorem theorem_18_10 :\n    CompactSpace X1 ∧ IsRiemannSurface X1 ∧ HasTopologicalGenus X1 0 := by\n  \n  \n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_18_10.theorem_18_10"
+    }
+  ],
+  "id": "elliptic_theorem_18_10",
+  "module": "LeanEval.AutoformBench.value_pinned.Elliptic_Curves.elliptic_theorem_18_10"
+}

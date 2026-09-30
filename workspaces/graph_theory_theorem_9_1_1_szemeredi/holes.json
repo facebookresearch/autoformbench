@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_9_1_1_szemeredi",
+      "body": "theorem theorem_9_1_1_szemeredi\n    (k : ℕ) (hk : 3 ≤ k)\n    (A : ℕ → Finset ℕ)\n    (hA : ∀ N, A N ⊆ Finset.Icc 1 N)\n    (hfree : ∀ N, kAPFree k (A N)) :\n    (fun N : ℕ ↦ ((A N).card : ℝ)) =o[atTop] (fun N : ℕ ↦ (N : ℝ)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_9_1_1_szemeredi.theorem_9_1_1_szemeredi"
+    }
+  ],
+  "id": "graph_theory_theorem_9_1_1_szemeredi",
+  "module": "LeanEval.AutoformBench.Graph_Theory_and_Additive_Combinatorics.graph_theory_theorem_9_1_1_szemeredi"
+}

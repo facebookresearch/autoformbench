@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_17_2",
+      "body": "theorem proposition_17_2\n    (𝕜 : Type u) [Field 𝕜] [CharZero 𝕜]\n    (𝔤 : Type v) [LieRing 𝔤] [LieAlgebra 𝕜 𝔤]\n    [FiniteDimensional 𝕜 𝔤] :\n    TextSemisimple 𝕜 𝔤 ↔\n      TextSemisimple (AlgebraicClosure 𝕜) ((AlgebraicClosure 𝕜) ⊗[𝕜] 𝔤) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_17_2.proposition_17_2"
+    }
+  ],
+  "id": "lie_proposition_17_2",
+  "module": "LeanEval.AutoformBench.Lie_groups_lie_algebras.lie_proposition_17_2"
+}

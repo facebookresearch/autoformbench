@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Stacks_Project_stacks_lemma25_4.toRestrictedHSharp_naturality",
+    "Autoform_Stacks_Project_stacks_lemma25_4.lowerShriekToHSharp_naturality",
+    "Autoform_Stacks_Project_stacks_lemma25_4.lemma25_4"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

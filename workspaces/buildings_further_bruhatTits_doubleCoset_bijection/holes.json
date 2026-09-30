@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "further_bruhatTits_doubleCoset_bijection",
+      "body": "theorem further_bruhatTits_doubleCoset_bijection\n    (bn : StrictBNPair G ι M) [Fintype ι]\n    (h_building : Nonempty (BuildingOrigin.{u, v, w} bn)) (I J : Set ι) :\n    ∃ e : weylDoubleCosetSpace bn I J ≃ parabolicDoubleCosetSpace bn I J,\n      ∀ (w₀ : WeylGroup bn) (n : bn.N),\n        QuotientGroup.mk' (T bn) n = w₀ →\n          e ⟨weylDoubleCoset bn I J w₀, ⟨w₀, rfl⟩⟩ =\n            ⟨parabolicDoubleCosetOfRepresentative bn I J n, ⟨(n : G), rfl⟩⟩ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_further_bruhatTits_doubleCoset_bijection.further_bruhatTits_doubleCoset_bijection"
+    }
+  ],
+  "id": "buildings_further_bruhatTits_doubleCoset_bijection",
+  "module": "LeanEval.AutoformBench.Buildings_and_Classical_Groups.buildings_further_bruhatTits_doubleCoset_bijection"
+}

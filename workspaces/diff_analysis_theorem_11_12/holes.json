@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_11_12",
+      "body": "theorem theorem_11_12\n    (n m : ℕ) (P : ConstantCoeffDiffOp n)\n    (hP : IsEllipticAtOrder m P) :\n    IsHypoellipticOp P := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Differential_Analysis_diff_analysis_theorem_11_12.theorem_11_12"
+    }
+  ],
+  "id": "diff_analysis_theorem_11_12",
+  "module": "LeanEval.AutoformBench.Differential_Analysis.diff_analysis_theorem_11_12"
+}

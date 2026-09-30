@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "Theorem16_13",
+      "body": "theorem Theorem16_13 :\n    ∀ (f : NNReal → ℝ) (g : ℂ → ℂ),\n      BoundedOnNNReal f →\n        PiecewiseContinuousOnNNRealIci f →\n          LaplaceTransformExtendsToClosedRightHalfPlane f g →\n            ImproperIntegralOnNNRealEquals f (g 0) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem16_13.Theorem16_13"
+    }
+  ],
+  "id": "number_theory_Theorem16_13",
+  "module": "LeanEval.AutoformBench.Number_Theory_I.number_theory_Theorem16_13"
+}

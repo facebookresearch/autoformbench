@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_3_16_generalized_weight_spaces_are_submodules.x_commutator_invariant_polynomial",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_3_16_generalized_weight_spaces_are_submodules.g_commutes_invariant_polynomial",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_3_16_generalized_weight_spaces_are_submodules.proposition_3_16_generalized_weight_spaces_are_submodules"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_3_3_density",
+      "body": "theorem theorem_3_3_density\n    [IsSimpleModule R L]\n    {n : ℕ}\n    (x y : Fin n → L)\n    (hx : LinearIndependent (Module.End R L) x) :\n    ∃ r : R, ∀ i : Fin n, r • x i = y i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_3_3_density.theorem_3_3_density"
+    }
+  ],
+  "id": "noncomm_alg_theorem_3_3_density",
+  "module": "LeanEval.AutoformBench.Noncommutative_Algebra.noncomm_alg_theorem_3_3_density"
+}

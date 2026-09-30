@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_18_15_universal_splitting.theorem_18_15a_universal_splitting_exists",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_18_15_universal_splitting.theorem_18_15b_universal_splitting_formallySmooth",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_18_15_universal_splitting.theorem_18_15b_universal_splitting_faithfullyFlat",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_18_15_universal_splitting.theorem_18_15_universal_splitting"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

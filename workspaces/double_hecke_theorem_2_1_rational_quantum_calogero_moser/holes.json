@@ -1,0 +1,126 @@
+{
+  "holes": [
+    {
+      "basename": "ratFunPermAlgEquiv_ratVar",
+      "body": "@[simp, eval_problem]\ntheorem ratFunPermAlgEquiv_ratVar {n : ℕ}\n    (σ : Equiv.Perm (Fin n)) (i : Fin n) :\n    ratFunPermAlgEquiv σ (ratVar i) = ratVar (σ i) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPermAlgEquiv_ratVar"
+    },
+    {
+      "basename": "polyScaleAlgEquiv_left_inv",
+      "body": "theorem polyScaleAlgEquiv_left_inv {n : ℕ} (a : ℂˣ) (p : Poly n) :\n    (MvPolynomial.aeval\n        (fun i : Fin n =>\n          MvPolynomial.C ((a⁻¹ : ℂˣ) : ℂ) * MvPolynomial.X i))\n      (MvPolynomial.aeval\n        (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i) p) = p := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_left_inv"
+    },
+    {
+      "basename": "polyScaleAlgEquiv_right_inv",
+      "body": "theorem polyScaleAlgEquiv_right_inv {n : ℕ} (a : ℂˣ) (p : Poly n) :\n    (MvPolynomial.aeval\n        (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i))\n      (MvPolynomial.aeval\n        (fun i : Fin n =>\n          MvPolynomial.C ((a⁻¹ : ℂˣ) : ℂ) * MvPolynomial.X i) p) = p := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_right_inv"
+    },
+    {
+      "basename": "polyScaleAlgEquiv_map_mul",
+      "body": "theorem polyScaleAlgEquiv_map_mul {n : ℕ} (a : ℂˣ) (p q : Poly n) :\n    (MvPolynomial.aeval\n        (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i)) (p * q) =\n      (MvPolynomial.aeval\n          (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i)) p *\n        (MvPolynomial.aeval\n          (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i)) q := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_map_mul"
+    },
+    {
+      "basename": "polyScaleAlgEquiv_map_add",
+      "body": "theorem polyScaleAlgEquiv_map_add {n : ℕ} (a : ℂˣ) (p q : Poly n) :\n    (MvPolynomial.aeval\n        (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i)) (p + q) =\n      (MvPolynomial.aeval\n          (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i)) p +\n        (MvPolynomial.aeval\n          (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i)) q := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_map_add"
+    },
+    {
+      "basename": "polyScaleAlgEquiv_commutes",
+      "body": "theorem polyScaleAlgEquiv_commutes {n : ℕ} (a : ℂˣ) (z : ℂ) :\n    (MvPolynomial.aeval\n        (fun i : Fin n => MvPolynomial.C (a : ℂ) * MvPolynomial.X i))\n      (algebraMap ℂ (Poly n) z) = algebraMap ℂ (Poly n) z := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_commutes"
+    },
+    {
+      "basename": "ratFunScaleAlgEquiv_ratVar",
+      "body": "@[simp, eval_problem]\ntheorem ratFunScaleAlgEquiv_ratVar {n : ℕ}\n    (a : ℂˣ) (i : Fin n) :\n    ratFunScaleAlgEquiv a (ratVar i) =\n      ratConst (n := n) (a : ℂ) * ratVar i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunScaleAlgEquiv_ratVar"
+    },
+    {
+      "basename": "ratFunPDeriv_map_add",
+      "body": "theorem ratFunPDeriv_map_add {n : ℕ} (i : Fin n) (x y : RatFun n) :\n    ratFunPDerivFun i (x + y) = ratFunPDerivFun i x + ratFunPDerivFun i y := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_map_add"
+    },
+    {
+      "basename": "ratFunPDeriv_map_smul",
+      "body": "theorem ratFunPDeriv_map_smul {n : ℕ} (i : Fin n) (a : ℂ) (x : RatFun n) :\n    ratFunPDerivFun i (a • x) = a • ratFunPDerivFun i x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_map_smul"
+    },
+    {
+      "basename": "ratFunPDeriv_map_one_eq_zero",
+      "body": "theorem ratFunPDeriv_map_one_eq_zero {n : ℕ} (i : Fin n) :\n    ratFunPDerivFun i (1 : RatFun n) = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_map_one_eq_zero"
+    },
+    {
+      "basename": "ratFunPDeriv_leibniz",
+      "body": "theorem ratFunPDeriv_leibniz {n : ℕ} (i : Fin n) (x y : RatFun n) :\n    ratFunPDerivFun i (x * y) =\n      x • ratFunPDerivFun i y + y • ratFunPDerivFun i x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_leibniz"
+    },
+    {
+      "basename": "ratFunPDeriv_algebraMap",
+      "body": "@[simp, eval_problem]\ntheorem ratFunPDeriv_algebraMap {n : ℕ}\n    (i : Fin n) (p : Poly n) :\n    ratFunPDeriv i (algebraMap (Poly n) (RatFun n) p) =\n      algebraMap (Poly n) (RatFun n) ((MvPolynomial.pderiv i) p) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_algebraMap"
+    },
+    {
+      "basename": "mulLeft_map_smul",
+      "body": "theorem mulLeft_map_smul {n : ℕ} (f : RatFun n) (a : ℂ) (x : RatFun n) :\n    f * a • x = a • (f * x) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.mulLeft_map_smul"
+    },
+    {
+      "basename": "toEnd_injective",
+      "body": "theorem toEnd_injective {n : ℕ} :\n    Function.Injective\n      (fun L : RatCoeffDifferentialOperator n =>\n        RatCoeffDifferentialOperator.toEnd L) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.toEnd_injective"
+    },
+    {
+      "basename": "toEnd_smul",
+      "body": "theorem toEnd_smul {n : ℕ}\n    (z : ℂ) (L : RatCoeffDifferentialOperator n) :\n    RatCoeffDifferentialOperator.toEnd (z • L) =\n      z • RatCoeffDifferentialOperator.toEnd L := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.toEnd_smul"
+    },
+    {
+      "basename": "toEnd_permuteOperator",
+      "body": "theorem toEnd_permuteOperator {n : ℕ}\n    (σ : Equiv.Perm (Fin n))\n    (L : RatCoeffDifferentialOperator n) :\n    RatCoeffDifferentialOperator.toEnd (permuteOperator σ L) =\n      permEnd σ *\n        RatCoeffDifferentialOperator.toEnd L *\n          permEnd σ.symm := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.toEnd_permuteOperator"
+    },
+    {
+      "basename": "syntacticSymmetricGroupInvariant_iff_operatorSymmetricGroupInvariant",
+      "body": "theorem syntacticSymmetricGroupInvariant_iff_operatorSymmetricGroupInvariant\n    {n : ℕ} (L : RatCoeffDifferentialOperator n) :\n    syntacticSymmetricGroupInvariant L ↔\n      operatorSymmetricGroupInvariant L := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.syntacticSymmetricGroupInvariant_iff_operatorSymmetricGroupInvariant"
+    },
+    {
+      "basename": "toEnd_scaleOperator",
+      "body": "theorem toEnd_scaleOperator {n : ℕ}\n    (a : ℂˣ) (L : RatCoeffDifferentialOperator n) :\n    RatCoeffDifferentialOperator.toEnd (scaleOperator a L) =\n      scaleEnd (n := n) a *\n        RatCoeffDifferentialOperator.toEnd L *\n          scaleEnd (n := n) (a⁻¹) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.toEnd_scaleOperator"
+    },
+    {
+      "basename": "syntacticHomogeneousOfDegreeNeg_iff_operatorHomogeneousOfDegreeNeg",
+      "body": "theorem syntacticHomogeneousOfDegreeNeg_iff_operatorHomogeneousOfDegreeNeg\n    {n : ℕ} (j : ℕ) (L : RatCoeffDifferentialOperator n) :\n    syntacticHomogeneousOfDegreeNeg j L ↔\n      operatorHomogeneousOfDegreeNeg j L := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.syntacticHomogeneousOfDegreeNeg_iff_operatorHomogeneousOfDegreeNeg"
+    },
+    {
+      "basename": "theorem_2_1_rational_quantum_calogero_moser",
+      "body": "theorem theorem_2_1_rational_quantum_calogero_moser\n    (n : ℕ) (hn : 2 ≤ n) (c : ℂ) :\n    ∃ L : DegreeIndex n → RatCoeffDifferentialOperator n,\n      (∀ j : DegreeIndex n,\n        hasPowerSumLeadingTerm (n := n) j.1 (L j)) ∧\n      (∀ j : DegreeIndex n,\n        symmetricGroupInvariant (n := n) (L j)) ∧\n      (∀ j : DegreeIndex n,\n        homogeneousOfDegreeNeg (n := n) j.1 (L j)) ∧\n      L (degreeTwoIndex hn) =\n        rationalQuantumCalogeroMoserHamiltonian n c ∧\n      (∀ j k : DegreeIndex n,\n        commuteAsOperators (n := n) (L j) (L k)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.theorem_2_1_rational_quantum_calogero_moser"
+    }
+  ],
+  "id": "double_hecke_theorem_2_1_rational_quantum_calogero_moser",
+  "module": "LeanEval.AutoformBench.value_pinned.Double_Hecke_Algebras.double_hecke_theorem_2_1_rational_quantum_calogero_moser"
+}

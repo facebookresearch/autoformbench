@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "problem3_softThresholdedSVD_solution",
+      "body": "theorem problem3_softThresholdedSVD_solution\n    {m n svdRank modelRank : ℕ}\n    (A : Mat m n) (γ : ℝ)\n    (D : OrderedSVDData m n svdRank)\n    (hγ : 0 ≤ γ)\n    (hD : OrderedSVDData.IsOrderedSVD D A) :\n    IsSolution A γ (solutionX modelRank D γ) (solutionY modelRank D γ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Generalized_Low_Rank_Models_low_rank_problem3_softThresholdedSVD_solution.problem3_softThresholdedSVD_solution"
+    }
+  ],
+  "id": "low_rank_problem3_softThresholdedSVD_solution",
+  "module": "LeanEval.AutoformBench.Generalized_Low_Rank_Models.low_rank_problem3_softThresholdedSVD_solution"
+}

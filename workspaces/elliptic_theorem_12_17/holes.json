@@ -1,0 +1,66 @@
+{
+  "holes": [
+    {
+      "basename": "rationalMapSetoid_refl",
+      "body": "theorem rationalMapSetoid_refl (W₁ W₂ : WeierstrassCurve k)\n    (ρ : RationalMapData W₁ W₂) :\n    RationalMapData.Equivalent ρ ρ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.rationalMapSetoid_refl"
+    },
+    {
+      "basename": "rationalMapSetoid_symm",
+      "body": "theorem rationalMapSetoid_symm (W₁ W₂ : WeierstrassCurve k)\n    (ρ σ : RationalMapData W₁ W₂)\n    (hρσ : RationalMapData.Equivalent ρ σ) :\n    RationalMapData.Equivalent σ ρ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.rationalMapSetoid_symm"
+    },
+    {
+      "basename": "rationalMapSetoid_trans",
+      "body": "theorem rationalMapSetoid_trans (W₁ W₂ : WeierstrassCurve k)\n    (ρ σ τ : RationalMapData W₁ W₂)\n    (hρσ : RationalMapData.Equivalent ρ σ)\n    (hστ : RationalMapData.Equivalent σ τ) :\n    RationalMapData.Equivalent ρ τ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.rationalMapSetoid_trans"
+    },
+    {
+      "basename": "nonsingularLift_of_nonsingular",
+      "body": "theorem nonsingularLift_of_nonsingular\n    (W : WeierstrassCurve.Projective K)\n    (P : Fin 3 → K) (hP : W.Nonsingular P) :\n    W.NonsingularLift ⟦P⟧ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.nonsingularLift_of_nonsingular"
+    },
+    {
+      "basename": "EndSubring_zero_mem",
+      "body": "theorem EndSubring_zero_mem (W : WeierstrassCurve k) [W.IsElliptic] :\n    IsAlgebraicMorphism (K := K) W W\n      (0 : AddMonoid.End (GeomPoint (K := K) W)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_zero_mem"
+    },
+    {
+      "basename": "EndSubring_one_mem",
+      "body": "theorem EndSubring_one_mem (W : WeierstrassCurve k) [W.IsElliptic] :\n    IsAlgebraicMorphism (K := K) W W\n      (1 : AddMonoid.End (GeomPoint (K := K) W)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_one_mem"
+    },
+    {
+      "basename": "EndSubring_add_mem",
+      "body": "theorem EndSubring_add_mem (W : WeierstrassCurve k) [W.IsElliptic]\n    (a b : AddMonoid.End (GeomPoint (K := K) W))\n    (ha : IsAlgebraicMorphism (K := K) W W a)\n    (hb : IsAlgebraicMorphism (K := K) W W b) :\n    IsAlgebraicMorphism (K := K) W W (a + b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_add_mem"
+    },
+    {
+      "basename": "EndSubring_neg_mem",
+      "body": "theorem EndSubring_neg_mem (W : WeierstrassCurve k) [W.IsElliptic]\n    (x : AddMonoid.End (GeomPoint (K := K) W))\n    (hx : IsAlgebraicMorphism (K := K) W W x) :\n    IsAlgebraicMorphism (K := K) W W (-x) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_neg_mem"
+    },
+    {
+      "basename": "EndSubring_mul_mem",
+      "body": "theorem EndSubring_mul_mem (W : WeierstrassCurve k) [W.IsElliptic]\n    (a b : AddMonoid.End (GeomPoint (K := K) W))\n    (ha : IsAlgebraicMorphism (K := K) W W a)\n    (hb : IsAlgebraicMorphism (K := K) W W b) :\n    IsAlgebraicMorphism (K := K) W W (a * b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_mul_mem"
+    },
+    {
+      "basename": "theorem_12_17",
+      "body": "theorem theorem_12_17\n    (W : WeierstrassCurve k) [W.IsElliptic] :\n    End0Classification (End0 (K := K) W) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_12_17.theorem_12_17"
+    }
+  ],
+  "id": "elliptic_theorem_12_17",
+  "module": "LeanEval.AutoformBench.value_pinned.Elliptic_Curves.elliptic_theorem_12_17"
+}

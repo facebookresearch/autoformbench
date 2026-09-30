@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem102",
+      "body": "theorem theorem102\n    (X : TopCat) (A : Set ↑X) (U : Set ↑A)\n    (h : IsExcisive A U) :\n    ∀ n : ℕ, IsIso (RelativeHomologyMap (excisionPairMap X A U) n) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Algebraic_Topology_I_alg_top_theorem102.theorem102"
+    }
+  ],
+  "id": "alg_top_theorem102",
+  "module": "LeanEval.AutoformBench.Algebraic_Topology_I.alg_top_theorem102"
+}

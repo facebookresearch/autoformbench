@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_1_3",
+      "body": "theorem proposition_1_3\n    {n p : ℕ}\n    (hn : 0 < n)\n    (X : Matrix (Fin n) (Fin p) ℝ)\n    (y : Fin n → ℝ)\n    (lam : ℝ)\n    (hlam : 0 < lam)\n    (w : Fin p → ℝ) :\n    IsMinOn (objective X y lam) Set.univ w ↔\n      ∀ j : Fin p,\n        if w j = 0 then\n          abs ((X.transpose.mulVec (y - X.mulVec w)) j) ≤\n            (n : ℝ) * lam\n        else\n          (X.transpose.mulVec (y - X.mulVec w)) j =\n            (n : ℝ) * lam * Real.sign (w j) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Optimizing_with_sparsity_inducing_penalties_sparsity_proposition_1_3.proposition_1_3"
+    }
+  ],
+  "id": "sparsity_proposition_1_3",
+  "module": "LeanEval.AutoformBench.Optimizing_with_sparsity_inducing_penalties.sparsity_proposition_1_3"
+}

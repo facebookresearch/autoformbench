@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "basename": "exists_gamma0FundamentalRegion",
+      "body": "theorem exists_gamma0FundamentalRegion (N : ℕ) [NeZero N] :\n    ∃ F : Set UpperHalfPlane, IsFundamentalRegion (gamma0Real N) F := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_eichlerShimuraCarayol.exists_gamma0FundamentalRegion"
+    },
+    {
+      "basename": "eichlerShimuraCarayol",
+      "body": "theorem eichlerShimuraCarayol\n    (N : ℕ) [NeZero N]\n    (f : WeightTwoNewform N)\n    (hf_int : HasIntegralQExpansion f.toCuspForm) :\n    ∃ E : WeierstrassCurve ℚ,\n      E.IsElliptic ∧\n      HasConductor E N ∧\n      ∀ n : ℕ, 0 < n →\n        ((E.LFunction n : ℤ) : ℂ) =\n          (PowerSeries.coeff n)\n            (UpperHalfPlane.qExpansion 1\n              ⇑f.toCuspForm) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_eichlerShimuraCarayol.eichlerShimuraCarayol"
+    }
+  ],
+  "id": "elliptic_eichlerShimuraCarayol",
+  "module": "LeanEval.AutoformBench.Elliptic_Curves.elliptic_eichlerShimuraCarayol"
+}

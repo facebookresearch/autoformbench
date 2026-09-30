@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_11_17",
+      "body": "theorem theorem_11_17\n    (n : ℕ) (hn : 3 ≤ n) (f : SchwartzMap (Rn n) ℂ) :\n    ∃! u : Rn n → ℂ, IsC0Infty u ∧ Δ[⊤] u = f := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Differential_Analysis_diff_analysis_theorem_11_17.theorem_11_17"
+    }
+  ],
+  "id": "diff_analysis_theorem_11_17",
+  "module": "LeanEval.AutoformBench.Differential_Analysis.diff_analysis_theorem_11_17"
+}

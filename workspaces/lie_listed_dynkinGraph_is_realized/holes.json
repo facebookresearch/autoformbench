@@ -1,0 +1,162 @@
+{
+  "holes": [
+    {
+      "basename": "ofCartanMatrix_loopless",
+      "body": "theorem ofCartanMatrix_loopless {ι : Type u} [Fintype ι] [DecidableEq ι]\n    (A : Matrix ι ι ℤ) (diag_two : ∀ i, A i i = 2) :\n    ∀ i : ι, DynkinEdge.ofCartanEntries (A i i) (A i i) = DynkinEdge.none := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.ofCartanMatrix_loopless"
+    },
+    {
+      "basename": "ofCartanMatrix_edge_symm",
+      "body": "theorem ofCartanMatrix_edge_symm {ι : Type u} [Fintype ι] [DecidableEq ι]\n    (A : Matrix ι ι ℤ) (diag_two : ∀ i, A i i = 2) :\n    ∀ i j : ι, DynkinEdge.ofCartanEntries (A j i) (A i j) =\n      (DynkinEdge.ofCartanEntries (A i j) (A j i)).reverse := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.ofCartanMatrix_edge_symm"
+    },
+    {
+      "basename": "typeA_loopless",
+      "body": "theorem typeA_loopless (n : NatAtLeast 1) :\n    ∀ i : Fin n.1, ¬ pathAdjacent i i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeA_loopless"
+    },
+    {
+      "basename": "typeA_adj_symm",
+      "body": "theorem typeA_adj_symm (n : NatAtLeast 1) :\n    ∀ i j : Fin n.1, pathAdjacent i j ↔ pathAdjacent j i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeA_adj_symm"
+    },
+    {
+      "basename": "typeB_loopless",
+      "body": "theorem typeB_loopless (n : NatAtLeast 2) :\n    ∀ i : Fin n.1, typeBEdge n i i = DynkinEdge.none := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeB_loopless"
+    },
+    {
+      "basename": "typeB_edge_symm",
+      "body": "theorem typeB_edge_symm (n : NatAtLeast 2) :\n    ∀ i j : Fin n.1, typeBEdge n j i = (typeBEdge n i j).reverse := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeB_edge_symm"
+    },
+    {
+      "basename": "typeC_loopless",
+      "body": "theorem typeC_loopless (n : NatAtLeast 3) :\n    ∀ i : Fin n.1, typeCEdge n i i = DynkinEdge.none := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeC_loopless"
+    },
+    {
+      "basename": "typeC_edge_symm",
+      "body": "theorem typeC_edge_symm (n : NatAtLeast 3) :\n    ∀ i j : Fin n.1, typeCEdge n j i = (typeCEdge n i j).reverse := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeC_edge_symm"
+    },
+    {
+      "basename": "typeD_loopless",
+      "body": "theorem typeD_loopless (n : NatAtLeast 4) :\n    ∀ i : Fin n.1, ¬ typeDAdjacent n i i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeD_loopless"
+    },
+    {
+      "basename": "typeD_adj_symm",
+      "body": "theorem typeD_adj_symm (n : NatAtLeast 4) :\n    ∀ i j : Fin n.1, typeDAdjacent n i j ↔ typeDAdjacent n j i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeD_adj_symm"
+    },
+    {
+      "basename": "typeE6_loopless",
+      "body": "theorem typeE6_loopless : ∀ i : Fin 6, ¬ typeE6Adjacent i i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE6_loopless"
+    },
+    {
+      "basename": "typeE6_adj_symm",
+      "body": "theorem typeE6_adj_symm : ∀ i j : Fin 6, typeE6Adjacent i j ↔ typeE6Adjacent j i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE6_adj_symm"
+    },
+    {
+      "basename": "typeE7_loopless",
+      "body": "theorem typeE7_loopless : ∀ i : Fin 7, ¬ typeE7Adjacent i i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE7_loopless"
+    },
+    {
+      "basename": "typeE7_adj_symm",
+      "body": "theorem typeE7_adj_symm : ∀ i j : Fin 7, typeE7Adjacent i j ↔ typeE7Adjacent j i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE7_adj_symm"
+    },
+    {
+      "basename": "typeE8_loopless",
+      "body": "theorem typeE8_loopless : ∀ i : Fin 8, ¬ typeE8Adjacent i i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE8_loopless"
+    },
+    {
+      "basename": "typeE8_adj_symm",
+      "body": "theorem typeE8_adj_symm : ∀ i j : Fin 8, typeE8Adjacent i j ↔ typeE8Adjacent j i := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeE8_adj_symm"
+    },
+    {
+      "basename": "typeF4_loopless",
+      "body": "theorem typeF4_loopless : ∀ i : Fin 4, typeF4Edge i i = DynkinEdge.none := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeF4_loopless"
+    },
+    {
+      "basename": "typeF4_edge_symm",
+      "body": "theorem typeF4_edge_symm :\n    ∀ i j : Fin 4, typeF4Edge j i = (typeF4Edge i j).reverse := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeF4_edge_symm"
+    },
+    {
+      "basename": "typeG2_loopless",
+      "body": "theorem typeG2_loopless : ∀ i : Fin 2, typeG2Edge i i = DynkinEdge.none := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeG2_loopless"
+    },
+    {
+      "basename": "typeG2_edge_symm",
+      "body": "theorem typeG2_edge_symm :\n    ∀ i j : Fin 2, typeG2Edge j i = (typeG2Edge i j).reverse := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.typeG2_edge_symm"
+    },
+    {
+      "basename": "existsSimpleRootDatum",
+      "body": "theorem existsSimpleRootDatum\n    (K : Type u) [Field K] [IsAlgClosed K] [CharZero K]\n    (L : Type v) [LieRing L] [LieAlgebra K L] [FiniteDimensional K L]\n    [LieAlgebra.IsSimple K L] :\n    Nonempty (SimpleRootDatum K L) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.existsSimpleRootDatum"
+    },
+    {
+      "basename": "dynkinGraph_rootDatum_isomorphic",
+      "body": "theorem dynkinGraph_rootDatum_isomorphic\n    (K : Type u) [Field K] [IsAlgClosed K] [CharZero K]\n    (L : Type v) [LieRing L] [LieAlgebra K L] [FiniteDimensional K L]\n    [LieAlgebra.IsSimple K L]\n    (D₁ D₂ : SimpleRootDatum K L) :\n    Isomorphic D₁.dynkinGraph D₂.dynkinGraph := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.dynkinGraph_rootDatum_isomorphic"
+    },
+    {
+      "basename": "simpleLieAlgebra_dynkinDiagram_isListed",
+      "body": "theorem simpleLieAlgebra_dynkinDiagram_isListed\n    (K : Type u) [Field K] [IsAlgClosed K] [CharZero K]\n    (L : SimpleLieAlgebra K) :\n    IsListed L.dynkinDiagram := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.simpleLieAlgebra_dynkinDiagram_isListed"
+    },
+    {
+      "basename": "simpleLieAlgebra_lieEquiv_of_dynkinDiagram_iso",
+      "body": "theorem simpleLieAlgebra_lieEquiv_of_dynkinDiagram_iso\n    (K : Type u) [Field K] [IsAlgClosed K] [CharZero K]\n    (L M : SimpleLieAlgebra K)\n    (hΓ : Isomorphic L.dynkinDiagram M.dynkinDiagram) :\n    Nonempty (LieEquiv K L.carrier M.carrier) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.simpleLieAlgebra_lieEquiv_of_dynkinDiagram_iso"
+    },
+    {
+      "basename": "lieEquiv_of_rootDatum_dynkinGraph_iso",
+      "body": "theorem lieEquiv_of_rootDatum_dynkinGraph_iso\n    (K : Type u) [Field K] [IsAlgClosed K] [CharZero K]\n    (L₁ L₂ : Type v)\n    [LieRing L₁] [LieAlgebra K L₁] [FiniteDimensional K L₁]\n    [LieAlgebra.IsSimple K L₁]\n    [LieRing L₂] [LieAlgebra K L₂] [FiniteDimensional K L₂]\n    [LieAlgebra.IsSimple K L₂]\n    (D₁ : SimpleRootDatum K L₁) (D₂ : SimpleRootDatum K L₂)\n    (hΓ : Isomorphic D₁.dynkinGraph D₂.dynkinGraph) :\n    Nonempty (LieEquiv K L₁ L₂) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.lieEquiv_of_rootDatum_dynkinGraph_iso"
+    },
+    {
+      "basename": "listed_dynkinGraph_is_realized",
+      "body": "theorem listed_dynkinGraph_is_realized\n    (K : Type u) [Field K] [IsAlgClosed K] [CharZero K]\n    (Γ : DynkinGraph.{w}) (hΓ : IsListed Γ) :\n    ∃ L : SimpleLieAlgebra K,\n      Isomorphic L.dynkinDiagram Γ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_listed_dynkinGraph_is_realized.listed_dynkinGraph_is_realized"
+    }
+  ],
+  "id": "lie_listed_dynkinGraph_is_realized",
+  "module": "LeanEval.AutoformBench.value_pinned.Lie_groups_lie_algebras.lie_listed_dynkinGraph_is_realized"
+}

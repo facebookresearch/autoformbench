@@ -1,0 +1,24 @@
+{
+  "holes": [
+    {
+      "basename": "matrixMgf_posDef",
+      "body": "theorem matrixMgf_posDef {Ω n : Type*} [MeasurableSpace Ω]\n    [Fintype n] [DecidableEq n] {μ : Measure Ω} [IsProbabilityMeasure μ]\n    {X : Ω → Matrix n n ℂ} {θ : ℝ}\n    (hX : ∀ ω, (X ω).IsHermitian)\n    (h_int : Integrable (fun ω => NormedSpace.exp ((θ : ℂ) • X ω)) μ) :\n    (matrixMgf μ X θ).PosDef := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Matrix_Concentration_Inequalities_matrix_conc_thm_3_6_1_master_bounds.matrixMgf_posDef"
+    },
+    {
+      "basename": "sum_isHermitian",
+      "body": "theorem sum_isHermitian {ι n : Type*} [Fintype ι]\n    {A : ι → Matrix n n ℂ}\n    (hA : ∀ i : ι, (A i).IsHermitian) :\n    (∑ i : ι, A i).IsHermitian := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Matrix_Concentration_Inequalities_matrix_conc_thm_3_6_1_master_bounds.sum_isHermitian"
+    },
+    {
+      "basename": "thm_3_6_1_master_bounds",
+      "body": "theorem thm_3_6_1_master_bounds\n    {Ω ι n : Type*} [MeasurableSpace Ω]\n    [Fintype ι] [DecidableEq ι]\n    [Fintype n] [DecidableEq n] [Nonempty n]\n    {μ : Measure Ω} [IsProbabilityMeasure μ]\n    (X : ι → Ω → Matrix n n ℂ)\n    (hX_meas : ∀ i : ι, Measurable (X i))\n    (h_indep : ProbabilityTheory.iIndepFun X μ)\n    (hX : ∀ i : ι, ∀ ω : Ω, (X i ω).IsHermitian)\n    (h_exp_int : ∀ i : ι, ∀ θ : ℝ,\n      Integrable (fun ω => NormedSpace.exp ((θ : ℂ) • X i ω)) μ)\n    (h_lmax_int : Integrable (lambdaMaxSum X hX) μ)\n    (h_lmin_int : Integrable (lambdaMinSum X hX) μ) :\n    (∫ ω, lambdaMaxSum X hX ω ∂μ\n      ≤ ⨅ θ : {θ : ℝ // 0 < θ},\n          (1 / θ.1) * Real.log (traceExpCgfSum μ X hX h_exp_int θ.1))\n    ∧\n    ((⨆ θ : {θ : ℝ // θ < 0},\n          (1 / θ.1) * Real.log (traceExpCgfSum μ X hX h_exp_int θ.1))\n      ≤ ∫ ω, lambdaMinSum X hX ω ∂μ)\n    ∧\n    (∀ t : ℝ,\n      (μ {ω | lambdaMaxSum X hX ω ≥ t}).toReal\n        ≤ ⨅ θ : {θ : ℝ // 0 < θ},\n            Real.exp (- θ.1 * t) * traceExpCgfSum μ X hX h_exp_int θ.1)\n    ∧\n    (∀ t : ℝ,\n      (μ {ω | lambdaMinSum X hX ω ≤ t}).toReal\n        ≤ ⨅ θ : {θ : ℝ // θ < 0},\n            Real.exp (- θ.1 * t) * traceExpCgfSum μ X hX h_exp_int θ.1) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Matrix_Concentration_Inequalities_matrix_conc_thm_3_6_1_master_bounds.thm_3_6_1_master_bounds"
+    }
+  ],
+  "id": "matrix_conc_thm_3_6_1_master_bounds",
+  "module": "LeanEval.AutoformBench.Matrix_Concentration_Inequalities.matrix_conc_thm_3_6_1_master_bounds"
+}

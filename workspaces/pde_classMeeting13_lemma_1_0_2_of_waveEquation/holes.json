@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "basename": "classMeeting13_lemma_1_0_2",
+      "body": "theorem classMeeting13_lemma_1_0_2\n    {n : ℕ}\n    (φ : (Fin (n + 1) → ℝ) → ℝ)\n    (hφ : ContDiff ℝ 2 φ)\n    (ν : Fin (n + 1))\n    (x : Fin (n + 1) → ℝ) :\n    (∑ μ : Fin (n + 1),\n      coordDeriv μ (fun y => energyMomentumUp φ y μ ν) x) =\n      waveOperator φ x *\n        (∑ α : Fin (n + 1),\n          minkowskiMetric n ν α * coordDeriv α φ x) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_PDEs_pde_classMeeting13_lemma_1_0_2_of_waveEquation.classMeeting13_lemma_1_0_2"
+    },
+    {
+      "basename": "classMeeting13_lemma_1_0_2_of_waveEquation",
+      "body": "theorem classMeeting13_lemma_1_0_2_of_waveEquation\n    {n : ℕ}\n    (φ : (Fin (n + 1) → ℝ) → ℝ)\n    (hφ : ContDiff ℝ 2 φ)\n    (hWave : ∀ x, waveOperator φ x = 0)\n    (ν : Fin (n + 1))\n    (x : Fin (n + 1) → ℝ) :\n    (∑ μ : Fin (n + 1),\n      coordDeriv μ (fun y => energyMomentumUp φ y μ ν) x) = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_PDEs_pde_classMeeting13_lemma_1_0_2_of_waveEquation.classMeeting13_lemma_1_0_2_of_waveEquation"
+    }
+  ],
+  "id": "pde_classMeeting13_lemma_1_0_2_of_waveEquation",
+  "module": "LeanEval.AutoformBench.Introduction_to_PDEs.pde_classMeeting13_lemma_1_0_2_of_waveEquation"
+}

@@ -1,0 +1,168 @@
+{
+  "holes": [
+    {
+      "basename": "geometricCurve_isElliptic",
+      "body": "theorem geometricCurve_isElliptic\n    {Ω : Type v} [Field Ω] [Algebra K Ω]\n    (E : WeierstrassCurve K) [E.IsElliptic] :\n    (GeometricCurve (K := K) Ω E).IsElliptic := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.geometricCurve_isElliptic"
+    },
+    {
+      "basename": "algebraicIsogeny_degree_unique",
+      "body": "theorem algebraicIsogeny_degree_unique\n    {Ω : Type v} [Field Ω] [Algebra K Ω] [IsAlgClosed Ω] [DecidableEq Ω]\n    (E₁ E₂ : WeierstrassCurve K)\n    [hE₁ : (GeometricCurve (K := K) Ω E₁).IsElliptic]\n    [hE₂ : (GeometricCurve (K := K) Ω E₂).IsElliptic]\n    (φ : (GeometricCurve (K := K) Ω E₁).Point →+\n         (GeometricCurve (K := K) Ω E₂).Point)\n    (D₁ D₂ : AlgebraicIsogenyData (Ω := Ω) E₁ E₂ φ) :\n    D₁.functionField.degree = D₂.functionField.degree := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.algebraicIsogeny_degree_unique"
+    },
+    {
+      "basename": "EndSubring_one_mem",
+      "body": "theorem EndSubring_one_mem\n    {Ω : Type v} [Field Ω] [Algebra K Ω] [IsAlgClosed Ω] [DecidableEq Ω]\n    (E : WeierstrassCurve K)\n    [hE : (GeometricCurve (K := K) Ω E).IsElliptic] :\n    IsAlgebraicHom (Ω := Ω) E E\n      (1 : AddMonoid.End (GeometricCurve (K := K) Ω E).Point) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.EndSubring_one_mem"
+    },
+    {
+      "basename": "EndSubring_add_mem",
+      "body": "theorem EndSubring_add_mem\n    {Ω : Type v} [Field Ω] [Algebra K Ω] [IsAlgClosed Ω] [DecidableEq Ω]\n    (E : WeierstrassCurve K)\n    [hE : (GeometricCurve (K := K) Ω E).IsElliptic]\n    (a b : AddMonoid.End (GeometricCurve (K := K) Ω E).Point)\n    (ha : IsAlgebraicHom (Ω := Ω) E E a) (hb : IsAlgebraicHom (Ω := Ω) E E b) :\n    IsAlgebraicHom (Ω := Ω) E E (a + b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.EndSubring_add_mem"
+    },
+    {
+      "basename": "EndSubring_neg_mem",
+      "body": "theorem EndSubring_neg_mem\n    {Ω : Type v} [Field Ω] [Algebra K Ω] [IsAlgClosed Ω] [DecidableEq Ω]\n    (E : WeierstrassCurve K)\n    [hE : (GeometricCurve (K := K) Ω E).IsElliptic]\n    (x : AddMonoid.End (GeometricCurve (K := K) Ω E).Point)\n    (hx : IsAlgebraicHom (Ω := Ω) E E x) :\n    IsAlgebraicHom (Ω := Ω) E E (-x) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.EndSubring_neg_mem"
+    },
+    {
+      "basename": "EndSubring_mul_mem",
+      "body": "theorem EndSubring_mul_mem\n    {Ω : Type v} [Field Ω] [Algebra K Ω] [IsAlgClosed Ω] [DecidableEq Ω]\n    (E : WeierstrassCurve K)\n    [hE : (GeometricCurve (K := K) Ω E).IsElliptic]\n    (a b : AddMonoid.End (GeometricCurve (K := K) Ω E).Point)\n    (ha : IsAlgebraicHom (Ω := Ω) E E a) (hb : IsAlgebraicHom (Ω := Ω) E E b) :\n    IsAlgebraicHom (Ω := Ω) E E (a * b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.EndSubring_mul_mem"
+    },
+    {
+      "basename": "endomorphism_has_isogeny_data",
+      "body": "theorem endomorphism_has_isogeny_data\n    (α : End (K := K) (Ω := Ω) E) (hα : α ≠ 0) :\n    Nonempty (AlgebraicIsogenyData (K := K) (Ω := Ω) E E α.1) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.endomorphism_has_isogeny_data"
+    },
+    {
+      "basename": "exists_unique_dualEnd",
+      "body": "theorem exists_unique_dualEnd\n    (α : End (K := K) (Ω := Ω) E) :\n    ∃! β : End (K := K) (Ω := Ω) E,\n      IsDualEndomorphism (K := K) (Ω := Ω) α β := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.exists_unique_dualEnd"
+    },
+    {
+      "basename": "exists_unique_endomorphismTrace",
+      "body": "theorem exists_unique_endomorphismTrace\n    (α : End (K := K) (Ω := Ω) E) :\n    ∃! t : ℤ, HasEndomorphismTrace (K := K) (Ω := Ω) α t := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.exists_unique_endomorphismTrace"
+    },
+    {
+      "basename": "ellipticCurveWithJ_exists",
+      "body": "theorem ellipticCurveWithJ_exists\n    (k : Type u) [Field k] (j : k) : Nonempty (EllipticCurveWithJ k j) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.ellipticCurveWithJ_exists"
+    },
+    {
+      "basename": "cyclicIsogenyKernel_count_independent_of_source",
+      "body": "theorem cyclicIsogenyKernel_count_independent_of_source\n    (k : Type u) [Field k] (ℓ : ℕ) {j₁ : k}\n    (E₁ E₁' : EllipticCurveWithJ k j₁) (j₂ : k) :\n    Nat.card (CyclicIsogenyKernelFrom k E₁ ℓ j₂) =\n      Nat.card (CyclicIsogenyKernelFrom k E₁' ℓ j₂) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.cyclicIsogenyKernel_count_independent_of_source"
+    },
+    {
+      "basename": "idealMultiplier_zero",
+      "body": "theorem idealMultiplier_zero\n    {K : ImaginaryQuadraticField.{u}}\n    (O : ImaginaryQuadraticOrder K) (I : Ideal O.toSubring) :\n    IsIdealMultiplier O I 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_zero"
+    },
+    {
+      "basename": "idealMultiplier_one",
+      "body": "theorem idealMultiplier_one\n    {K : ImaginaryQuadraticField.{u}}\n    (O : ImaginaryQuadraticOrder K) (I : Ideal O.toSubring) :\n    IsIdealMultiplier O I 1 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_one"
+    },
+    {
+      "basename": "idealMultiplier_add",
+      "body": "theorem idealMultiplier_add\n    {K : ImaginaryQuadraticField.{u}}\n    (O : ImaginaryQuadraticOrder K) (I : Ideal O.toSubring)\n    {a b : K.carrier} :\n    IsIdealMultiplier O I a → IsIdealMultiplier O I b →\n      IsIdealMultiplier O I (a + b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_add"
+    },
+    {
+      "basename": "idealMultiplier_neg",
+      "body": "theorem idealMultiplier_neg\n    {K : ImaginaryQuadraticField.{u}}\n    (O : ImaginaryQuadraticOrder K) (I : Ideal O.toSubring)\n    {a : K.carrier} :\n    IsIdealMultiplier O I a → IsIdealMultiplier O I (-a) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_neg"
+    },
+    {
+      "basename": "idealMultiplier_mul",
+      "body": "theorem idealMultiplier_mul\n    {K : ImaginaryQuadraticField.{u}}\n    (O : ImaginaryQuadraticOrder K) (I : Ideal O.toSubring)\n    {a b : K.carrier} :\n    IsIdealMultiplier O I a → IsIdealMultiplier O I b →\n      IsIdealMultiplier O I (a * b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_mul"
+    },
+    {
+      "basename": "topIdeal_ne_bot",
+      "body": "theorem topIdeal_ne_bot {K : ImaginaryQuadraticField.{u}}\n    {O : ImaginaryQuadraticOrder K} : (⊤ : Ideal O.toSubring) ≠ ⊥ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.topIdeal_ne_bot"
+    },
+    {
+      "basename": "topIdeal_finite",
+      "body": "theorem topIdeal_finite {K : ImaginaryQuadraticField.{u}}\n    {O : ImaginaryQuadraticOrder K} :\n    Finite (O.toSubring ⧸ (⊤ : Ideal O.toSubring)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.topIdeal_finite"
+    },
+    {
+      "basename": "topIdeal_multiplier",
+      "body": "theorem topIdeal_multiplier {K : ImaginaryQuadraticField.{u}}\n    {O : ImaginaryQuadraticOrder K} :\n    idealMultiplierRing O (⊤ : Ideal O.toSubring) = O.toSubring := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.topIdeal_multiplier"
+    },
+    {
+      "basename": "mulIdeal_ne_bot",
+      "body": "theorem mulIdeal_ne_bot {K : ImaginaryQuadraticField.{u}}\n    {O : ImaginaryQuadraticOrder K} (I J : ProperIdeal O) :\n    I.toIdeal * J.toIdeal ≠ ⊥ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.mulIdeal_ne_bot"
+    },
+    {
+      "basename": "mulIdeal_finite",
+      "body": "theorem mulIdeal_finite {K : ImaginaryQuadraticField.{u}}\n    {O : ImaginaryQuadraticOrder K} (I J : ProperIdeal O) :\n    Finite (O.toSubring ⧸ (I.toIdeal * J.toIdeal)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.mulIdeal_finite"
+    },
+    {
+      "basename": "mulIdeal_proper",
+      "body": "theorem mulIdeal_proper {K : ImaginaryQuadraticField.{u}}\n    {O : ImaginaryQuadraticOrder K} (I J : ProperIdeal O) :\n    idealMultiplierRing O (I.toIdeal * J.toIdeal) = O.toSubring := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.mulIdeal_proper"
+    },
+    {
+      "basename": "exists_positive_principal_power",
+      "body": "theorem exists_positive_principal_power {K : ImaginaryQuadraticField.{u}}\n    {O : ImaginaryQuadraticOrder K} (I : ProperIdeal O) :\n    ∃ n : ℕ, 0 < n ∧ ProperIdeal.IsPrincipal (ProperIdeal.pow I n) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.exists_positive_principal_power"
+    },
+    {
+      "basename": "qPowerFrobenius_nonsingular",
+      "body": "theorem qPowerFrobenius_nonsingular\n    (k : Type u) [Field k] [Fintype k]\n    {j : k} (E : EllipticCurveWithJ k j)\n    {x y : AlgebraicClosure k}\n    (h :\n      (GeometricCurve\n        (K := AlgebraicClosure k) (AlgebraicClosure k)\n        (geometricCurve E)).Nonsingular x y) :\n    (GeometricCurve\n      (K := AlgebraicClosure k) (AlgebraicClosure k)\n      (geometricCurve E)).Nonsingular\n        (x ^ Fintype.card k) (y ^ Fintype.card k) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.qPowerFrobenius_nonsingular"
+    },
+    {
+      "basename": "qPowerFrobeniusPointMap_add",
+      "body": "theorem qPowerFrobeniusPointMap_add\n    (k : Type u) [Field k] [Fintype k]\n    {j : k} (E : EllipticCurveWithJ k j)\n    (P Q : GeometricEndPoint E) :\n    qPowerFrobeniusPointMap k E (P + Q) =\n      qPowerFrobeniusPointMap k E P + qPowerFrobeniusPointMap k E Q := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.qPowerFrobeniusPointMap_add"
+    },
+    {
+      "basename": "qPowerFrobenius_algebraic",
+      "body": "theorem qPowerFrobenius_algebraic\n    (k : Type u) [Field k] [Fintype k]\n    {j : k} (E : EllipticCurveWithJ k j) :\n    Nonempty\n      (AlgebraicIsogenyData\n        (K := AlgebraicClosure k) (Ω := AlgebraicClosure k)\n        (geometricCurve E) (geometricCurve E)\n        (qPowerFrobeniusHom k E)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.qPowerFrobenius_algebraic"
+    },
+    {
+      "basename": "theorem_22_11_Kohel",
+      "body": "theorem theorem_22_11_Kohel\n    (k : Type u) [Field k] [Fintype k] [DecidableEq k]\n    {q ℓ : ℕ}\n    (hFieldCard : Fintype.card k = q)\n    (hℓPrime : Nat.Prime ℓ)\n    (hℓNotDvdq : ¬ ℓ ∣ q)\n    (V : Finset k)\n    (hV : IsOrdinaryComponent k q ℓ V)\n    (hNoJ0 : (0 : k) ∉ V)\n    (hNoJ1728 : (1728 : k) ∉ V) :\n    Nonempty (KohelTheorem22_11Conclusion.{u} k q ℓ V) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.theorem_22_11_Kohel"
+    }
+  ],
+  "id": "elliptic_theorem_22_11_Kohel",
+  "module": "LeanEval.AutoformBench.value_pinned.Elliptic_Curves.elliptic_theorem_22_11_Kohel"
+}

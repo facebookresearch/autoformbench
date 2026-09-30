@@ -1,0 +1,387 @@
+{
+  "book_distribution": {
+    "algebraic_combinatorics": {
+      "full": 2,
+      "private": 1,
+      "public": 1
+    },
+    "algebraic_geometry_i": {
+      "full": 8,
+      "private": 3,
+      "public": 5
+    },
+    "algebraic_topology_i": {
+      "full": 16,
+      "private": 4,
+      "public": 12
+    },
+    "boolean_functions": {
+      "full": 2,
+      "private": 1,
+      "public": 1
+    },
+    "buildings": {
+      "full": 11,
+      "private": 4,
+      "public": 7
+    },
+    "differential_analysis": {
+      "full": 18,
+      "private": 5,
+      "public": 13
+    },
+    "double_hecke_algebras": {
+      "full": 15,
+      "private": 4,
+      "public": 11
+    },
+    "elliptic_curves": {
+      "full": 27,
+      "private": 8,
+      "public": 19
+    },
+    "functions_of_a_complex_variable": {
+      "full": 12,
+      "private": 3,
+      "public": 9
+    },
+    "generalized_low_rank_models": {
+      "full": 5,
+      "private": 2,
+      "public": 3
+    },
+    "graph_theory_and_additive_combinatorics": {
+      "full": 9,
+      "private": 3,
+      "public": 6
+    },
+    "high_dimensional_statistics": {
+      "full": 25,
+      "private": 7,
+      "public": 18
+    },
+    "introduction_to_arithmetic_geometry": {
+      "full": 26,
+      "private": 8,
+      "public": 18
+    },
+    "introduction_to_pdes": {
+      "full": 8,
+      "private": 2,
+      "public": 6
+    },
+    "learning_with_submodular_functions": {
+      "full": 15,
+      "private": 4,
+      "public": 11
+    },
+    "lie_groups_lie_algebras": {
+      "full": 28,
+      "private": 8,
+      "public": 20
+    },
+    "matrix_concentration_inequalities": {
+      "full": 3,
+      "private": 1,
+      "public": 2
+    },
+    "noncommutative_algebra": {
+      "full": 22,
+      "private": 7,
+      "public": 15
+    },
+    "number_theory_i": {
+      "full": 24,
+      "private": 7,
+      "public": 17
+    },
+    "optimizing_with_sparsity_inducing_penalties": {
+      "full": 8,
+      "private": 2,
+      "public": 6
+    },
+    "stacks_project": {
+      "full": 32,
+      "private": 10,
+      "public": 22
+    },
+    "tensor_categories": {
+      "full": 13,
+      "private": 3,
+      "public": 10
+    },
+    "theory_of_computation": {
+      "full": 8,
+      "private": 2,
+      "public": 6
+    },
+    "theory_of_probability": {
+      "full": 4,
+      "private": 1,
+      "public": 3
+    }
+  },
+  "cohort": {
+    "full": 341,
+    "private": 100,
+    "private_ids_sha256": "d9d9e5c84cdab47d03f7c33b33951e62cbce39c38d7f444c598e04828e86b0d1",
+    "public": 241,
+    "public_ids_sha256": "61b64638b868c1f439011e2f18fd53ea6ea73aa25b8a1d4beda03c0597425ffd"
+  },
+  "constraint_count": 219,
+  "difficulty_distribution": {
+    "0": {
+      "full": 59,
+      "private": 18,
+      "public": 41
+    },
+    "1": {
+      "full": 66,
+      "private": 19,
+      "public": 47
+    },
+    "10": {
+      "full": 114,
+      "private": 34,
+      "public": 80
+    },
+    "2": {
+      "full": 9,
+      "private": 3,
+      "public": 6
+    },
+    "3": {
+      "full": 14,
+      "private": 4,
+      "public": 10
+    },
+    "4": {
+      "full": 7,
+      "private": 3,
+      "public": 4
+    },
+    "5": {
+      "full": 9,
+      "private": 2,
+      "public": 7
+    },
+    "6": {
+      "full": 13,
+      "private": 3,
+      "public": 10
+    },
+    "7": {
+      "full": 16,
+      "private": 4,
+      "public": 12
+    },
+    "8": {
+      "full": 10,
+      "private": 3,
+      "public": 7
+    },
+    "9": {
+      "full": 24,
+      "private": 7,
+      "public": 17
+    }
+  },
+  "maximum_absolute_model_rate_deviation_percentage_points": {
+    "private": 0.8768328445747819,
+    "public": 0.36383105584015807
+  },
+  "maximum_absolute_pairwise_overlap_deviation_percentage_points": {
+    "private": 1.9061583577712593,
+    "public": 0.7909370779133895
+  },
+  "method": "binary MILP with deterministic SHA-256 tie-breaking",
+  "primary_model_performance": [
+    {
+      "full_rate": 0.8240469208211144,
+      "full_solved": 281,
+      "model": "gpt-6-astra",
+      "private_minus_full_percentage_points": -0.40469208211144636,
+      "private_rate": 0.82,
+      "private_solved": 82,
+      "public_minus_full_percentage_points": 0.16792202577237125,
+      "public_rate": 0.8257261410788381,
+      "public_solved": 199
+    },
+    {
+      "full_rate": 0.6187683284457478,
+      "full_solved": 211,
+      "model": "opus-5",
+      "private_minus_full_percentage_points": -0.8768328445747819,
+      "private_rate": 0.61,
+      "private_solved": 61,
+      "public_minus_full_percentage_points": 0.36383105584015807,
+      "public_rate": 0.6224066390041494,
+      "public_solved": 150
+    },
+    {
+      "full_rate": 0.5894428152492669,
+      "full_solved": 201,
+      "model": "gpt-5.6-sol",
+      "private_minus_full_percentage_points": 0.055718475073307516,
+      "private_rate": 0.59,
+      "private_solved": 59,
+      "public_minus_full_percentage_points": -0.023119699200546684,
+      "public_rate": 0.5892116182572614,
+      "public_solved": 142
+    },
+    {
+      "full_rate": 0.530791788856305,
+      "full_solved": 181,
+      "model": "fable-5",
+      "private_minus_full_percentage_points": -0.07917888563049313,
+      "private_rate": 0.53,
+      "private_solved": 53,
+      "public_minus_full_percentage_points": 0.032854309390251135,
+      "public_rate": 0.5311203319502075,
+      "public_solved": 128
+    },
+    {
+      "full_rate": 0.5278592375366569,
+      "full_solved": 180,
+      "model": "deepseek-v4.1-flash",
+      "private_minus_full_percentage_points": -0.7859237536656849,
+      "private_rate": 0.52,
+      "private_solved": 52,
+      "public_minus_full_percentage_points": 0.32610944135506026,
+      "public_rate": 0.5311203319502075,
+      "public_solved": 128
+    },
+    {
+      "full_rate": 0.5249266862170088,
+      "full_solved": 179,
+      "model": "gemini-3.7-flash",
+      "private_minus_full_percentage_points": 0.5073313782991251,
+      "private_rate": 0.53,
+      "private_solved": 53,
+      "public_minus_full_percentage_points": -0.21051094535232684,
+      "public_rate": 0.5228215767634855,
+      "public_solved": 126
+    },
+    {
+      "full_rate": 0.4838709677419355,
+      "full_solved": 165,
+      "model": "kimi-k3",
+      "private_minus_full_percentage_points": -0.3870967741935516,
+      "private_rate": 0.48,
+      "private_solved": 48,
+      "public_minus_full_percentage_points": 0.16062106813010124,
+      "public_rate": 0.4854771784232365,
+      "public_solved": 117
+    },
+    {
+      "full_rate": 0.44574780058651026,
+      "full_solved": 152,
+      "model": "sonnet-5",
+      "private_minus_full_percentage_points": -0.5747800586510254,
+      "private_rate": 0.44,
+      "private_solved": 44,
+      "public_minus_full_percentage_points": 0.2384979496477313,
+      "public_rate": 0.44813278008298757,
+      "public_solved": 108
+    },
+    {
+      "full_rate": 0.4398826979472141,
+      "full_solved": 150,
+      "model": "opus-4.8",
+      "private_minus_full_percentage_points": 0.011730205278592809,
+      "private_rate": 0.44,
+      "private_solved": 44,
+      "public_minus_full_percentage_points": -0.004867305094852226,
+      "public_rate": 0.43983402489626555,
+      "public_solved": 106
+    },
+    {
+      "full_rate": 0.36656891495601174,
+      "full_solved": 125,
+      "model": "muse-spark-1.3",
+      "private_minus_full_percentage_points": -0.6568914956011751,
+      "private_rate": 0.36,
+      "private_solved": 36,
+      "public_minus_full_percentage_points": 0.27256908531169133,
+      "public_rate": 0.36929460580912865,
+      "public_solved": 89
+    }
+  ],
+  "related_family_policy": "same book and first theorem-like chapter number stay together",
+  "schema_version": 1,
+  "secondary_diagnostic_models": [
+    "fable-5.1",
+    "gemini-3.8-flash"
+  ],
+  "secondary_model_performance": [
+    {
+      "full_rate": 0.6099706744868035,
+      "full_solved": 208,
+      "model": "fable-5.1",
+      "private_minus_full_percentage_points": -0.9970674486803555,
+      "private_rate": 0.6,
+      "private_solved": 60,
+      "public_minus_full_percentage_points": 0.4137209330623892,
+      "public_rate": 0.6141078838174274,
+      "public_solved": 148
+    },
+    {
+      "full_rate": 0.40762463343108507,
+      "full_solved": 139,
+      "model": "gemini-3.8-flash",
+      "private_minus_full_percentage_points": 0.2375366568914905,
+      "private_rate": 0.41,
+      "private_solved": 41,
+      "public_minus_full_percentage_points": -0.09856292817074785,
+      "public_rate": 0.4066390041493776,
+      "public_solved": 98
+    }
+  ],
+  "selection_models": [
+    "gpt-6-astra",
+    "opus-5",
+    "gpt-5.6-sol",
+    "fable-5",
+    "deepseek-v4.1-flash",
+    "gemini-3.7-flash",
+    "kimi-k3",
+    "sonnet-5",
+    "opus-4.8",
+    "muse-spark-1.3"
+  ],
+  "target_count_distribution": {
+    "1": {
+      "full": 230,
+      "private": 68,
+      "public": 162
+    },
+    "11+": {
+      "full": 32,
+      "private": 9,
+      "public": 23
+    },
+    "2": {
+      "full": 25,
+      "private": 8,
+      "public": 17
+    },
+    "3": {
+      "full": 19,
+      "private": 6,
+      "public": 13
+    },
+    "4-5": {
+      "full": 16,
+      "private": 4,
+      "public": 12
+    },
+    "6-10": {
+      "full": 19,
+      "private": 5,
+      "public": 14
+    }
+  },
+  "tie_break_namespace": "autoformbench-private-v1:",
+  "forced_private_count": 6,
+  "forced_private_ids_sha256": "45576972529cf5f1f3255b7fa35ff46f25837f5debdba6c7dd7bdfcfb7ea4cae"
+}

@@ -1,0 +1,84 @@
+{
+  "holes": [
+    {
+      "basename": "mem_nonZeroDivisors_of_nonzeroIntegralIdeal",
+      "body": "theorem mem_nonZeroDivisors_of_nonzeroIntegralIdeal\n    (K : Type*) [Field K] [NumberField K]\n    (I : NonzeroIntegralIdeal K) :\n    I.1 ∈ nonZeroDivisors (Ideal (𝓞 K)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.mem_nonZeroDivisors_of_nonzeroIntegralIdeal"
+    },
+    {
+      "basename": "isUnit_fractionalIdealOfNonzeroIntegralIdeal",
+      "body": "theorem isUnit_fractionalIdealOfNonzeroIntegralIdeal\n    (K : Type*) [Field K] [NumberField K]\n    (I : NonzeroIntegralIdeal K) :\n    IsUnit (fractionalIdealOfNonzeroIntegralIdeal I) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.isUnit_fractionalIdealOfNonzeroIntegralIdeal"
+    },
+    {
+      "basename": "idealGroupPrimeToModulus_one_mem",
+      "body": "theorem idealGroupPrimeToModulus_one_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    InIdealGroupPrimeToModulus m (1 : IdealGroup K) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.idealGroupPrimeToModulus_one_mem"
+    },
+    {
+      "basename": "idealGroupPrimeToModulus_mul_mem",
+      "body": "theorem idealGroupPrimeToModulus_mul_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (I J : IdealGroup K)\n    (hI : InIdealGroupPrimeToModulus m I)\n    (hJ : InIdealGroupPrimeToModulus m J) :\n    InIdealGroupPrimeToModulus m (I * J) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.idealGroupPrimeToModulus_mul_mem"
+    },
+    {
+      "basename": "idealGroupPrimeToModulus_inv_mem",
+      "body": "theorem idealGroupPrimeToModulus_inv_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (I : IdealGroup K)\n    (hI : InIdealGroupPrimeToModulus m I) :\n    InIdealGroupPrimeToModulus m I⁻¹ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.idealGroupPrimeToModulus_inv_mem"
+    },
+    {
+      "basename": "rayIdealGroup_one_mem",
+      "body": "theorem rayIdealGroup_one_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    ∃ x : Kˣ, InKPowModulusOne m x ∧ (1 : IdealGroup K) = PrincipalIdealOfUnit x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.rayIdealGroup_one_mem"
+    },
+    {
+      "basename": "rayIdealGroup_mul_mem",
+      "body": "theorem rayIdealGroup_mul_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (I J : IdealGroup K)\n    (hI : ∃ x : Kˣ, InKPowModulusOne m x ∧ I = PrincipalIdealOfUnit x)\n    (hJ : ∃ x : Kˣ, InKPowModulusOne m x ∧ J = PrincipalIdealOfUnit x) :\n    ∃ x : Kˣ, InKPowModulusOne m x ∧ I * J = PrincipalIdealOfUnit x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.rayIdealGroup_mul_mem"
+    },
+    {
+      "basename": "rayIdealGroup_inv_mem",
+      "body": "theorem rayIdealGroup_inv_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (I : IdealGroup K)\n    (hI : ∃ x : Kˣ, InKPowModulusOne m x ∧ I = PrincipalIdealOfUnit x) :\n    ∃ x : Kˣ, InKPowModulusOne m x ∧ I⁻¹ = PrincipalIdealOfUnit x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.rayIdealGroup_inv_mem"
+    },
+    {
+      "basename": "subgroupRestrict_one_mem",
+      "body": "theorem subgroupRestrict_one_mem\n    (G : Type*) [Group G] (H J : Subgroup G) (h : H ≤ J) :\n    ((1 : J) : G) ∈ H := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.subgroupRestrict_one_mem"
+    },
+    {
+      "basename": "subgroupRestrict_mul_mem",
+      "body": "theorem subgroupRestrict_mul_mem\n    (G : Type*) [Group G] (H J : Subgroup G) (h : H ≤ J)\n    (a b : J) (ha : (a : G) ∈ H) (hb : (b : G) ∈ H) :\n    ((a * b : J) : G) ∈ H := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.subgroupRestrict_mul_mem"
+    },
+    {
+      "basename": "subgroupRestrict_inv_mem",
+      "body": "theorem subgroupRestrict_inv_mem\n    (G : Type*) [Group G] (H J : Subgroup G) (h : H ≤ J)\n    (a : J) (ha : (a : G) ∈ H) :\n    ((a⁻¹ : J) : G) ∈ H := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.subgroupRestrict_inv_mem"
+    },
+    {
+      "basename": "rayIdealGroup_le_idealGroupPrimeToModulus",
+      "body": "theorem rayIdealGroup_le_idealGroupPrimeToModulus\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    RayIdealGroup K m ≤ IdealGroupPrimeToModulus K m := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.rayIdealGroup_le_idealGroupPrimeToModulus"
+    },
+    {
+      "basename": "Proposition22_19",
+      "body": "theorem Proposition22_19\n    (K : Type*) [Field K] [NumberField K]\n    (χ : RayClassCharacter K) :\n    ∃ F : ℂ → ℂ,\n      (∀ s : ℂ, 1 < s.re → F s = RayClassCharacter.WeberLFunction χ s) ∧\n        MeromorphicOn F (RayClassCharacter.weberContinuationDomain K) ∧\n          (∀ z : ℂ,\n            z ∈ RayClassCharacter.weberContinuationDomain K → z ≠ 1 →\n              AnalyticAt ℂ F z) ∧\n            RayClassCharacter.AtMostSimplePoleAt F 1 ∧\n              (¬ χ.IsPrincipal → AnalyticAt ℂ F 1) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition22_19.Proposition22_19"
+    }
+  ],
+  "id": "number_theory_Proposition22_19",
+  "module": "LeanEval.AutoformBench.value_pinned.Number_Theory_I.number_theory_Proposition22_19"
+}

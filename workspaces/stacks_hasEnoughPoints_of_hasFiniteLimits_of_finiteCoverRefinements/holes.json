@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "hasEnoughPoints_of_hasFiniteLimits_of_finiteCoverRefinements",
+      "body": "theorem hasEnoughPoints_of_hasFiniteLimits_of_finiteCoverRefinements\n    {C : Type u} [Category.{v} C] (J : GrothendieckTopology C)\n    [HasFiniteLimits C]\n    (hfin :\n      ∀ ⦃X : C⦄ (S : Sieve X), S ∈ J X →\n        ∃ (n : ℕ) (U : Fin n → C) (f : ∀ i, U i ⟶ X),\n          Sieve.ofArrows U f ∈ J X ∧\n            Sieve.ofArrows U f ≤ S) :\n    GrothendieckTopology.HasEnoughPoints.{max u v} J := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_hasEnoughPoints_of_hasFiniteLimits_of_finiteCoverRefinements.hasEnoughPoints_of_hasFiniteLimits_of_finiteCoverRefinements"
+    }
+  ],
+  "id": "stacks_hasEnoughPoints_of_hasFiniteLimits_of_finiteCoverRefinements",
+  "module": "LeanEval.AutoformBench.Stacks_Project.stacks_hasEnoughPoints_of_hasFiniteLimits_of_finiteCoverRefinements"
+}

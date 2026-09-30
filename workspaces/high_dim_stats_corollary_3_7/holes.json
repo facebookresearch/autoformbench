@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "corollary_3_7",
+      "body": "theorem corollary_3_7 :\n    ∃ C : ℝ, 0 < C ∧\n      ∀ {Ω : Type*} [MeasurableSpace Ω]\n        {μ : Measure Ω} [IsProbabilityMeasure μ]\n        {n M : ℕ}\n        {Covariate : Type*}\n        {design : Fin n → Covariate}\n        {dictionary : Fin M → Covariate → ℝ}\n        {f : Covariate → ℝ}\n        {epsilon Y : Ω → ObservationVector n}\n        {thetaHatBIC : Ω → DictionaryParameter M}\n        {sigma : ℝ},\n        0 < n →\n        0 < M →\n        FixedDesignMisspecifiedRegressionModel design f epsilon Y →\n        IsSubGaussianVector μ epsilon sigma →\n        DictionaryNormalized design dictionary →\n        IsBICEstimator\n          design dictionary Y\n          (bicPenaltySquaredForCorollary_3_7 sigma n M)\n          thetaHatBIC →\n          ∀ delta : ℝ, 0 < delta →\n            μ.real\n                {ω |\n                  dictionaryEstimatorMSE design dictionary thetaHatBIC f ω >\n                    corollary_3_7_oracleTerm C sigma design dictionary f +\n                      corollary_3_7_deviationTerm C sigma n delta} ≤\n              delta := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_High_Dimensional_Statistics_high_dim_stats_corollary_3_7.corollary_3_7"
+    }
+  ],
+  "id": "high_dim_stats_corollary_3_7",
+  "module": "LeanEval.AutoformBench.High_Dimensional_Statistics.high_dim_stats_corollary_3_7"
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "problem_40_taylor",
+      "body": "theorem problem_40_taylor\n    (n k : ℕ) (u : (Fin n → ℝ) → ℝ)\n    (hu : ContDiff ℝ k u) :\n    ∃ p : MvPolynomial (Fin n) ℝ,\n      ∃ v : (Fin n → ℝ) → ℝ,\n        Continuous v ∧\n        (∀ x : Fin n → ℝ, u x = (MvPolynomial.eval x) p + v x) ∧\n        Filter.Tendsto (fun x : Fin n → ℝ => ‖v x‖ / ‖x‖ ^ k)\n          (nhdsWithin (0 : Fin n → ℝ) ({0}ᶜ)) (nhds (0 : ℝ)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Differential_Analysis_diff_analysis_problem_40_taylor.problem_40_taylor"
+    }
+  ],
+  "id": "diff_analysis_problem_40_taylor",
+  "module": "LeanEval.AutoformBench.Differential_Analysis.diff_analysis_problem_40_taylor"
+}

@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Differential_Analysis_diff_analysis_lemma_12_8.convolutionFunction_hasTemperateGrowth",
+    "Autoform_Differential_Analysis_diff_analysis_lemma_12_8.lemma_12_8"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

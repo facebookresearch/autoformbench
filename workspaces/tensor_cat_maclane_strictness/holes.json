@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "maclane_strictness",
+      "body": "theorem maclane_strictness (C : Type u) [Category.{v} C] [MonoidalCategory C] :\n    ∃ (D : Type u) (catD : Category.{v} D) (monD : MonoidalCategory D),\n      IsStrictMonoidalCategory D ∧\n        ∃ (e : C ≌ D) (monF : e.functor.Monoidal) (monG : e.inverse.Monoidal),\n          e.IsMonoidal := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_maclane_strictness.maclane_strictness"
+    }
+  ],
+  "id": "tensor_cat_maclane_strictness",
+  "module": "LeanEval.AutoformBench.Tensor_Categories.tensor_cat_maclane_strictness"
+}

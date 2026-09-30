@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "basename": "nuclearNormSubgradientAt_from_fullEqConvexCertificate",
+      "body": "theorem nuclearNormSubgradientAt_from_fullEqConvexCertificate\n    {m n : ℕ}\n    {L : Mat m n → ℝ} {γ : ℝ}\n    {Z G : Mat m n}\n    {U : Mat m (svdLength m n)}\n    {σ : Fin (svdLength m n) → ℝ}\n    {V : Mat n (svdLength m n)}\n    (hγ : 0 < γ)\n    (hsvd : IsFullThinSVD Z U σ V)\n    (hcert : FullEqConvexCertificate L γ Z G U σ V) :\n    IsNuclearNormSubgradientAt Z ((- (1 / γ : ℝ)) • G) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Generalized_Low_Rank_Models_low_rank_convex_globalOptimality_from_fullEqConvexCertificate.nuclearNormSubgradientAt_from_fullEqConvexCertificate"
+    },
+    {
+      "basename": "convex_globalOptimality_from_fullEqConvexCertificate",
+      "body": "theorem convex_globalOptimality_from_fullEqConvexCertificate\n    {m n k : ℕ}\n    {L : Mat m n → ℝ} {γ : ℝ}\n    {Z : Mat m n}\n    {U : Mat m (svdLength m n)}\n    {σ : Fin (svdLength m n) → ℝ}\n    {V : Mat n (svdLength m n)}\n    (hγ : 0 < γ)\n    (hLconvex : IsConvexLoss L)\n    (hsvd : IsFullThinSVD Z U σ V)\n    (hcert :\n      ∃ G : Mat m n,\n        FullEqConvexCertificate L γ Z G U σ V) :\n    IsRankUnconstrainedSolution L γ Z ∧\n      (equationRankConstrainedFeasible k Z →\n        IsRankConstrainedSolution L γ k Z) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Generalized_Low_Rank_Models_low_rank_convex_globalOptimality_from_fullEqConvexCertificate.convex_globalOptimality_from_fullEqConvexCertificate"
+    }
+  ],
+  "id": "low_rank_convex_globalOptimality_from_fullEqConvexCertificate",
+  "module": "LeanEval.AutoformBench.Generalized_Low_Rank_Models.low_rank_convex_globalOptimality_from_fullEqConvexCertificate"
+}

@@ -1,0 +1,162 @@
+{
+  "holes": [
+    {
+      "basename": "brauerGroupLaw_exists",
+      "body": "theorem brauerGroupLaw_exists\n    (F : Type u) [Field F] :\n    Nonempty (BrauerGroupLaw F) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.brauerGroupLaw_exists"
+    },
+    {
+      "basename": "one_isSplitBy",
+      "body": "theorem one_isSplitBy\n    (F E : Type u) [Field F] [Field E] [Algebra F E] :\n    BrauerClass.IsSplitBy F E (1 : BrauerGroup.{u, u} F) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.one_isSplitBy"
+    },
+    {
+      "basename": "mul_isSplitBy",
+      "body": "theorem mul_isSplitBy\n    (F E : Type u) [Field F] [Field E] [Algebra F E]\n    {x y : BrauerGroup.{u, u} F}\n    (hx : BrauerClass.IsSplitBy F E x)\n    (hy : BrauerClass.IsSplitBy F E y) :\n    BrauerClass.IsSplitBy F E (x * y) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.mul_isSplitBy"
+    },
+    {
+      "basename": "inv_isSplitBy",
+      "body": "theorem inv_isSplitBy\n    (F E : Type u) [Field F] [Field E] [Algebra F E]\n    {x : BrauerGroup.{u, u} F}\n    (hx : BrauerClass.IsSplitBy F E x) :\n    BrauerClass.IsSplitBy F E x⁻¹ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.inv_isSplitBy"
+    },
+    {
+      "basename": "isSplitBy_of_algHom",
+      "body": "theorem isSplitBy_of_algHom\n    {F E K : Type u}\n    [Field F] [Field E] [Field K]\n    [Algebra F E] [Algebra F K]\n    (ι : E →ₐ[F] K)\n    {x : BrauerGroup.{u, u} F}\n    (hx : BrauerClass.IsSplitBy F E x) :\n    BrauerClass.IsSplitBy F K x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.isSplitBy_of_algHom"
+    },
+    {
+      "basename": "galoisTwoCocycles_one_mem",
+      "body": "theorem galoisTwoCocycles_one_mem\n    (F E : Type u) [Field F] [Field E] [Algebra F E] :\n    groupCohomology.IsMulCocycle₂ (1 : Gal(E/F) × Gal(E/F) → Eˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycles_one_mem"
+    },
+    {
+      "basename": "galoisTwoCocycles_mul_mem",
+      "body": "theorem galoisTwoCocycles_mul_mem\n    (F E : Type u) [Field F] [Field E] [Algebra F E]\n    (a b : Gal(E/F) × Gal(E/F) → Eˣ)\n    (ha : groupCohomology.IsMulCocycle₂ a)\n    (hb : groupCohomology.IsMulCocycle₂ b) :\n    groupCohomology.IsMulCocycle₂ (a * b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycles_mul_mem"
+    },
+    {
+      "basename": "galoisTwoCocycles_inv_mem",
+      "body": "theorem galoisTwoCocycles_inv_mem\n    (F E : Type u) [Field F] [Field E] [Algebra F E]\n    (a : Gal(E/F) × Gal(E/F) → Eˣ)\n    (ha : groupCohomology.IsMulCocycle₂ a) :\n    groupCohomology.IsMulCocycle₂ a⁻¹ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycles_inv_mem"
+    },
+    {
+      "basename": "galoisTwoCoboundaries_one_mem",
+      "body": "theorem galoisTwoCoboundaries_one_mem\n    (F E : Type u) [Field F] [Field E] [Algebra F E] :\n    groupCohomology.IsMulCoboundary₂\n      ((1 : galoisTwoCocycles F E) : Gal(E/F) × Gal(E/F) → Eˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCoboundaries_one_mem"
+    },
+    {
+      "basename": "galoisTwoCoboundaries_mul_mem",
+      "body": "theorem galoisTwoCoboundaries_mul_mem\n    (F E : Type u) [Field F] [Field E] [Algebra F E]\n    (a b : galoisTwoCocycles F E)\n    (ha : groupCohomology.IsMulCoboundary₂ (a : Gal(E/F) × Gal(E/F) → Eˣ))\n    (hb : groupCohomology.IsMulCoboundary₂ (b : Gal(E/F) × Gal(E/F) → Eˣ)) :\n    groupCohomology.IsMulCoboundary₂\n      ((a * b : galoisTwoCocycles F E) : Gal(E/F) × Gal(E/F) → Eˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCoboundaries_mul_mem"
+    },
+    {
+      "basename": "galoisTwoCoboundaries_inv_mem",
+      "body": "theorem galoisTwoCoboundaries_inv_mem\n    (F E : Type u) [Field F] [Field E] [Algebra F E]\n    (a : galoisTwoCocycles F E)\n    (ha : groupCohomology.IsMulCoboundary₂ (a : Gal(E/F) × Gal(E/F) → Eˣ)) :\n    groupCohomology.IsMulCoboundary₂\n      ((a⁻¹ : galoisTwoCocycles F E) : Gal(E/F) × Gal(E/F) → Eˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCoboundaries_inv_mem"
+    },
+    {
+      "basename": "refl_restriction_surjective",
+      "body": "theorem refl_restriction_surjective\n    (F E : Type u)\n    [Field F] [Field E] [Algebra F E]\n    [FiniteDimensional F E] [IsGalois F E] :\n    Function.Surjective (MonoidHom.id Gal(E/F)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.refl_restriction_surjective"
+    },
+    {
+      "basename": "refl_equivariant",
+      "body": "theorem refl_equivariant\n    (F E : Type u)\n    [Field F] [Field E] [Algebra F E]\n    [FiniteDimensional F E] [IsGalois F E]\n    (σ : Gal(E/F)) (x : E) :\n    (AlgHom.id F E) (((MonoidHom.id Gal(E/F)) σ) x) =\n      σ ((AlgHom.id F E) x) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.refl_equivariant"
+    },
+    {
+      "basename": "comp_restriction_surjective",
+      "body": "theorem comp_restriction_surjective\n    {F E K L : Type u}\n    [Field F] [Field E] [Field K] [Field L]\n    [Algebra F E] [Algebra F K] [Algebra F L]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [FiniteDimensional F L]\n    [IsGalois F E] [IsGalois F K] [IsGalois F L]\n    (g : FiniteGaloisExtensionHom F K L)\n    (f : FiniteGaloisExtensionHom F E K) :\n    Function.Surjective (f.restriction.comp g.restriction) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.comp_restriction_surjective"
+    },
+    {
+      "basename": "comp_equivariant",
+      "body": "theorem comp_equivariant\n    {F E K L : Type u}\n    [Field F] [Field E] [Field K] [Field L]\n    [Algebra F E] [Algebra F K] [Algebra F L]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [FiniteDimensional F L]\n    [IsGalois F E] [IsGalois F K] [IsGalois F L]\n    (g : FiniteGaloisExtensionHom F K L)\n    (f : FiniteGaloisExtensionHom F E K)\n    (σ : Gal(L/F)) (x : E) :\n    (g.toAlgHom.comp f.toAlgHom) (((f.restriction.comp g.restriction) σ) x) =\n      σ ((g.toAlgHom.comp f.toAlgHom) x) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.comp_equivariant"
+    },
+    {
+      "basename": "mapTwoCochain_isMulCocycle₂",
+      "body": "theorem mapTwoCochain_isMulCocycle₂\n    {F E K : Type u}\n    [Field F] [Field E] [Field K]\n    [Algebra F E] [Algebra F K]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [IsGalois F E] [IsGalois F K]\n    (f : FiniteGaloisExtensionHom F E K)\n    {c : Gal(E/F) × Gal(E/F) → Eˣ}\n    (hc : groupCohomology.IsMulCocycle₂ c) :\n    groupCohomology.IsMulCocycle₂ (f.mapTwoCochain c) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.mapTwoCochain_isMulCocycle₂"
+    },
+    {
+      "basename": "mapTwoCochain_isMulCoboundary₂",
+      "body": "theorem mapTwoCochain_isMulCoboundary₂\n    {F E K : Type u}\n    [Field F] [Field E] [Field K]\n    [Algebra F E] [Algebra F K]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [IsGalois F E] [IsGalois F K]\n    (f : FiniteGaloisExtensionHom F E K)\n    {c : Gal(E/F) × Gal(E/F) → Eˣ}\n    (hc : groupCohomology.IsMulCoboundary₂ c) :\n    groupCohomology.IsMulCoboundary₂ (f.mapTwoCochain c) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.mapTwoCochain_isMulCoboundary₂"
+    },
+    {
+      "basename": "galoisTwoCocycleTransition_map_one",
+      "body": "theorem galoisTwoCocycleTransition_map_one\n    {F E K : Type u}\n    [Field F] [Field E] [Field K]\n    [Algebra F E] [Algebra F K]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [IsGalois F E] [IsGalois F K]\n    (f : FiniteGaloisExtensionHom F E K) :\n    f.mapTwoCochain ((1 : galoisTwoCocycles F E) : Gal(E/F) × Gal(E/F) → Eˣ) =\n      1 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycleTransition_map_one"
+    },
+    {
+      "basename": "galoisTwoCocycleTransition_map_mul",
+      "body": "theorem galoisTwoCocycleTransition_map_mul\n    {F E K : Type u}\n    [Field F] [Field E] [Field K]\n    [Algebra F E] [Algebra F K]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [IsGalois F E] [IsGalois F K]\n    (f : FiniteGaloisExtensionHom F E K)\n    (a b : galoisTwoCocycles F E) :\n    f.mapTwoCochain ((a * b : galoisTwoCocycles F E) :\n        Gal(E/F) × Gal(E/F) → Eˣ) =\n      f.mapTwoCochain (a : Gal(E/F) × Gal(E/F) → Eˣ) *\n        f.mapTwoCochain (b : Gal(E/F) × Gal(E/F) → Eˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycleTransition_map_mul"
+    },
+    {
+      "basename": "galoisTwoCocycleTransition_mem_coboundaries",
+      "body": "theorem galoisTwoCocycleTransition_mem_coboundaries\n    {F E K : Type u}\n    [Field F] [Field E] [Field K]\n    [Algebra F E] [Algebra F K]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [IsGalois F E] [IsGalois F K]\n    (f : FiniteGaloisExtensionHom F E K)\n    (c : galoisTwoCocycles F E)\n    (hc : c ∈ galoisTwoCoboundaries F E) :\n    galoisTwoCocycleTransition f c ∈ galoisTwoCoboundaries F K := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycleTransition_mem_coboundaries"
+    },
+    {
+      "basename": "relativeBrauerTransition_refl",
+      "body": "@[simp, eval_problem]\ntheorem relativeBrauerTransition_refl\n    (F E : Type u)\n    [Field F] [Field E] [Algebra F E]\n    [FiniteDimensional F E] [IsGalois F E] :\n    relativeBrauerTransition\n        (FiniteGaloisExtensionHom.refl F E) =\n      MonoidHom.id (RelativeBrauerGroup F E) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.relativeBrauerTransition_refl"
+    },
+    {
+      "basename": "relativeBrauerTransition_comp",
+      "body": "theorem relativeBrauerTransition_comp\n    {F E K L : Type u}\n    [Field F] [Field E] [Field K] [Field L]\n    [Algebra F E] [Algebra F K] [Algebra F L]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [FiniteDimensional F L]\n    [IsGalois F E] [IsGalois F K] [IsGalois F L]\n    (g : FiniteGaloisExtensionHom F K L)\n    (f : FiniteGaloisExtensionHom F E K) :\n    relativeBrauerTransition (g.comp f) =\n      (relativeBrauerTransition g).comp (relativeBrauerTransition f) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.relativeBrauerTransition_comp"
+    },
+    {
+      "basename": "galoisH2Transition_refl",
+      "body": "@[simp, eval_problem]\ntheorem galoisH2Transition_refl\n    (F E : Type u)\n    [Field F] [Field E] [Algebra F E]\n    [FiniteDimensional F E] [IsGalois F E] :\n    galoisH2Transition (FiniteGaloisExtensionHom.refl F E) =\n      MonoidHom.id (GaloisH2 F E) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisH2Transition_refl"
+    },
+    {
+      "basename": "galoisH2Transition_comp",
+      "body": "theorem galoisH2Transition_comp\n    {F E K L : Type u}\n    [Field F] [Field E] [Field K] [Field L]\n    [Algebra F E] [Algebra F K] [Algebra F L]\n    [FiniteDimensional F E] [FiniteDimensional F K]\n    [FiniteDimensional F L]\n    [IsGalois F E] [IsGalois F K] [IsGalois F L]\n    (g : FiniteGaloisExtensionHom F K L)\n    (f : FiniteGaloisExtensionHom F E K) :\n    galoisH2Transition (g.comp f) =\n      (galoisH2Transition g).comp (galoisH2Transition f) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisH2Transition_comp"
+    },
+    {
+      "basename": "theorem_15_1_natural",
+      "body": "theorem theorem_15_1_natural\n    (F : Type u) [Field F] :\n    Nonempty (RelativeBrauerCohomologyNaturalIso F) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.theorem_15_1_natural"
+    },
+    {
+      "basename": "theorem_15_1",
+      "body": "theorem theorem_15_1\n    (F E : Type u)\n    [Field F] [Field E] [Algebra F E]\n    [FiniteDimensional F E] [IsGalois F E] :\n    Nonempty (RelativeBrauerGroup F E ≃* GaloisH2 F E) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.theorem_15_1"
+    }
+  ],
+  "id": "noncomm_alg_theorem_15_1",
+  "module": "LeanEval.AutoformBench.value_pinned.Noncommutative_Algebra.noncomm_alg_theorem_15_1"
+}

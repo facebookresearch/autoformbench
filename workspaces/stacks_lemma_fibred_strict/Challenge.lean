@@ -1,0 +1,16 @@
+import ChallengeDeps
+
+open Autoform_Stacks_Project_stacks_lemma_fibred_strict
+open CategoryTheory
+open Bicategory
+open Pseudofunctor
+
+universe uC vC uS vS uT vT uF vF
+
+theorem lemma_fibred_strict {C : Type uC} [Category.{vC} C]
+    {S : Type uS} [Category.{vS} S] (p : S ⥤ C) [p.IsFibered] :
+    ∃ F : Cᵒᵖ ⥤ Cat.{vS, max uS vC},
+      Nonempty
+        (EquivalenceOver (C := C) (S := S) (T := F.toPseudofunctor'.CoGrothendieck)
+          p (Pseudofunctor.CoGrothendieck.forget F.toPseudofunctor')) := by
+  sorry

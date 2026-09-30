@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_25_4_smooth_iff_coh_finite_homological_dimension.coherentSheafExtData_exists",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_25_4_smooth_iff_coh_finite_homological_dimension.theorem_25_4_smooth_iff_coh_finite_homological_dimension"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "preservesProjectiveObjects_of_subquotientSurjective_quasiTensor",
+      "body": "theorem preservesProjectiveObjects_of_subquotientSurjective_quasiTensor\n    (C : Type u₁) (D : Type u₂) [Category.{v₁} C] [Category.{v₂} D]\n    [Abelian C] [Linear k C] [MonoidalCategory C] [MonoidalPreadditive C] [MonoidalLinear k C]\n    [Abelian D] [Linear k D] [MonoidalCategory D] [MonoidalPreadditive D] [MonoidalLinear k D]\n    [TensorCategory k C] [TensorCategory k D] [kFiniteCategory k C] [kFiniteCategory k D]\n    (F : QuasiFiberFunctor k C D)\n    (hF : SubquotientSurjective C D F.functor) :\n  ∀ P : C, Projective P → Projective (F.functor.obj P):= by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_preservesProjectiveObjects_of_subquotientSurjective_quasiTensor.preservesProjectiveObjects_of_subquotientSurjective_quasiTensor"
+    }
+  ],
+  "id": "tensor_cat_preservesProjectiveObjects_of_subquotientSurjective_quasiTensor",
+  "module": "LeanEval.AutoformBench.Tensor_Categories.tensor_cat_preservesProjectiveObjects_of_subquotientSurjective_quasiTensor"
+}

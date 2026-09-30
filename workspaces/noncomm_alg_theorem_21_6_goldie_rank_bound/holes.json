@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_21_6_goldie_rank_bound",
+      "body": "theorem theorem_21_6_goldie_rank_bound\n    {R : Type u} [Ring R]\n    {M : Type v} [AddCommGroup M] [Module (MulOpposite R) M]\n    {m n : ℕ}\n    (hM : HasFiniteGoldieRank (MulOpposite R) M)\n    (E : EssentialUniformDirectSum (MulOpposite R) M m)\n    (N : DirectSumOfNonzeroSubmodules (MulOpposite R) M n) :\n    n ≤ m ∧\n      (m = n →\n        IsEssentialSubmodule (SubmoduleFamilySum N.summand) ∧\n          ∀ i : Fin n, IsUniformSubmodule (N.summand i)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_21_6_goldie_rank_bound.theorem_21_6_goldie_rank_bound"
+    }
+  ],
+  "id": "noncomm_alg_theorem_21_6_goldie_rank_bound",
+  "module": "LeanEval.AutoformBench.Noncommutative_Algebra.noncomm_alg_theorem_21_6_goldie_rank_bound"
+}

@@ -1,0 +1,48 @@
+# `number_theory_Theorem21_8`
+
+This directory is one source-free AutoformBench proof-completion workspace.
+
+- Problem ID: `number_theory_Theorem21_8`
+- Graded declarations:
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.mem_nonZeroDivisors_of_nonzeroIntegralIdeal`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.isUnit_fractionalIdealOfNonzeroIntegralIdeal`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.idealGroupPrimeToModulus_one_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.idealGroupPrimeToModulus_mul_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.idealGroupPrimeToModulus_inv_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.subgroupRestrict_one_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.subgroupRestrict_mul_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.subgroupRestrict_inv_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroup_one_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroup_mul_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroup_inv_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroup_le_idealGroupPrimeToModulus`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulus_one_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulus_mul_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulus_inv_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_one_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_mul_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_inv_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.unitInKPowModulusOne_one_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.unitInKPowModulusOne_mul_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.unitInKPowModulusOne_inv_mem`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.unitToFieldUnit_mem_kPowModulus`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.unitToKPowModulus_map_one`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.unitToKPowModulus_map_mul`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.principalIdealOfUnit_mem_idealGroupPrimeToModulus`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.principalIdealMap_map_one`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.principalIdealMap_map_mul`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_le_ker_rayClassComp`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.exists_idealGroupToClassGroup`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroupInPrimeTo_le_ker_classGroup`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.exists_signResidueMap`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_le_ker_signResidueMap`
+- `Autoform_Number_Theory_I_number_theory_Theorem21_8.Theorem21_8`
+
+Replace every target `sorry` in `Submission.lean`. Auxiliary definitions and
+lemmas may be added below `Submission/` and imported by `Submission.lean`.
+Do not modify the trusted challenge or grading files.
+
+`lake build` checks that the local project elaborates. Official clean-room
+grading uses the Harbor verifier documented in `../../harbor/README.md`; direct
+`lake test` additionally requires the pinned Comparator, lean4export, nanoda,
+and landrun binaries.

@@ -1,0 +1,36 @@
+{
+  "holes": [
+    {
+      "basename": "functionField_degree_unique",
+      "body": "theorem functionField_degree_unique\n    (φ : AddMonoid.End (GeometricCurve (K := K) Ω E).Point)\n    (D₁ D₂ : AlgebraicEndomorphismData (Ω := Ω) (E := E) φ) :\n    D₁.functionField.degree = D₂.functionField.degree := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18.functionField_degree_unique"
+    },
+    {
+      "basename": "integer_scalar_endomorphisms_injective",
+      "body": "theorem integer_scalar_endomorphisms_injective :\n    Function.Injective\n      (fun t : ℤ =>\n        t • (1 : AddMonoid.End (GeometricCurve (K := K) Ω E).Point)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18.integer_scalar_endomorphisms_injective"
+    },
+    {
+      "basename": "exists_unique_dual",
+      "body": "theorem exists_unique_dual\n    (α : EllipticCurveEndomorphism E Ω) :\n    ∃! β : EllipticCurveEndomorphism E Ω, IsDual (E := E) (Ω := Ω) α β := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18.exists_unique_dual"
+    },
+    {
+      "basename": "exists_unique_trace",
+      "body": "theorem exists_unique_trace\n    (α : EllipticCurveEndomorphism E Ω) :\n    ∃! t : ℤ, HasTrace (E := E) (Ω := Ω) α t := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18.exists_unique_trace"
+    },
+    {
+      "basename": "theorem_6_18_statement",
+      "body": "theorem theorem_6_18_statement\n    (α : EllipticCurveEndomorphism E Ω) :\n    (α.toEnd * α.toEnd)\n        - ((trace (E := E) (Ω := Ω) α) • α.toEnd)\n        + ((degree (E := E) (Ω := Ω) α) •\n            (1 : AddMonoid.End (GeometricCurve (K := K) Ω E).Point)) = 0\n    ∧\n    ((dual (E := E) (Ω := Ω) α).toEnd *\n        (dual (E := E) (Ω := Ω) α).toEnd)\n        - ((trace (E := E) (Ω := Ω) α) •\n            (dual (E := E) (Ω := Ω) α).toEnd)\n        + ((degree (E := E) (Ω := Ω) α) •\n            (1 : AddMonoid.End (GeometricCurve (K := K) Ω E).Point)) = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18.theorem_6_18_statement"
+    }
+  ],
+  "id": "elliptic_theorem_6_18_statement_6_18",
+  "module": "LeanEval.AutoformBench.Elliptic_Curves.elliptic_theorem_6_18_statement_6_18"
+}

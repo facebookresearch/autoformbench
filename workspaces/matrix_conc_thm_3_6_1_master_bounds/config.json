@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Matrix_Concentration_Inequalities_matrix_conc_thm_3_6_1_master_bounds.matrixMgf_posDef",
+    "Autoform_Matrix_Concentration_Inequalities_matrix_conc_thm_3_6_1_master_bounds.sum_isHermitian",
+    "Autoform_Matrix_Concentration_Inequalities_matrix_conc_thm_3_6_1_master_bounds.thm_3_6_1_master_bounds"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "classMeeting4_corollary_1_0_1",
+      "body": "theorem classMeeting4_corollary_1_0_1\n    {T D : ℝ} {Ω : Set ℝ}\n    {v w f g : ℝ × ℝ → ℝ}\n    (hT : 0 < T)\n    (hD : 0 < D)\n    (hΩ_open : IsOpen Ω)\n    (hΩ_connected : IsConnected Ω)\n    (hΩ_bounded : Bornology.IsBounded Ω)\n    (hv : IsHeatSolutionOn T D Ω v f)\n    (hw : IsHeatSolutionOn T D Ω w g)\n    (hf_cont : ContinuousOn f (closure (spacetimeCylinder T Ω)))\n    (hg_cont : ContinuousOn g (closure (spacetimeCylinder T Ω))) :\n    (((∀ p ∈ parabolicBoundary T Ω, w p ≤ v p) ∧\n        (∀ p ∈ spacetimeCylinder T Ω, g p ≤ f p)) →\n      (∀ p ∈ closure (spacetimeCylinder T Ω), w p ≤ v p)) ∧\n    sSup\n        (Set.image (fun p : ℝ × ℝ => |v p - w p|)\n          (closure (spacetimeCylinder T Ω))) ≤\n      sSup\n          (Set.image (fun p : ℝ × ℝ => |v p - w p|)\n            (parabolicBoundary T Ω)) +\n        T * sSup\n          (Set.image (fun p : ℝ × ℝ => |f p - g p|)\n            (closure (spacetimeCylinder T Ω))) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_PDEs_pde_classMeeting4_corollary_1_0_1.classMeeting4_corollary_1_0_1"
+    }
+  ],
+  "id": "pde_classMeeting4_corollary_1_0_1",
+  "module": "LeanEval.AutoformBench.Introduction_to_PDEs.pde_classMeeting4_corollary_1_0_1"
+}

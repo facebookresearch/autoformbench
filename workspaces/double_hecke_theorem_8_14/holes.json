@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_8_14",
+      "body": "theorem theorem_8_14\n    (c : D.G → ℂ)\n    (hc : ConjInvariantOnSymplecticReflections D c)\n    (grZ0c : Type*) [CommRing grZ0c] [Algebra ℂ grZ0c]\n    (hgr : IsAssociatedGradedPBWCenter D c grZ0c) :\n    (∀ t : ℂ, t ≠ 0 → CenterIsTrivial D t c) ∧\n      Nonempty (grZ0c ≃ₐ[ℂ] ↥(Center D 0 (zeroParameter D))) ∧\n      FiniteOverCenter D c := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_14.theorem_8_14"
+    }
+  ],
+  "id": "double_hecke_theorem_8_14",
+  "module": "LeanEval.AutoformBench.Double_Hecke_Algebras.double_hecke_theorem_8_14"
+}

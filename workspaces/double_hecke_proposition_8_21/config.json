@@ -1,0 +1,24 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.diagonalAlgHom_well_defined",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.diagonalAlgEquiv_left_inv",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.diagonalAlgEquiv_right_inv",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.rightTwisted_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.rightTwisted_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.rightTwisted_map_zero",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.rightTwisted_map_one",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.rightTwisted_add_apply",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.rightTwisted_mul_apply",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.rightTwisted_commutes_apply",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.twistedEnveloping_commute",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_8_21.proposition_8_21"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

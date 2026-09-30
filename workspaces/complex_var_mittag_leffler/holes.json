@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "mittag_leffler",
+      "body": "theorem mittag_leffler (b : ℕ → ℂ) (hb_inj : Function.Injective b)\n    (hb : Tendsto (fun n ↦ ‖b n‖) atTop atTop)\n    (P : ℕ → ℂ[X]) (hP : ∀ n, Polynomial.coeff (P n) 0 = 0)\n    (hP_nonzero : ∀ n, ∃ i, Polynomial.coeff (P n) i ≠ 0) :\n    ∃ (f : ℂ → ℂ), MeroPolesAtWithPrincParts f b P ∧\n    ∀ (f : ℂ → ℂ), MeroPolesAtWithPrincParts f b P →\n      ∃ p : ℕ → ℂ[X], ∃ g : ℂ → ℂ, Differentiable ℂ g ∧\n        (∀ z ∈ (range b)ᶜ, HasSum (fun n ↦ Polynomial.eval (1 / (z - b n)) (P n) -\n          Polynomial.eval z (p n)) (f z - g z)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Functions_of_a_Complex_Variable_complex_var_mittag_leffler.mittag_leffler"
+    }
+  ],
+  "id": "complex_var_mittag_leffler",
+  "module": "LeanEval.AutoformBench.Functions_of_a_Complex_Variable.complex_var_mittag_leffler"
+}

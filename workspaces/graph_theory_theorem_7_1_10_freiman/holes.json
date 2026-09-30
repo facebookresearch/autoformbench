@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_7_1_10_freiman",
+      "body": "theorem theorem_7_1_10_freiman :\n  ∃ dBound fBound : ℕ → ℕ,\n    ∀ K : ℕ,\n      ∀ A : Finset ℤ,\n        (A + A).card ≤ K * A.card →\n          ∃ P : GeneralizedArithmeticProgression,\n            (A : Set ℤ) ⊆ P.carrier ∧\n            P.dimension ≤ dBound K ∧\n            P.volume ≤ fBound K * A.card := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_7_1_10_freiman.theorem_7_1_10_freiman"
+    }
+  ],
+  "id": "graph_theory_theorem_7_1_10_freiman",
+  "module": "LeanEval.AutoformBench.Graph_Theory_and_Additive_Combinatorics.graph_theory_theorem_7_1_10_freiman"
+}

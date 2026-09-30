@@ -1,0 +1,22 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.rationalMapSetoid_refl",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.rationalMapSetoid_symm",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.rationalMapSetoid_trans",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.nonsingularLift_of_nonsingular",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_zero_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_one_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_add_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_neg_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.EndSubring_mul_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_12_17.theorem_12_17"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

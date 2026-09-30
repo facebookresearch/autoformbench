@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "lemma_fibred_strict",
+      "body": "theorem lemma_fibred_strict {C : Type uC} [Category.{vC} C]\n    {S : Type uS} [Category.{vS} S] (p : S ⥤ C) [p.IsFibered] :\n    ∃ F : Cᵒᵖ ⥤ Cat.{vS, max uS vC},\n      Nonempty\n        (EquivalenceOver (C := C) (S := S) (T := F.toPseudofunctor'.CoGrothendieck)\n          p (Pseudofunctor.CoGrothendieck.forget F.toPseudofunctor')) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_lemma_fibred_strict.lemma_fibred_strict"
+    }
+  ],
+  "id": "stacks_lemma_fibred_strict",
+  "module": "LeanEval.AutoformBench.Stacks_Project.stacks_lemma_fibred_strict"
+}

@@ -1,0 +1,22 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_one_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_mul_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_inv_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_one_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_mul_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_inv_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_one_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_mul_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_inv_mem",
+    "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.parabolicSubgroups_same_type_conjugate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

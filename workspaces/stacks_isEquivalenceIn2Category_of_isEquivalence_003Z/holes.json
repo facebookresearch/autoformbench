@@ -1,0 +1,30 @@
+{
+  "holes": [
+    {
+      "basename": "faithful_iff_fiberwise_faithful_003Z",
+      "body": "theorem faithful_iff_fiberwise_faithful_003Z\n    (hp : IsFibredInGroupoids p) (hp' : IsFibredInGroupoids p') :\n    Functor.Faithful G.toFunctor ↔\n      ∀ U : C, Functor.Faithful (OverFunctor.onFiber G U) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_isEquivalenceIn2Category_of_isEquivalence_003Z.faithful_iff_fiberwise_faithful_003Z"
+    },
+    {
+      "basename": "full_iff_fiberwise_full_003Z",
+      "body": "theorem full_iff_fiberwise_full_003Z\n    (hp : IsFibredInGroupoids p) (hp' : IsFibredInGroupoids p') :\n    Functor.Full G.toFunctor ↔\n      ∀ U : C, Functor.Full (OverFunctor.onFiber G U) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_isEquivalenceIn2Category_of_isEquivalence_003Z.full_iff_fiberwise_full_003Z"
+    },
+    {
+      "basename": "isEquivalence_iff_fiberwise_isEquivalence_003Z",
+      "body": "theorem isEquivalence_iff_fiberwise_isEquivalence_003Z\n    (hp : IsFibredInGroupoids p) (hp' : IsFibredInGroupoids p') :\n    Functor.IsEquivalence G.toFunctor ↔\n      ∀ U : C, Functor.IsEquivalence (OverFunctor.onFiber G U) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_isEquivalenceIn2Category_of_isEquivalence_003Z.isEquivalence_iff_fiberwise_isEquivalence_003Z"
+    },
+    {
+      "basename": "isEquivalenceIn2Category_of_isEquivalence_003Z",
+      "body": "theorem isEquivalenceIn2Category_of_isEquivalence_003Z\n    (hp : IsFibredInGroupoids p) (hp' : IsFibredInGroupoids p')\n    (hG : Functor.IsEquivalence G.toFunctor) :\n    IsEquivalenceOver G := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_isEquivalenceIn2Category_of_isEquivalence_003Z.isEquivalenceIn2Category_of_isEquivalence_003Z"
+    }
+  ],
+  "id": "stacks_isEquivalenceIn2Category_of_isEquivalence_003Z",
+  "module": "LeanEval.AutoformBench.Stacks_Project.stacks_isEquivalenceIn2Category_of_isEquivalence_003Z"
+}

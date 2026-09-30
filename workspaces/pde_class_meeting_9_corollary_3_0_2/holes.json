@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "class_meeting_9_corollary_3_0_2",
+      "body": "theorem class_meeting_9_corollary_3_0_2\n    {n : ℕ}\n    (u : EuclideanSpace ℝ (Fin n) → ℝ)\n    (hu : InnerProductSpace.HarmonicOnNhd u Set.univ)\n    (h_one_sided_bound :\n      BddBelow (Set.range u) ∨ BddAbove (Set.range u)) :\n    ∃ c : ℝ, ∀ x, u x = c := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_PDEs_pde_class_meeting_9_corollary_3_0_2.class_meeting_9_corollary_3_0_2"
+    }
+  ],
+  "id": "pde_class_meeting_9_corollary_3_0_2",
+  "module": "LeanEval.AutoformBench.Introduction_to_PDEs.pde_class_meeting_9_corollary_3_0_2"
+}

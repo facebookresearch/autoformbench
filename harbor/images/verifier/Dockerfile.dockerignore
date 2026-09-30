@@ -1,0 +1,11 @@
+**
+
+!workspaces/
+!workspaces/**
+
+!harbor/
+!harbor/images/
+!harbor/images/verifier/
+!harbor/images/verifier/Dockerfile
+!harbor/images/verifier/Dockerfile.dockerignore
+!harbor/images/verifier/verify.py

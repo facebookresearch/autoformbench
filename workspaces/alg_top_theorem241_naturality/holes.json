@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "basename": "pid_moduleCat_hasProjectiveResolutions",
+      "body": "noncomputable instance pid_moduleCat_hasProjectiveResolutions\n    (R : Type) [CommRing R] [IsDomain R]\n    [IsPrincipalIdealRing R] :\n    HasProjectiveResolutions (RModCat R) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Algebraic_Topology_I_alg_top_theorem241_naturality.pid_moduleCat_hasProjectiveResolutions"
+    },
+    {
+      "basename": "theorem241",
+      "body": "theorem theorem241\n    (R : Type) [CommRing R] [IsDomain R]\n    [IsPrincipalIdealRing R] :\n    Nonempty (UniversalCoefficientTheoremPackage R) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Algebraic_Topology_I_alg_top_theorem241_naturality.theorem241"
+    }
+  ],
+  "id": "alg_top_theorem241_naturality",
+  "module": "LeanEval.AutoformBench.Algebraic_Topology_I.alg_top_theorem241_naturality"
+}

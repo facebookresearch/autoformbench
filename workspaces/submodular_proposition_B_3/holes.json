@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_B_3",
+      "body": "theorem proposition_B_3\n    {α β : Type*}\n    [Fintype α] [DecidableEq α] [Fintype β] [DecidableEq β]\n    (G : Finset (α ⊕ β) → ℝ)\n    (hG_sub : IsSubmodular G)\n    (hG_empty : G ∅ = 0) :\n    let F : Finset α → ℝ := partialMinimum (α := α) (β := β) G\n    IsSubmodular F ∧\n      F ∅ = 0 ∧\n      (subsetMinimum\n          (fun B : Finset β => G (sumSubset (∅ : Finset α) B)) = 0 →\n        ((∀ w : α → ℝ,\n            (∀ i : α, 0 ≤ w i) →\n              IsLeast\n                ((fun v : β → ℝ =>\n                    lovaszExtension G (Sum.elim w v)) ''\n                  {v : β → ℝ | ∀ j : β, 0 ≤ v j})\n                (lovaszExtension F w)) ∧\n          (submodularPolyhedron F =\n            {s : α → ℝ | ∃ t : β → ℝ,\n              (∀ j : β, 0 ≤ t j) ∧\n              Sum.elim s t ∈ submodularPolyhedron G}))) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Learning_with_Submodular_Functions_submodular_proposition_B_3.proposition_B_3"
+    }
+  ],
+  "id": "submodular_proposition_B_3",
+  "module": "LeanEval.AutoformBench.Learning_with_Submodular_Functions.submodular_proposition_B_3"
+}

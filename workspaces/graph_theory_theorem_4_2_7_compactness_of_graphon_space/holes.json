@@ -1,0 +1,30 @@
+{
+  "holes": [
+    {
+      "basename": "cutDistance_self",
+      "body": "theorem cutDistance_self : ∀ U : Graphon, δ□ U U = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_4_2_7_compactness_of_graphon_space.cutDistance_self"
+    },
+    {
+      "basename": "cutDistance_comm",
+      "body": "theorem cutDistance_comm : ∀ U W : Graphon, δ□ U W = δ□ W U := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_4_2_7_compactness_of_graphon_space.cutDistance_comm"
+    },
+    {
+      "basename": "cutDistance_triangle",
+      "body": "theorem cutDistance_triangle : ∀ U V W : Graphon, δ□ U W ≤ δ□ U V + δ□ V W := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_4_2_7_compactness_of_graphon_space.cutDistance_triangle"
+    },
+    {
+      "basename": "theorem_4_2_7_compactness_of_graphon_space",
+      "body": "theorem theorem_4_2_7_compactness_of_graphon_space : CompactSpace W̃₀ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_4_2_7_compactness_of_graphon_space.theorem_4_2_7_compactness_of_graphon_space"
+    }
+  ],
+  "id": "graph_theory_theorem_4_2_7_compactness_of_graphon_space",
+  "module": "LeanEval.AutoformBench.value_pinned.Graph_Theory_and_Additive_Combinatorics.graph_theory_theorem_4_2_7_compactness_of_graphon_space"
+}

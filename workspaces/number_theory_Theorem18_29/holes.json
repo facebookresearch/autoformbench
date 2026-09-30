@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "Theorem18_29",
+      "body": "theorem Theorem18_29 :\n    (fun x : ℝ =>\n        (harmonic ⌊x⌋₊ : ℝ) -\n          (Real.log x + Real.eulerMascheroniConstant))\n      =O[Filter.atTop]\n    (fun x : ℝ => x⁻¹) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem18_29.Theorem18_29"
+    }
+  ],
+  "id": "number_theory_Theorem18_29",
+  "module": "LeanEval.AutoformBench.Number_Theory_I.number_theory_Theorem18_29"
+}

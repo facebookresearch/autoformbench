@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "witt_extension_and_cancellation",
+      "body": "theorem witt_extension_and_cancellation\n    (_h_char_ne_two : (2 : k) ≠ 0) :\n    (∀ {V : Type uV} [AddCommGroup V] [Module D V] [FiniteDimensional D V]\n        (F : EpsilonHermitianForm S ε V),\n      F.IsNondegenerate →\n        ∀ U W : Submodule D V,\n          ∀ φ : SubspaceIsometry F U W,\n            ∃ Φ : AmbientIsometry F,\n              ∀ u : U,\n                Φ.toLinearEquiv (u : V) = ((φ.toLinearEquiv u : W) : V)) ∧\n      (∀ {U₀ : Type uU} [AddCommGroup U₀] [Module D U₀] [FiniteDimensional D U₀]\n          {V₁ : Type uX} [AddCommGroup V₁] [Module D V₁] [FiniteDimensional D V₁]\n          {V₂ : Type uY} [AddCommGroup V₂] [Module D V₂] [FiniteDimensional D V₂]\n          (FU : EpsilonHermitianForm S ε U₀)\n          (FV₁ : EpsilonHermitianForm S ε V₁)\n          (FV₂ : EpsilonHermitianForm S ε V₂),\n        Nonempty (OrthogonalSumIsometry FU FV₁ FU FV₂) →\n          Nonempty (SpaceIsometry FV₁ FV₂)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_witt_extension_and_cancellation.witt_extension_and_cancellation"
+    }
+  ],
+  "id": "buildings_witt_extension_and_cancellation",
+  "module": "LeanEval.AutoformBench.Buildings_and_Classical_Groups.buildings_witt_extension_and_cancellation"
+}

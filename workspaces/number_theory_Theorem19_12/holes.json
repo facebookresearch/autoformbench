@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "Theorem19_12",
+      "body": "theorem Theorem19_12 (K : Type*) [Field K] [NumberField K] :\n    ∃ F : ℂ → ℂ,\n      (∀ s : ℂ, 1 < s.re → F s = NumberField.dedekindZeta K s) ∧\n        MeromorphicOn F (classNumberStrip K) ∧\n          (∀ s : ℂ, s ∈ classNumberStrip K → s ≠ 1 → AnalyticAt ℂ F s) ∧\n            meromorphicOrderAt F 1 = -1 ∧\n              Filter.Tendsto\n                (fun x : ℝ => (((x : ℂ) - 1) * F (x : ℂ)))\n                (nhdsWithin (1 : ℝ) (Set.Ioi 1))\n                (nhds ((analyticClassNumberFormulaResidue K : ℂ))) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem19_12.Theorem19_12"
+    }
+  ],
+  "id": "number_theory_Theorem19_12",
+  "module": "LeanEval.AutoformBench.Number_Theory_I.number_theory_Theorem19_12"
+}

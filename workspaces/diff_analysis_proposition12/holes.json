@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition12",
+      "body": "theorem proposition12\n    {𝕜 : Type u} [RCLike 𝕜]\n    {E F : Type v}\n    [NormedAddCommGroup E] [NormedSpace 𝕜 E]\n    [NormedAddCommGroup F] [NormedSpace 𝕜 F]\n    [FiniteDimensional 𝕜 E] [FiniteDimensional 𝕜 F]\n    (e : E ≃ₗ[𝕜] F) :\n    ∃ C : ℝ,\n      0 < C ∧\n      ∀ x : E, C⁻¹ * ‖x‖ ≤ ‖e x‖ ∧ ‖e x‖ ≤ C * ‖x‖ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Differential_Analysis_diff_analysis_proposition12.proposition12"
+    }
+  ],
+  "id": "diff_analysis_proposition12",
+  "module": "LeanEval.AutoformBench.Differential_Analysis.diff_analysis_proposition12"
+}

@@ -1,0 +1,114 @@
+{
+  "holes": [
+    {
+      "basename": "LeftInvariantTensorFields_zero_mem",
+      "body": "theorem LeftInvariantTensorFields_zero_mem :\n    IsLeftInvariant (I := I) (B := B) (F := F) MT 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.LeftInvariantTensorFields_zero_mem"
+    },
+    {
+      "basename": "LeftInvariantTensorFields_add_mem",
+      "body": "theorem LeftInvariantTensorFields_add_mem\n    (T S : SmoothTensorField (I := I) (B := B) (F := F))\n    (hT : IsLeftInvariant (I := I) (B := B) (F := F) MT T)\n    (hS : IsLeftInvariant (I := I) (B := B) (F := F) MT S) :\n    IsLeftInvariant (I := I) (B := B) (F := F) MT (T + S) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.LeftInvariantTensorFields_add_mem"
+    },
+    {
+      "basename": "LeftInvariantTensorFields_smul_mem",
+      "body": "theorem LeftInvariantTensorFields_smul_mem\n    (c : 𝕜) (T : SmoothTensorField (I := I) (B := B) (F := F))\n    (hT : IsLeftInvariant (I := I) (B := B) (F := F) MT T) :\n    IsLeftInvariant (I := I) (B := B) (F := F) MT (c • T) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.LeftInvariantTensorFields_smul_mem"
+    },
+    {
+      "basename": "RightInvariantTensorFields_zero_mem",
+      "body": "theorem RightInvariantTensorFields_zero_mem :\n    IsRightInvariant (I := I) (B := B) (F := F) MT 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.RightInvariantTensorFields_zero_mem"
+    },
+    {
+      "basename": "RightInvariantTensorFields_add_mem",
+      "body": "theorem RightInvariantTensorFields_add_mem\n    (T S : SmoothTensorField (I := I) (B := B) (F := F))\n    (hT : IsRightInvariant (I := I) (B := B) (F := F) MT T)\n    (hS : IsRightInvariant (I := I) (B := B) (F := F) MT S) :\n    IsRightInvariant (I := I) (B := B) (F := F) MT (T + S) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.RightInvariantTensorFields_add_mem"
+    },
+    {
+      "basename": "RightInvariantTensorFields_smul_mem",
+      "body": "theorem RightInvariantTensorFields_smul_mem\n    (c : 𝕜) (T : SmoothTensorField (I := I) (B := B) (F := F))\n    (hT : IsRightInvariant (I := I) (B := B) (F := F) MT T) :\n    IsRightInvariant (I := I) (B := B) (F := F) MT (c • T) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.RightInvariantTensorFields_smul_mem"
+    },
+    {
+      "basename": "proposition_5_10_i",
+      "body": "theorem proposition_5_10_i\n    (τ : LieTensor (𝕜 := 𝕜) (I := I) (G := G) k m) :\n    (∃! T : SmoothTensorField (I := I) (B := B) (F := F),\n      IsLeftInvariant (I := I) (B := B) (F := F) MT T ∧\n        valueAtOne (I := I) (B := B) (F := F) MT T = τ)\n    ∧\n    (∃! T : SmoothTensorField (I := I) (B := B) (F := F),\n      IsRightInvariant (I := I) (B := B) (F := F) MT T ∧\n        valueAtOne (I := I) (B := B) (F := F) MT T = τ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.proposition_5_10_i"
+    },
+    {
+      "basename": "leftInvariantFieldsEquivLieTensor_mem",
+      "body": "theorem leftInvariantFieldsEquivLieTensor_mem\n    (τ : LieTensor (𝕜 := 𝕜) (I := I) (G := G) k m) :\n    leftInvariantExtension (I := I) (B := B) (F := F) MT τ ∈\n      LeftInvariantTensorFields (I := I) (B := B) (F := F) MT := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_mem"
+    },
+    {
+      "basename": "leftInvariantFieldsEquivLieTensor_map_add",
+      "body": "theorem leftInvariantFieldsEquivLieTensor_map_add\n    (T S : LeftInvariantTensorFields (I := I) (B := B) (F := F) MT) :\n    valueAtOne (I := I) (B := B) (F := F) MT ((T + S : _) : SmoothTensorField (I := I) (B := B) (F := F)) =\n      valueAtOne (I := I) (B := B) (F := F) MT (T : SmoothTensorField (I := I) (B := B) (F := F)) +\n        valueAtOne (I := I) (B := B) (F := F) MT (S : SmoothTensorField (I := I) (B := B) (F := F)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_map_add"
+    },
+    {
+      "basename": "leftInvariantFieldsEquivLieTensor_map_smul",
+      "body": "theorem leftInvariantFieldsEquivLieTensor_map_smul\n    (c : 𝕜) (T : LeftInvariantTensorFields (I := I) (B := B) (F := F) MT) :\n    valueAtOne (I := I) (B := B) (F := F) MT ((c • T : _) : SmoothTensorField (I := I) (B := B) (F := F)) =\n      c • valueAtOne (I := I) (B := B) (F := F) MT (T : SmoothTensorField (I := I) (B := B) (F := F)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_map_smul"
+    },
+    {
+      "basename": "leftInvariantFieldsEquivLieTensor_left_inv",
+      "body": "theorem leftInvariantFieldsEquivLieTensor_left_inv\n    (T : LeftInvariantTensorFields (I := I) (B := B) (F := F) MT) :\n    leftInvariantExtension (I := I) (B := B) (F := F) MT\n        (valueAtOne (I := I) (B := B) (F := F) MT\n          (T : SmoothTensorField (I := I) (B := B) (F := F)))\n      = (T : SmoothTensorField (I := I) (B := B) (F := F)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_left_inv"
+    },
+    {
+      "basename": "leftInvariantFieldsEquivLieTensor_right_inv",
+      "body": "theorem leftInvariantFieldsEquivLieTensor_right_inv\n    (τ : LieTensor (𝕜 := 𝕜) (I := I) (G := G) k m) :\n    valueAtOne (I := I) (B := B) (F := F) MT\n        (leftInvariantExtension (I := I) (B := B) (F := F) MT τ) = τ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_right_inv"
+    },
+    {
+      "basename": "rightInvariantFieldsEquivLieTensor_mem",
+      "body": "theorem rightInvariantFieldsEquivLieTensor_mem\n    (τ : LieTensor (𝕜 := 𝕜) (I := I) (G := G) k m) :\n    rightInvariantExtension (I := I) (B := B) (F := F) MT τ ∈\n      RightInvariantTensorFields (I := I) (B := B) (F := F) MT := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_mem"
+    },
+    {
+      "basename": "rightInvariantFieldsEquivLieTensor_map_add",
+      "body": "theorem rightInvariantFieldsEquivLieTensor_map_add\n    (T S : RightInvariantTensorFields (I := I) (B := B) (F := F) MT) :\n    valueAtOne (I := I) (B := B) (F := F) MT ((T + S : _) : SmoothTensorField (I := I) (B := B) (F := F)) =\n      valueAtOne (I := I) (B := B) (F := F) MT (T : SmoothTensorField (I := I) (B := B) (F := F)) +\n        valueAtOne (I := I) (B := B) (F := F) MT (S : SmoothTensorField (I := I) (B := B) (F := F)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_map_add"
+    },
+    {
+      "basename": "rightInvariantFieldsEquivLieTensor_map_smul",
+      "body": "theorem rightInvariantFieldsEquivLieTensor_map_smul\n    (c : 𝕜) (T : RightInvariantTensorFields (I := I) (B := B) (F := F) MT) :\n    valueAtOne (I := I) (B := B) (F := F) MT ((c • T : _) : SmoothTensorField (I := I) (B := B) (F := F)) =\n      c • valueAtOne (I := I) (B := B) (F := F) MT (T : SmoothTensorField (I := I) (B := B) (F := F)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_map_smul"
+    },
+    {
+      "basename": "rightInvariantFieldsEquivLieTensor_left_inv",
+      "body": "theorem rightInvariantFieldsEquivLieTensor_left_inv\n    (T : RightInvariantTensorFields (I := I) (B := B) (F := F) MT) :\n    rightInvariantExtension (I := I) (B := B) (F := F) MT\n        (valueAtOne (I := I) (B := B) (F := F) MT\n          (T : SmoothTensorField (I := I) (B := B) (F := F)))\n      = (T : SmoothTensorField (I := I) (B := B) (F := F)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_left_inv"
+    },
+    {
+      "basename": "rightInvariantFieldsEquivLieTensor_right_inv",
+      "body": "theorem rightInvariantFieldsEquivLieTensor_right_inv\n    (τ : LieTensor (𝕜 := 𝕜) (I := I) (G := G) k m) :\n    valueAtOne (I := I) (B := B) (F := F) MT\n        (rightInvariantExtension (I := I) (B := B) (F := F) MT τ) = τ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_right_inv"
+    },
+    {
+      "basename": "proposition_5_10_ii",
+      "body": "theorem proposition_5_10_ii\n    (τ : LieTensor (𝕜 := 𝕜) (I := I) (G := G) k m) :\n    (IsRightInvariant (I := I) (B := B) (F := F) MT\n        (leftInvariantExtension (I := I) (B := B) (F := F) MT τ)\n      ↔ IsLeftInvariant (I := I) (B := B) (F := F) MT\n        (rightInvariantExtension (I := I) (B := B) (F := F) MT τ))\n    ∧\n    (IsRightInvariant (I := I) (B := B) (F := F) MT\n        (leftInvariantExtension (I := I) (B := B) (F := F) MT τ)\n      ↔ IsAdInvariant (𝕜 := 𝕜) (I := I) (B := B) (F := F) MT τ)\n    ∧\n    (IsLeftInvariant (I := I) (B := B) (F := F) MT\n        (rightInvariantExtension (I := I) (B := B) (F := F) MT τ)\n      ↔ IsAdInvariant (𝕜 := 𝕜) (I := I) (B := B) (F := F) MT τ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.proposition_5_10_ii"
+    }
+  ],
+  "id": "lie_proposition_5_10_ii",
+  "module": "LeanEval.AutoformBench.value_pinned.Lie_groups_lie_algebras.lie_proposition_5_10_ii"
+}

@@ -1,0 +1,23 @@
+# `arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit`
+
+This directory is one source-free AutoformBench proof-completion workspace.
+
+- Problem ID: `arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit`
+- Graded declarations:
+- `Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.padicIntLimitTransition_dvd`
+- `Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_zero_mem`
+- `Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_one_mem`
+- `Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_add_mem`
+- `Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_neg_mem`
+- `Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_mul_mem`
+- `Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.instIsDomainPadicIntLimit`
+- `Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.padic_completion_rat_iso_fraction_field_padic_int_limit`
+
+Replace every target `sorry` in `Submission.lean`. Auxiliary definitions and
+lemmas may be added below `Submission/` and imported by `Submission.lean`.
+Do not modify the trusted challenge or grading files.
+
+`lake build` checks that the local project elaborates. Official clean-room
+grading uses the Harbor verifier documented in `../../harbor/README.md`; direct
+`lake test` additionally requires the pinned Comparator, lean4export, nanoda,
+and landrun binaries.

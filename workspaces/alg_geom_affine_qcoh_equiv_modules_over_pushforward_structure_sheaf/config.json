@@ -1,0 +1,18 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.affineOver_equiv_qcohAlgebra_op",
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.pushforwardStructureSheaf_isQuasiCoherentOAlgebra",
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.pushforwardModulesOverPushforwardStructureSheaf_forgetToOY",
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.pushforwardModulesOverPushforwardStructureSheaf_preservesQuasicoherent",
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.pushforwardQCohAsModule_forgetToOY",
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_qcoh_equiv_modules_over_pushforward_structure_sheaf.affine_qcoh_equiv_modules_over_pushforward_structure_sheaf"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

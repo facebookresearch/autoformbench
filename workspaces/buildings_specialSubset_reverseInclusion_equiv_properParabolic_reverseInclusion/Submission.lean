@@ -1,0 +1,22 @@
+import ChallengeDeps
+import Submission.Helpers
+
+open Autoform_Buildings_and_Classical_Groups_buildings_specialSubset_reverseInclusion_equiv_properParabolic_reverseInclusion
+
+universe u v
+
+variable {G : Type u} [Group G] {ι : Type v} {M : CoxeterMatrix ι}
+
+namespace Submission
+
+theorem specialSubset_reverseInclusion_equiv_properParabolic_reverseInclusion (bn : StrictBNPair G ι M) [Fintype ι] :
+    ∃ e : SpecialSubset bn ≃ ProperParabolicSubset bn,
+      (∀ (g : G) (P : Subgroup G) (hP : IsSpecialSubgroup bn P),
+        carrier (e (specialSubsetOf bn g P hP)) = conjugateSet g (P : Set G)) ∧
+      (∀ Y Z : SpecialSubset bn,
+        specialSubsetReverseLe Y Z ↔ properParabolicSubsetReverseLe (e Y) (e Z)) ∧
+      (∀ (a : G) (Y : SpecialSubset bn),
+        e (specialSubsetLeftTranslate bn a Y) = properParabolicConjugate bn a (e Y)) := by
+  sorry
+
+end Submission

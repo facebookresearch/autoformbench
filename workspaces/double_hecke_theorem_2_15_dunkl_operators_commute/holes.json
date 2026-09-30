@@ -1,0 +1,90 @@
+{
+  "holes": [
+    {
+      "basename": "polyLinearAction_left_inv",
+      "body": "theorem polyLinearAction_left_inv {n : ℕ}\n    (T : Vec n ≃ₗ[ℂ] Vec n) (p : Poly n) :\n    MvPolynomial.aeval\n        (fun i : Fin n =>\n          linearFormPolynomial ((coordLinear n i).comp T.toLinearMap))\n      (MvPolynomial.aeval\n        (fun i : Fin n =>\n          linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap)) p) = p := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_left_inv"
+    },
+    {
+      "basename": "polyLinearAction_right_inv",
+      "body": "theorem polyLinearAction_right_inv {n : ℕ}\n    (T : Vec n ≃ₗ[ℂ] Vec n) (p : Poly n) :\n    MvPolynomial.aeval\n        (fun i : Fin n =>\n          linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap))\n      (MvPolynomial.aeval\n        (fun i : Fin n =>\n          linearFormPolynomial ((coordLinear n i).comp T.toLinearMap)) p) = p := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_right_inv"
+    },
+    {
+      "basename": "polyLinearAction_map_mul",
+      "body": "theorem polyLinearAction_map_mul {n : ℕ}\n    (T : Vec n ≃ₗ[ℂ] Vec n) (p q : Poly n) :\n    MvPolynomial.aeval\n        (fun i : Fin n =>\n          linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap)) (p * q) =\n      MvPolynomial.aeval\n          (fun i : Fin n =>\n            linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap)) p *\n        MvPolynomial.aeval\n          (fun i : Fin n =>\n            linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap)) q := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_map_mul"
+    },
+    {
+      "basename": "polyLinearAction_map_add",
+      "body": "theorem polyLinearAction_map_add {n : ℕ}\n    (T : Vec n ≃ₗ[ℂ] Vec n) (p q : Poly n) :\n    MvPolynomial.aeval\n        (fun i : Fin n =>\n          linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap)) (p + q) =\n      MvPolynomial.aeval\n          (fun i : Fin n =>\n            linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap)) p +\n        MvPolynomial.aeval\n          (fun i : Fin n =>\n            linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap)) q := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_map_add"
+    },
+    {
+      "basename": "polyLinearAction_commutes",
+      "body": "theorem polyLinearAction_commutes {n : ℕ}\n    (T : Vec n ≃ₗ[ℂ] Vec n) (z : ℂ) :\n    MvPolynomial.aeval\n        (fun i : Fin n =>\n          linearFormPolynomial ((coordLinear n i).comp T.symm.toLinearMap))\n      (algebraMap ℂ (Poly n) z) = algebraMap ℂ (Poly n) z := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_commutes"
+    },
+    {
+      "basename": "ratFunPDeriv_map_add",
+      "body": "theorem ratFunPDeriv_map_add {n : ℕ}\n    (i : Fin n) (x y : RatFun n) :\n    ratFunPDerivFun i (x + y) = ratFunPDerivFun i x + ratFunPDerivFun i y := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_map_add"
+    },
+    {
+      "basename": "ratFunPDeriv_map_smul",
+      "body": "theorem ratFunPDeriv_map_smul {n : ℕ}\n    (i : Fin n) (a : ℂ) (x : RatFun n) :\n    ratFunPDerivFun i (a • x) = a • ratFunPDerivFun i x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_map_smul"
+    },
+    {
+      "basename": "ratFunPDeriv_map_one_eq_zero",
+      "body": "theorem ratFunPDeriv_map_one_eq_zero {n : ℕ}\n    (i : Fin n) :\n    ratFunPDerivFun i 1 = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_map_one_eq_zero"
+    },
+    {
+      "basename": "ratFunPDeriv_leibniz",
+      "body": "theorem ratFunPDeriv_leibniz {n : ℕ}\n    (i : Fin n) (x y : RatFun n) :\n    ratFunPDerivFun i (x * y) =\n      x • ratFunPDerivFun i y + y • ratFunPDerivFun i x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_leibniz"
+    },
+    {
+      "basename": "ratFunPDeriv_algebraMap",
+      "body": "@[simp, eval_problem]\ntheorem ratFunPDeriv_algebraMap {n : ℕ}\n    (i : Fin n) (p : Poly n) :\n    ratFunPDeriv i (algebraMap (Poly n) (RatFun n) p) =\n      algebraMap (Poly n) (RatFun n) ((MvPolynomial.pderiv i) p) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_algebraMap"
+    },
+    {
+      "basename": "mulLeft_map_smul",
+      "body": "theorem mulLeft_map_smul {n : ℕ}\n    (f : RatFun n) (a : ℂ) (x : RatFun n) :\n    f * a • x = a • (f * x) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.mulLeft_map_smul"
+    },
+    {
+      "basename": "isComplexReflection_conj",
+      "body": "theorem isComplexReflection_conj {n : ℕ}\n    (T U : Vec n ≃ₗ[ℂ] Vec n)\n    (hT : IsComplexReflection T) :\n    IsComplexReflection (U * T * U⁻¹) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.isComplexReflection_conj"
+    },
+    {
+      "basename": "groupActionEnd_faithful",
+      "body": "theorem groupActionEnd_faithful {n : ℕ}\n    (Γ : FiniteLinearGroup n) :\n    Function.Injective (fun g : Γ.G => groupActionEnd Γ g) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.groupActionEnd_faithful"
+    },
+    {
+      "basename": "theorem_2_15_dunkl_operators_commute",
+      "body": "theorem theorem_2_15_dunkl_operators_commute {n : ℕ}\n    (Γ : FiniteLinearGroup n)\n    (κ : DunklParameter Γ)\n    (hc : IsConjugationInvariantParameter Γ κ) :\n    ∀ a b : Vec n,\n      CommuteAsEnd\n        (dunklOperator Γ κ a)\n        (dunklOperator Γ κ b) := by\n  intro a b\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.theorem_2_15_dunkl_operators_commute"
+    }
+  ],
+  "id": "double_hecke_theorem_2_15_dunkl_operators_commute",
+  "module": "LeanEval.AutoformBench.value_pinned.Double_Hecke_Algebras.double_hecke_theorem_2_15_dunkl_operators_commute"
+}

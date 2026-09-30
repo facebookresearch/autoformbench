@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "tag_08NF",
+      "body": "theorem tag_08NF\n    (X Y : Type u) [Category.{v, u} X] [Category.{v, u} Y]\n    (p₁ : X ⥤ C) [p₁.IsFibered]\n    (p₂ : Y ⥤ C) [p₂.IsFibered]\n    (F : X ⥤ Y)\n    (hF : IsFibred1MorphismOver p₁ p₂ F) :\n    ∃ (X' : Type (max u v)) (_inst : Category.{v, max u v} X') (p₃ : X' ⥤ C),\n      p₃.IsFibered ∧\n      ∃ (u' : X ⥤ X') (v' : X' ⥤ Y) (w : X' ⥤ X),\n        IsFibred1MorphismOver p₁ p₃ u' ∧\n        IsFibred1MorphismOver p₃ p₁ w ∧\n        IsFibred1MorphismOver p₃ p₂ v' ∧\n        F = u' ⋙ v' ∧\n        Functor.Full u' ∧\n        Functor.Faithful u' ∧\n        Nonempty (w ⊣ u') ∧\n        v'.IsFibered := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_tag_08NF.tag_08NF"
+    }
+  ],
+  "id": "stacks_tag_08NF",
+  "module": "LeanEval.AutoformBench.Stacks_Project.stacks_tag_08NF"
+}

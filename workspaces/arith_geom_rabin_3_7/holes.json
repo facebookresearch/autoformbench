@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "rabin_3_7",
+      "body": "theorem rabin_3_7\n    (F : Type*) [Field F] [Fintype F]\n    (hq_odd : Odd (Fintype.card F))\n    {α β : F} (hαβ : α ≠ β) :\n    (RabinDifferentTypeDeltas F α β).card = finiteFieldHalfExponent F := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_rabin_3_7.rabin_3_7"
+    }
+  ],
+  "id": "arith_geom_rabin_3_7",
+  "module": "LeanEval.AutoformBench.Introduction_to_Arithmetic_Geometry.arith_geom_rabin_3_7"
+}

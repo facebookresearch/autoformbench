@@ -1,0 +1,23 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.fractionalIdealEisenstein_summable",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.fractionalIdealDiscriminant_ne_zero",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.classGroup_has_representative",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.fractionalIdealJ_eq_of_same_class",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.complexCMJValue_eq_fractionalIdealJ",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.complexCMJValue_injective",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.classGroup_finite",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.existsUnique_hilbertClassPolynomial",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.complexCMJValue_has_preimage_in_splittingField",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.classValueInL_injective",
+    "Autoform_Elliptic_Curves_elliptic_theorem_21_1.FirstMainCM.theorem_21_1"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

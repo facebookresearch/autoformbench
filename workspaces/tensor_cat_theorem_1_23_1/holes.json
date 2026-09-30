@@ -1,0 +1,108 @@
+{
+  "holes": [
+    {
+      "basename": "counitRaw_vanishes_on_relations",
+      "body": "theorem counitRaw_vanishes_on_relations\n    (F : C ⥤ ModuleCat.{u} k) :\n    Relations k F ≤ (counitRaw k F).ker := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.counitRaw_vanishes_on_relations"
+    },
+    {
+      "basename": "summandComulFun_add_right",
+      "body": "theorem summandComulFun_add_right\n    (F : C ⥤ ModuleCat.{u} k) (X : C)\n    [FiniteDimensional k (F.obj X)]\n    (φ : Module.Dual k (F.obj X)) (x y : F.obj X) :\n    summandComulFun k F X φ (x + y) =\n      summandComulFun k F X φ x + summandComulFun k F X φ y := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.summandComulFun_add_right"
+    },
+    {
+      "basename": "summandComulFun_smul_right",
+      "body": "theorem summandComulFun_smul_right\n    (F : C ⥤ ModuleCat.{u} k) (X : C)\n    [FiniteDimensional k (F.obj X)]\n    (φ : Module.Dual k (F.obj X)) (a : k) (x : F.obj X) :\n    summandComulFun k F X φ (a • x) = a • summandComulFun k F X φ x := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.summandComulFun_smul_right"
+    },
+    {
+      "basename": "summandComulRight_add_left",
+      "body": "theorem summandComulRight_add_left\n    (F : C ⥤ ModuleCat.{u} k) (X : C)\n    [FiniteDimensional k (F.obj X)]\n    (φ ψ : Module.Dual k (F.obj X)) :\n    summandComulRight k F X (φ + ψ) =\n      summandComulRight k F X φ + summandComulRight k F X ψ := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.summandComulRight_add_left"
+    },
+    {
+      "basename": "summandComulRight_smul_left",
+      "body": "theorem summandComulRight_smul_left\n    (F : C ⥤ ModuleCat.{u} k) (X : C)\n    [FiniteDimensional k (F.obj X)]\n    (a : k) (φ : Module.Dual k (F.obj X)) :\n    summandComulRight k F X (a • φ) = a • summandComulRight k F X φ := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.summandComulRight_smul_left"
+    },
+    {
+      "basename": "comulRaw_vanishes_on_relations",
+      "body": "theorem comulRaw_vanishes_on_relations\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X)) :\n    Relations k F ≤ (comulRaw k F hF_finite).ker := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.comulRaw_vanishes_on_relations"
+    },
+    {
+      "basename": "coalgebra_coassoc",
+      "body": "theorem coalgebra_coassoc\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X)) :\n    (TensorProduct.assoc k (Space k F) (Space k F) (Space k F)).toLinearMap ∘ₗ\n        LinearMap.rTensor (Space k F) (comul k F hF_finite) ∘ₗ\n          comul k F hF_finite =\n      LinearMap.lTensor (Space k F) (comul k F hF_finite) ∘ₗ\n        comul k F hF_finite := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.coalgebra_coassoc"
+    },
+    {
+      "basename": "coalgebra_rTensor_counit_comp_comul",
+      "body": "theorem coalgebra_rTensor_counit_comp_comul\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X)) :\n    LinearMap.rTensor (Space k F) (counit k F) ∘ₗ comul k F hF_finite =\n      TensorProduct.mk k k (Space k F) 1 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.coalgebra_rTensor_counit_comp_comul"
+    },
+    {
+      "basename": "coalgebra_lTensor_counit_comp_comul",
+      "body": "theorem coalgebra_lTensor_counit_comp_comul\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X)) :\n    LinearMap.lTensor (Space k F) (counit k F) ∘ₗ comul k F hF_finite =\n      (TensorProduct.mk k (Space k F) k).flip 1 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.coalgebra_lTensor_counit_comp_comul"
+    },
+    {
+      "basename": "rightComodule_id_comm",
+      "body": "theorem rightComodule_id_comm (M : RightComodule k H coalg) :\n    ((TensorProduct.map (ModuleCat.Hom.hom (𝟙 M.V))\n          (LinearMap.id : H →ₗ[k] H)) ∘ₗ M.coact) =\n      (M.coact ∘ₗ ModuleCat.Hom.hom (𝟙 M.V)) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.rightComodule_id_comm"
+    },
+    {
+      "basename": "rightComodule_comp_comm",
+      "body": "theorem rightComodule_comp_comm {M N P : RightComodule k H coalg}\n    (f : Hom M N) (g : Hom N P) :\n    ((TensorProduct.map (f.hom ≫ g.hom).hom (LinearMap.id : H →ₗ[k] H)) ∘ₗ\n        M.coact) =\n      (P.coact ∘ₗ (f.hom ≫ g.hom).hom) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.rightComodule_comp_comm"
+    },
+    {
+      "basename": "fiberRightComodule_counit",
+      "body": "theorem fiberRightComodule_counit\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X))\n    (X : C) :\n    ((TensorProduct.rid k (F.obj X)).toLinearMap ∘ₗ\n        (LinearMap.lTensor (F.obj X) (coendCoalgebra k F hF_finite).counit) ∘ₗ\n        fiberCoaction k F hF_finite X) =\n      LinearMap.id := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.fiberRightComodule_counit"
+    },
+    {
+      "basename": "fiberRightComodule_coassoc",
+      "body": "theorem fiberRightComodule_coassoc\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X))\n    (X : C) :\n    ((TensorProduct.assoc k (F.obj X) (Coend k F) (Coend k F)).toLinearMap ∘ₗ\n        (LinearMap.rTensor (Coend k F) (fiberCoaction k F hF_finite X)) ∘ₗ\n        fiberCoaction k F hF_finite X) =\n      ((LinearMap.lTensor (F.obj X) (coendCoalgebra k F hF_finite).comul) ∘ₗ\n        fiberCoaction k F hF_finite X) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.fiberRightComodule_coassoc"
+    },
+    {
+      "basename": "fiberComoduleMap_comm",
+      "body": "theorem fiberComoduleMap_comm\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X))\n    {X Y : C} (f : X ⟶ Y) :\n    ((TensorProduct.map (F.map f).hom\n          (LinearMap.id : Coend k F →ₗ[k] Coend k F)) ∘ₗ\n        (fiberRightComodule k F hF_finite X).coact) =\n      ((fiberRightComodule k F hF_finite Y).coact ∘ₗ (F.map f).hom) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.fiberComoduleMap_comm"
+    },
+    {
+      "basename": "reconstructionFunctor_map_id",
+      "body": "theorem reconstructionFunctor_map_id\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X))\n    (X : C) :\n    fiberComoduleMap k F hF_finite (𝟙 X) =\n      𝟙 (fiberFiniteRightComodule k F hF_finite X) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.reconstructionFunctor_map_id"
+    },
+    {
+      "basename": "reconstructionFunctor_map_comp",
+      "body": "theorem reconstructionFunctor_map_comp\n    (F : C ⥤ ModuleCat.{u} k)\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X))\n    {X Y Z : C} (f : X ⟶ Y) (g : Y ⟶ Z) :\n    fiberComoduleMap k F hF_finite (f ≫ g) =\n      fiberComoduleMap k F hF_finite f ≫ fiberComoduleMap k F hF_finite g := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.reconstructionFunctor_map_comp"
+    },
+    {
+      "basename": "theorem_1_23_1",
+      "body": "theorem theorem_1_23_1\n    (F : C ⥤ ModuleCat.{u} k)\n    [F.Additive]\n    [Functor.Linear k F]\n    [F.Faithful]\n    [PreservesFiniteLimits F]\n    [PreservesFiniteColimits F]\n    (hF_finite : ∀ X : C, FiniteDimensional k (F.obj X)) :\n    (reconstructionFunctor k F hF_finite).IsEquivalence := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_23_1.theorem_1_23_1"
+    }
+  ],
+  "id": "tensor_cat_theorem_1_23_1",
+  "module": "LeanEval.AutoformBench.value_pinned.Tensor_Categories.tensor_cat_theorem_1_23_1"
+}

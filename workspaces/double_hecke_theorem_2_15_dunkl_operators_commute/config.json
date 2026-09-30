@@ -1,0 +1,26 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_left_inv",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_right_inv",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_map_mul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.polyLinearAction_commutes",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_map_one_eq_zero",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_leibniz",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.ratFunPDeriv_algebraMap",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.mulLeft_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.isComplexReflection_conj",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.groupActionEnd_faithful",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_15_dunkl_operators_commute.theorem_2_15_dunkl_operators_commute"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

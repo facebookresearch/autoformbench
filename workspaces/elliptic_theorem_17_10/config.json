@@ -1,0 +1,26 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.instIsFractionRingOrderIn",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.quadraticConj_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.quadraticConj_left_inv",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.quadraticConj_right_inv",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.quadraticConj_map_mul",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.quadraticConj_map_add",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.orderConj_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.orderConj_left_inv",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.orderConj_right_inv",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.orderConj_map_mul",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.orderConj_map_add",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.conjugateSubmodule_smul",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.conjugateFractionalIdeal_isFractional",
+    "Autoform_Elliptic_Curves_elliptic_theorem_17_10.theorem_17_10"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

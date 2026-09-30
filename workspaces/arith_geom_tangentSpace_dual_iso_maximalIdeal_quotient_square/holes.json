@@ -1,0 +1,66 @@
+{
+  "holes": [
+    {
+      "basename": "pointIdeal_add_mem",
+      "body": "theorem pointIdeal_add_mem\n    {k ι : Type*} [Field k]\n    (P : ι → k) (a b : MvPolynomial ι k)\n    (ha : MvPolynomial.eval P a = 0) (hb : MvPolynomial.eval P b = 0) :\n    MvPolynomial.eval P (a + b) = 0 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.pointIdeal_add_mem"
+    },
+    {
+      "basename": "pointIdeal_smul_mem",
+      "body": "theorem pointIdeal_smul_mem\n    {k ι : Type*} [Field k]\n    (P : ι → k) (c x : MvPolynomial ι k)\n    (hx : MvPolynomial.eval P x = 0) :\n    MvPolynomial.eval P (c • x) = 0 := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.pointIdeal_smul_mem"
+    },
+    {
+      "basename": "pointIdealSubmodule_add_mem",
+      "body": "theorem pointIdealSubmodule_add_mem\n    {k ι : Type*} [Field k]\n    (P : ι → k) (a b : MvPolynomial ι k)\n    (ha : MvPolynomial.eval P a = 0) (hb : MvPolynomial.eval P b = 0) :\n    MvPolynomial.eval P (a + b) = 0 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.pointIdealSubmodule_add_mem"
+    },
+    {
+      "basename": "pointIdealSubmodule_smul_mem",
+      "body": "theorem pointIdealSubmodule_smul_mem\n    {k ι : Type*} [Field k]\n    (P : ι → k) (c : k) (x : MvPolynomial ι k)\n    (hx : MvPolynomial.eval P x = 0) :\n    MvPolynomial.eval P (c • x) = 0 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.pointIdealSubmodule_smul_mem"
+    },
+    {
+      "basename": "ZariskiTangentSpace_add_mem",
+      "body": "theorem ZariskiTangentSpace_add_mem\n    {k ι : Type*} [Field k] [Fintype ι]\n    (I : Ideal (MvPolynomial ι k)) (P : ι → k) (v w : ι → k)\n    (hv : ∀ f : MvPolynomial ι k, f ∈ I → directionalDerivativeAt P v f = 0)\n    (hw : ∀ f : MvPolynomial ι k, f ∈ I → directionalDerivativeAt P w f = 0)\n    (f : MvPolynomial ι k) (hf : f ∈ I) :\n    directionalDerivativeAt P (v + w) f = 0 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.ZariskiTangentSpace_add_mem"
+    },
+    {
+      "basename": "ZariskiTangentSpace_smul_mem",
+      "body": "theorem ZariskiTangentSpace_smul_mem\n    {k ι : Type*} [Field k] [Fintype ι]\n    (I : Ideal (MvPolynomial ι k)) (P : ι → k) (c : k) (v : ι → k)\n    (hv : ∀ f : MvPolynomial ι k, f ∈ I → directionalDerivativeAt P v f = 0)\n    (f : MvPolynomial ι k) (hf : f ∈ I) :\n    directionalDerivativeAt P (c • v) f = 0 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.ZariskiTangentSpace_smul_mem"
+    },
+    {
+      "basename": "cotangentRelations_zero_mem",
+      "body": "theorem cotangentRelations_zero_mem\n    {k ι : Type*} [Field k]\n    (I : Ideal (MvPolynomial ι k)) (P : ι → k) :\n    ((0 : pointIdealSubmodule P) : MvPolynomial ι k) ∈\n      I ⊔ (pointIdeal P) ^ 2 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.cotangentRelations_zero_mem"
+    },
+    {
+      "basename": "cotangentRelations_add_mem",
+      "body": "theorem cotangentRelations_add_mem\n    {k ι : Type*} [Field k]\n    (I : Ideal (MvPolynomial ι k)) (P : ι → k)\n    (f g : pointIdealSubmodule P)\n    (hf : (f : MvPolynomial ι k) ∈ I ⊔ (pointIdeal P) ^ 2)\n    (hg : (g : MvPolynomial ι k) ∈ I ⊔ (pointIdeal P) ^ 2) :\n    ((f + g : pointIdealSubmodule P) : MvPolynomial ι k) ∈\n      I ⊔ (pointIdeal P) ^ 2 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.cotangentRelations_add_mem"
+    },
+    {
+      "basename": "cotangentRelations_smul_mem",
+      "body": "theorem cotangentRelations_smul_mem\n    {k ι : Type*} [Field k]\n    (I : Ideal (MvPolynomial ι k)) (P : ι → k)\n    (c : k) (f : pointIdealSubmodule P)\n    (hf : (f : MvPolynomial ι k) ∈ I ⊔ (pointIdeal P) ^ 2) :\n    ((c • f : pointIdealSubmodule P) : MvPolynomial ι k) ∈\n      I ⊔ (pointIdeal P) ^ 2 := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.cotangentRelations_smul_mem"
+    },
+    {
+      "basename": "tangentSpace_dual_iso_maximalIdeal_quotient_square",
+      "body": "theorem tangentSpace_dual_iso_maximalIdeal_quotient_square\n    {k ι : Type*} [Field k] [Fintype ι]\n    (I : Ideal (MvPolynomial ι k)) (P : ι → k)\n    (hI : I.IsPrime)\n    (hP : PointLiesOnAffineVariety I P) :\n    Nonempty\n      (Module.Dual k (ZariskiTangentSpace I P) ≃ₗ[k]\n        AlgebraicCotangentSpaceAt I P) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square.tangentSpace_dual_iso_maximalIdeal_quotient_square"
+    }
+  ],
+  "id": "arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square",
+  "module": "LeanEval.AutoformBench.value_pinned.Introduction_to_Arithmetic_Geometry.arith_geom_tangentSpace_dual_iso_maximalIdeal_quotient_square"
+}

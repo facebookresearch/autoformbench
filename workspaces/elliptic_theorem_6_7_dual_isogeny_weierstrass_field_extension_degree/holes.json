@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_6_7_dual_isogeny_weierstrass_field_extension_degree",
+      "body": "theorem theorem_6_7_dual_isogeny_weierstrass_field_extension_degree\n    [DecidableEq K]\n    {E₁ E₂ : WeierstrassEllipticCurve k}\n    [E₁.IsElliptic] [E₂.IsElliptic]\n    [(GeometricModel (K := K) E₁).IsElliptic]\n    [(GeometricModel (K := K) E₂).IsElliptic]\n    (α : WeierstrassIsogeny (K := K) E₁ E₂) :\n    ∃ αhat : WeierstrassIsogeny (K := K) E₂ E₁,\n      WeierstrassIsogeny.IsDual (K := K) αhat α ∧\n        ∀ β : WeierstrassIsogeny (K := K) E₂ E₁,\n          WeierstrassIsogeny.IsDual (K := K) β α →\n            WeierstrassIsogeny.SameMorphism (K := K) β αhat := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_7_dual_isogeny_weierstrass_field_extension_degree.theorem_6_7_dual_isogeny_weierstrass_field_extension_degree"
+    }
+  ],
+  "id": "elliptic_theorem_6_7_dual_isogeny_weierstrass_field_extension_degree",
+  "module": "LeanEval.AutoformBench.Elliptic_Curves.elliptic_theorem_6_7_dual_isogeny_weierstrass_field_extension_degree"
+}

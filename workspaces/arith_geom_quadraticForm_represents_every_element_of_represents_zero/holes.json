@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "quadraticForm_represents_every_element_of_represents_zero",
+      "body": "theorem quadraticForm_represents_every_element_of_represents_zero\n    {K V : Type*} [Field K] [Invertible (2 : K)]\n    [AddCommGroup V] [Module K V] [FiniteDimensional K V]\n    (Q : QuadraticForm K V)\n    (hnd : QuadraticFormNondegenerate Q)\n    (hzero : QuadraticFormRepresentsZeroNontrivially Q) :\n    ∀ a : K, QuadraticFormRepresents Q a := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_quadraticForm_represents_every_element_of_represents_zero.quadraticForm_represents_every_element_of_represents_zero"
+    }
+  ],
+  "id": "arith_geom_quadraticForm_represents_every_element_of_represents_zero",
+  "module": "LeanEval.AutoformBench.Introduction_to_Arithmetic_Geometry.arith_geom_quadraticForm_represents_every_element_of_represents_zero"
+}

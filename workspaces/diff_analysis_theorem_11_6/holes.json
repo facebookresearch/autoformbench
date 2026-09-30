@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_11_6",
+      "body": "theorem theorem_11_6\n    (n : ℕ) (u : TemperedDistribution (Rn n) ℂ) (φ : SchwartzMap (Rn n) ℂ) :\n    ∃ f : Rn n → ℂ,\n      IsConvolutionFunction u φ f ∧\n      ContDiff ℝ ∞ f ∧\n      DefinesTemperedDist f ∧\n      (HasCompactSupport (fun x : Rn n => φ x) →\n        tsupport f ⊆ tSupportTD u + tsupport (φ : Rn n → ℂ)) ∧\n      ∀ α : MultiIndex n,\n        IsConvolutionFunction (iteratedCoordMelroseDeriv α u) φ\n          (iteratedCoordMelroseDerivFun α f) ∧\n        IsConvolutionFunction u (iteratedCoordMelroseDerivSchwartz α φ)\n          (iteratedCoordMelroseDerivFun α f) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Differential_Analysis_diff_analysis_theorem_11_6.theorem_11_6"
+    }
+  ],
+  "id": "diff_analysis_theorem_11_6",
+  "module": "LeanEval.AutoformBench.Differential_Analysis.diff_analysis_theorem_11_6"
+}

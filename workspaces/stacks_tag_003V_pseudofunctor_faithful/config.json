@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Stacks_Project_stacks_tag_003V_pseudofunctor_faithful.tag_003V",
+    "Autoform_Stacks_Project_stacks_tag_003V_pseudofunctor_faithful.tag_003V_stronglyCartesian",
+    "Autoform_Stacks_Project_stacks_tag_003V_pseudofunctor_faithful.tag_003V_pseudofunctor_faithful"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

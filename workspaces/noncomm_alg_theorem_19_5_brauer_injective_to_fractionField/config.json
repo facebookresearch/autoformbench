@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_19_5_brauer_injective_to_fractionField.azumayaBrauerEquivalent_refl",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_19_5_brauer_injective_to_fractionField.azumayaBrauerEquivalent_symm",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_19_5_brauer_injective_to_fractionField.azumayaBrauerEquivalent_trans",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_19_5_brauer_injective_to_fractionField.theorem_19_5_brauer_injective_to_fractionField"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "Lemma19_5",
+      "body": "theorem Lemma19_5\n    (n : ℕ) (hn : 1 ≤ n) (S : Set (Fin n → ℝ))\n    (hS_meas : MeasurableSet S)\n    (hS_boundary : BoundaryLipschitzParametrizable n S)\n    (hS_finite : ∀ t : ℝ, 0 < t → (latticePoints S t).Finite) :\n      (fun t : ℝ =>\n          (latticePointCount S t : ℝ) -\n            ENNReal.toReal (MeasureTheory.volume S) * t ^ n)\n        =O[Filter.atTop]\n      (fun t : ℝ => t ^ (n - 1)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Lemma19_5.Lemma19_5"
+    }
+  ],
+  "id": "number_theory_Lemma19_5",
+  "module": "LeanEval.AutoformBench.Number_Theory_I.number_theory_Lemma19_5"
+}

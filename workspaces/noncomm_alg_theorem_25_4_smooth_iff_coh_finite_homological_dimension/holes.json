@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "basename": "coherentSheafExtData_exists",
+      "body": "theorem coherentSheafExtData_exists\n    {k : Type u} [Field k]\n    (X : AlgebraicVarietyOver k) :\n    Nonempty (CoherentSheafExtData X) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_25_4_smooth_iff_coh_finite_homological_dimension.coherentSheafExtData_exists"
+    },
+    {
+      "basename": "theorem_25_4_smooth_iff_coh_finite_homological_dimension",
+      "body": "theorem theorem_25_4_smooth_iff_coh_finite_homological_dimension\n    (k : Type u) [Field k] [PerfectField k]\n    (X : AlgebraicVarietyOver k) :\n    AlgebraicGeometry.Smooth X.structureMap ↔\n      CoherentSheavesHaveFiniteHomologicalDimension\n        (coherentSheafExtData X) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_25_4_smooth_iff_coh_finite_homological_dimension.theorem_25_4_smooth_iff_coh_finite_homological_dimension"
+    }
+  ],
+  "id": "noncomm_alg_theorem_25_4_smooth_iff_coh_finite_homological_dimension",
+  "module": "LeanEval.AutoformBench.Noncommutative_Algebra.noncomm_alg_theorem_25_4_smooth_iff_coh_finite_homological_dimension"
+}

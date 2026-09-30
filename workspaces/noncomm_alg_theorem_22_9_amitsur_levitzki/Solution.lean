@@ -1,0 +1,20 @@
+import ChallengeDeps
+import Submission
+
+open Autoform_Noncommutative_Algebra_noncomm_alg_theorem_22_9_amitsur_levitzki
+open scoped BigOperators
+
+universe u v
+
+theorem theorem_22_9_amitsur_levitzki (R : Type u) [CommRing R]
+    {n : ℕ} (hn : 0 < n) :
+    IsPolynomialIdentityForMatrices R n (2 * n)
+      (standardPolynomial R (2 * n)) ∧
+    (Nontrivial R →
+      ∀ {vars d : ℕ}
+        (p : FreeAlgebra R (Fin vars)),
+          d < 2 * n →
+            IsHomogeneousNoncommutativePolynomial R (Fin vars) d p →
+              IsPolynomialIdentityForMatrices R n vars p →
+                p = 0) := by
+  exact Submission.theorem_22_9_amitsur_levitzki R hn

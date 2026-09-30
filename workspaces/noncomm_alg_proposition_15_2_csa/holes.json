@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_15_2_csa",
+      "body": "theorem proposition_15_2_csa\n    (F : Type u) [Field F]\n    (A : Type v) [Ring A] [Algebra F A]\n    [Algebra.IsCentral F A]\n    [IsSimpleRing A]\n    [FiniteDimensional F A] :\n    Nonempty (FiniteSeparableSplittingField F A) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_proposition_15_2_csa.proposition_15_2_csa"
+    }
+  ],
+  "id": "noncomm_alg_proposition_15_2_csa",
+  "module": "LeanEval.AutoformBench.Noncommutative_Algebra.noncomm_alg_proposition_15_2_csa"
+}

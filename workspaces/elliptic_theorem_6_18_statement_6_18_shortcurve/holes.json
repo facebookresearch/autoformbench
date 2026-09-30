@@ -1,0 +1,36 @@
+{
+  "holes": [
+    {
+      "basename": "standard_form_degree_unique",
+      "body": "theorem standard_form_degree_unique\n    (φ : AddMonoid.End (GeometricShortCurve (K := K) Ω A B).Point)\n    (D₁ D₂ : StandardEndomorphismData (Ω := Ω) (A := A) (B := B) φ) :\n    D₁.F.degree = D₂.F.degree := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.standard_form_degree_unique"
+    },
+    {
+      "basename": "integer_scalar_endomorphisms_injective",
+      "body": "theorem integer_scalar_endomorphisms_injective :\n    Function.Injective\n      (fun t : ℤ =>\n        t • (1 : AddMonoid.End (GeometricShortCurve (K := K) Ω A B).Point)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.integer_scalar_endomorphisms_injective"
+    },
+    {
+      "basename": "exists_unique_dual",
+      "body": "theorem exists_unique_dual\n    (α : ShortWeierstrassEndomorphism A B Ω) :\n    ∃! β : ShortWeierstrassEndomorphism A B Ω, IsDual (A := A) (B := B) (Ω := Ω) α β := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.exists_unique_dual"
+    },
+    {
+      "basename": "exists_unique_trace",
+      "body": "theorem exists_unique_trace\n    (α : ShortWeierstrassEndomorphism A B Ω) :\n    ∃! t : ℤ, HasTrace (A := A) (B := B) (Ω := Ω) α t := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.exists_unique_trace"
+    },
+    {
+      "basename": "theorem_6_18_statement",
+      "body": "theorem theorem_6_18_statement\n    (α : ShortWeierstrassEndomorphism A B Ω) :\n    (α.toEnd * α.toEnd)\n        - ((trace (A := A) (B := B) (Ω := Ω) α) • α.toEnd)\n        + ((degree (A := A) (B := B) (Ω := Ω) α) •\n            (1 : AddMonoid.End (GeometricShortCurve (K := K) Ω A B).Point)) = 0\n    ∧\n    ((dual (A := A) (B := B) (Ω := Ω) α).toEnd *\n        (dual (A := A) (B := B) (Ω := Ω) α).toEnd)\n        - ((trace (A := A) (B := B) (Ω := Ω) α) •\n            (dual (A := A) (B := B) (Ω := Ω) α).toEnd)\n        + ((degree (A := A) (B := B) (Ω := Ω) α) •\n            (1 : AddMonoid.End (GeometricShortCurve (K := K) Ω A B).Point)) = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.theorem_6_18_statement"
+    }
+  ],
+  "id": "elliptic_theorem_6_18_statement_6_18_shortcurve",
+  "module": "LeanEval.AutoformBench.Elliptic_Curves.elliptic_theorem_6_18_statement_6_18_shortcurve"
+}

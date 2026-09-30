@@ -1,0 +1,30 @@
+{
+  "holes": [
+    {
+      "basename": "azumayaBrauerEquivalent_refl",
+      "body": "theorem azumayaBrauerEquivalent_refl\n    (R : Type u) [CommRing R] (A : AzumayaAlgebra R) :\n    AzumayaBrauerEquivalent R A A := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_19_5_brauer_injective_to_fractionField.azumayaBrauerEquivalent_refl"
+    },
+    {
+      "basename": "azumayaBrauerEquivalent_symm",
+      "body": "theorem azumayaBrauerEquivalent_symm\n    (R : Type u) [CommRing R] (A B : AzumayaAlgebra R)\n    (hAB : AzumayaBrauerEquivalent R A B) :\n    AzumayaBrauerEquivalent R B A := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_19_5_brauer_injective_to_fractionField.azumayaBrauerEquivalent_symm"
+    },
+    {
+      "basename": "azumayaBrauerEquivalent_trans",
+      "body": "theorem azumayaBrauerEquivalent_trans\n    (R : Type u) [CommRing R] (A B C : AzumayaAlgebra R)\n    (hAB : AzumayaBrauerEquivalent R A B)\n    (hBC : AzumayaBrauerEquivalent R B C) :\n    AzumayaBrauerEquivalent R A C := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_19_5_brauer_injective_to_fractionField.azumayaBrauerEquivalent_trans"
+    },
+    {
+      "basename": "theorem_19_5_brauer_injective_to_fractionField",
+      "body": "theorem theorem_19_5_brauer_injective_to_fractionField\n    (k R F : Type u)\n    [Field k] [IsAlgClosed k]\n    [CommRing R] [IsDomain R] [Algebra k R]\n    [Field F] [Algebra R F] [IsFractionRing R F]\n    [Algebra.FiniteType k R]\n    (h_smooth : Algebra.FormallySmooth k R) :\n    Nonempty (BrauerGenericFiberInjection R F) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_19_5_brauer_injective_to_fractionField.theorem_19_5_brauer_injective_to_fractionField"
+    }
+  ],
+  "id": "noncomm_alg_theorem_19_5_brauer_injective_to_fractionField",
+  "module": "LeanEval.AutoformBench.value_pinned.Noncommutative_Algebra.noncomm_alg_theorem_19_5_brauer_injective_to_fractionField"
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "montel_theorem",
+      "body": "theorem montel_theorem {Ω : Set ℂ} (hΩ_open : IsOpen Ω) (hΩ_conn : IsConnected Ω)\n    (𝓕 : ℕ → (ℂ → ℂ)) (h𝓕 : ∀ n : ℕ, DifferentiableOn ℂ (𝓕 n) Ω)\n    (h_bound : ∀ E ⊆ Ω, IsCompact E → ∃ M, ∀ n : ℕ, ∀ z ∈ E, ‖𝓕 n z‖ ≤ M) :\n    ∃ (φ : ℕ → ℕ) (h_φ : StrictMono φ) (g : ℂ → ℂ),\n      ∀ E ⊆ Ω, IsCompact E → TendstoUniformlyOn (fun k => 𝓕 (φ k)) g atTop E := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Functions_of_a_Complex_Variable_complex_var_montel_theorem.montel_theorem"
+    }
+  ],
+  "id": "complex_var_montel_theorem",
+  "module": "LeanEval.AutoformBench.Functions_of_a_Complex_Variable.complex_var_montel_theorem"
+}

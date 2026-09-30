@@ -1,0 +1,66 @@
+{
+  "holes": [
+    {
+      "basename": "isometryGroup_one_mem",
+      "body": "theorem isometryGroup_one_mem\n    {k : Type uK} {Z : Type uZ} {D : Type uD}\n    [Field k] [Field Z] [DivisionRing D] [Algebra k D] [Algebra Z D]\n    {S : FormedScalarData k Z D} {ε : D}\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    (F : EpsilonHermitianForm S ε V) :\n    F.IsIsometry (1 : V ≃ₗ[D] V) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_one_mem"
+    },
+    {
+      "basename": "isometryGroup_mul_mem",
+      "body": "theorem isometryGroup_mul_mem\n    {k : Type uK} {Z : Type uZ} {D : Type uD}\n    [Field k] [Field Z] [DivisionRing D] [Algebra k D] [Algebra Z D]\n    {S : FormedScalarData k Z D} {ε : D}\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    (F : EpsilonHermitianForm S ε V) (a b : V ≃ₗ[D] V)\n    (ha : F.IsIsometry a) (hb : F.IsIsometry b) :\n    F.IsIsometry (a * b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_mul_mem"
+    },
+    {
+      "basename": "isometryGroup_inv_mem",
+      "body": "theorem isometryGroup_inv_mem\n    {k : Type uK} {Z : Type uZ} {D : Type uD}\n    [Field k] [Field Z] [DivisionRing D] [Algebra k D] [Algebra Z D]\n    {S : FormedScalarData k Z D} {ε : D}\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    (F : EpsilonHermitianForm S ε V) (x : V ≃ₗ[D] V)\n    (hx : F.IsIsometry x) :\n    F.IsIsometry x⁻¹ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_inv_mem"
+    },
+    {
+      "basename": "conjugateSubgroupBy_one_mem",
+      "body": "theorem conjugateSubgroupBy_one_mem\n    {D : Type uD} [DivisionRing D]\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    (g : V ≃ₗ[D] V) (H : Subgroup (V ≃ₗ[D] V)) :\n    ∃ h : V ≃ₗ[D] V, h ∈ H ∧ g * h * g⁻¹ = 1 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_one_mem"
+    },
+    {
+      "basename": "conjugateSubgroupBy_mul_mem",
+      "body": "theorem conjugateSubgroupBy_mul_mem\n    {D : Type uD} [DivisionRing D]\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    (g : V ≃ₗ[D] V) (H : Subgroup (V ≃ₗ[D] V)) (a b : V ≃ₗ[D] V)\n    (ha : ∃ h : V ≃ₗ[D] V, h ∈ H ∧ g * h * g⁻¹ = a)\n    (hb : ∃ h : V ≃ₗ[D] V, h ∈ H ∧ g * h * g⁻¹ = b) :\n    ∃ h : V ≃ₗ[D] V, h ∈ H ∧ g * h * g⁻¹ = a * b := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_mul_mem"
+    },
+    {
+      "basename": "conjugateSubgroupBy_inv_mem",
+      "body": "theorem conjugateSubgroupBy_inv_mem\n    {D : Type uD} [DivisionRing D]\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    (g : V ≃ₗ[D] V) (H : Subgroup (V ≃ₗ[D] V)) (x : V ≃ₗ[D] V)\n    (hx : ∃ h : V ≃ₗ[D] V, h ∈ H ∧ g * h * g⁻¹ = x) :\n    ∃ h : V ≃ₗ[D] V, h ∈ H ∧ g * h * g⁻¹ = x⁻¹ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_inv_mem"
+    },
+    {
+      "basename": "flagStabilizerParabolic_one_mem",
+      "body": "theorem flagStabilizerParabolic_one_mem\n    {k : Type uK} {Z : Type uZ} {D : Type uD}\n    [Field k] [Field Z] [DivisionRing D] [Algebra k D] [Algebra Z D]\n    {S : FormedScalarData k Z D} {ε : D}\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    {ι : Type uI} [Preorder ι]\n    (F : EpsilonHermitianForm S ε V)\n    (𝓕 : EpsilonHermitianForm.IsotropicFlag F ι) :\n    F.IsIsometry (1 : V ≃ₗ[D] V) ∧\n      ∀ i : ι,\n        EpsilonHermitianForm.StabilizesSubspace (1 : V ≃ₗ[D] V) (𝓕.subspace i) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_one_mem"
+    },
+    {
+      "basename": "flagStabilizerParabolic_mul_mem",
+      "body": "theorem flagStabilizerParabolic_mul_mem\n    {k : Type uK} {Z : Type uZ} {D : Type uD}\n    [Field k] [Field Z] [DivisionRing D] [Algebra k D] [Algebra Z D]\n    {S : FormedScalarData k Z D} {ε : D}\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    {ι : Type uI} [Preorder ι]\n    (F : EpsilonHermitianForm S ε V)\n    (𝓕 : EpsilonHermitianForm.IsotropicFlag F ι)\n    (a b : V ≃ₗ[D] V)\n    (ha : F.IsIsometry a ∧\n      ∀ i : ι, EpsilonHermitianForm.StabilizesSubspace a (𝓕.subspace i))\n    (hb : F.IsIsometry b ∧\n      ∀ i : ι, EpsilonHermitianForm.StabilizesSubspace b (𝓕.subspace i)) :\n    F.IsIsometry (a * b) ∧\n      ∀ i : ι, EpsilonHermitianForm.StabilizesSubspace (a * b) (𝓕.subspace i) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_mul_mem"
+    },
+    {
+      "basename": "flagStabilizerParabolic_inv_mem",
+      "body": "theorem flagStabilizerParabolic_inv_mem\n    {k : Type uK} {Z : Type uZ} {D : Type uD}\n    [Field k] [Field Z] [DivisionRing D] [Algebra k D] [Algebra Z D]\n    {S : FormedScalarData k Z D} {ε : D}\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    {ι : Type uI} [Preorder ι]\n    (F : EpsilonHermitianForm S ε V)\n    (𝓕 : EpsilonHermitianForm.IsotropicFlag F ι)\n    (x : V ≃ₗ[D] V)\n    (hx : F.IsIsometry x ∧\n      ∀ i : ι, EpsilonHermitianForm.StabilizesSubspace x (𝓕.subspace i)) :\n    F.IsIsometry x⁻¹ ∧\n      ∀ i : ι, EpsilonHermitianForm.StabilizesSubspace x⁻¹ (𝓕.subspace i) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_inv_mem"
+    },
+    {
+      "basename": "parabolicSubgroups_same_type_conjugate",
+      "body": "theorem parabolicSubgroups_same_type_conjugate\n    {k : Type uK} {Z : Type uZ} {D : Type uD}\n    [Field k] [Field Z] [DivisionRing D] [Algebra k D] [Algebra Z D]\n    {S : FormedScalarData k Z D} {ε : D}\n    {V : Type uV} [AddCommGroup V] [Module D V]\n    [FiniteDimensional D V]\n    (F : EpsilonHermitianForm S ε V)\n    (_h_char_ne_two : (2 : k) ≠ 0)\n    (_hV : F.IsNondegenerate)\n    {ι : Type uI} [Fintype ι] [LinearOrder ι]\n    (P Q : EpsilonHermitianForm.ParabolicSubgroup F ι)\n    (_h_type : EpsilonHermitianForm.ParabolicSubgroup.SameType P Q) :\n    ∃ g : EpsilonHermitianForm.isometryGroup F,\n      EpsilonHermitianForm.conjugateSubgroupBy (g : V ≃ₗ[D] V)\n          (EpsilonHermitianForm.ParabolicSubgroup.toSubgroup P) =\n        EpsilonHermitianForm.ParabolicSubgroup.toSubgroup Q := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.parabolicSubgroups_same_type_conjugate"
+    }
+  ],
+  "id": "buildings_parabolicSubgroups_same_type_conjugate",
+  "module": "LeanEval.AutoformBench.value_pinned.Buildings_and_Classical_Groups.buildings_parabolicSubgroups_same_type_conjugate"
+}

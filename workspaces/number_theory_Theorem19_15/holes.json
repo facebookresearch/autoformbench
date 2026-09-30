@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "Theorem19_15",
+      "body": "theorem Theorem19_15\n    (m : ℕ) [NeZero m]\n    (H : BookXSubgroup m)\n    (Φ : Subgroup (Gal(CyclotomicFieldOverQ m/ℚ)))\n    [Fintype H]\n    [NumberField (IntermediateField.fixedField Φ)] :\n    IsBookPhiSubgroup m H Φ →\n      (∀ s : ℂ, 1 < s.re →\n        NumberField.dedekindZeta (IntermediateField.fixedField Φ) s =\n          (∏ χ : H,\n            primitiveLFunction\n              (χ : BookXCharacter m) s)) ∧\n        ∃ ζK : ℂ → ℂ,\n          (∀ s : ℂ, 1 < s.re →\n            ζK s = NumberField.dedekindZeta (IntermediateField.fixedField Φ) s) ∧\n            Meromorphic ζK ∧\n              Meromorphic\n                (fun s : ℂ =>\n                  ∏ χ : H,\n                    primitiveLFunction\n                      (χ : BookXCharacter m) s) ∧\n                ∀ z : ℂ,\n                  ζK =ᶠ[nhdsWithin z ({z} : Set ℂ)ᶜ]\n                    (fun s : ℂ =>\n                      ∏ χ : H,\n                        primitiveLFunction\n                          (χ : BookXCharacter m) s) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem19_15.Theorem19_15"
+    }
+  ],
+  "id": "number_theory_Theorem19_15",
+  "module": "LeanEval.AutoformBench.Number_Theory_I.number_theory_Theorem19_15"
+}

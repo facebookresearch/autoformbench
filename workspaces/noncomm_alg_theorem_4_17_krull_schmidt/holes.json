@@ -1,0 +1,24 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_4_17_exists",
+      "body": "theorem theorem_4_17_exists\n    (hM : IsFiniteLength R M) :\n    Nonempty (FiniteDirectSumDecomposition R M) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_4_17_krull_schmidt.theorem_4_17_exists"
+    },
+    {
+      "basename": "theorem_4_17_unique",
+      "body": "theorem theorem_4_17_unique\n    (hM : IsFiniteLength R M)\n    (D E : FiniteDirectSumDecomposition R M) :\n    ∃ σ : D.ι ≃ E.ι,\n      ∀ i : D.ι, Nonempty (D.summand i ≃ₗ[R] E.summand (σ i)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_4_17_krull_schmidt.theorem_4_17_unique"
+    },
+    {
+      "basename": "theorem_4_17_krull_schmidt",
+      "body": "theorem theorem_4_17_krull_schmidt\n    (hM : IsFiniteLength R M) :\n    Nonempty (FiniteDirectSumDecomposition R M) ∧\n      ∀ D E : FiniteDirectSumDecomposition R M,\n        ∃ σ : D.ι ≃ E.ι,\n          ∀ i : D.ι, Nonempty (D.summand i ≃ₗ[R] E.summand (σ i)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_4_17_krull_schmidt.theorem_4_17_krull_schmidt"
+    }
+  ],
+  "id": "noncomm_alg_theorem_4_17_krull_schmidt",
+  "module": "LeanEval.AutoformBench.Noncommutative_Algebra.noncomm_alg_theorem_4_17_krull_schmidt"
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "tag_05PY",
+      "body": "theorem tag_05PY (M : I ⥤ C) (X : C) :\n    (Cond1 M ↔ Cond2 M) ∧\n    (Cond2 M ↔ Cond3 M) ∧\n    (Cond3 M ↔ Cond4 M) ∧\n    (Cond2At M X → Cond1At M X) ∧\n    (Cond3At M X → Cond1At M X) ∧\n    (Cond4At M X → Cond1At M X):= by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_tag_05PY.tag_05PY"
+    }
+  ],
+  "id": "stacks_tag_05PY",
+  "module": "LeanEval.AutoformBench.Stacks_Project.stacks_tag_05PY"
+}

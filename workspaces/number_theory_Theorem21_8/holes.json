@@ -1,0 +1,204 @@
+{
+  "holes": [
+    {
+      "basename": "mem_nonZeroDivisors_of_nonzeroIntegralIdeal",
+      "body": "theorem mem_nonZeroDivisors_of_nonzeroIntegralIdeal\n    (K : Type*) [Field K] [NumberField K]\n    (I : NonzeroIntegralIdeal K) :\n    I.1 ∈ nonZeroDivisors (Ideal (𝓞 K)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.mem_nonZeroDivisors_of_nonzeroIntegralIdeal"
+    },
+    {
+      "basename": "isUnit_fractionalIdealOfNonzeroIntegralIdeal",
+      "body": "theorem isUnit_fractionalIdealOfNonzeroIntegralIdeal\n    (K : Type*) [Field K] [NumberField K]\n    (I : NonzeroIntegralIdeal K) :\n    IsUnit (fractionalIdealOfNonzeroIntegralIdeal I) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.isUnit_fractionalIdealOfNonzeroIntegralIdeal"
+    },
+    {
+      "basename": "idealGroupPrimeToModulus_one_mem",
+      "body": "theorem idealGroupPrimeToModulus_one_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    InIdealGroupPrimeToModulus m (1 : IdealGroup K) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.idealGroupPrimeToModulus_one_mem"
+    },
+    {
+      "basename": "idealGroupPrimeToModulus_mul_mem",
+      "body": "theorem idealGroupPrimeToModulus_mul_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (I J : IdealGroup K)\n    (hI : InIdealGroupPrimeToModulus m I)\n    (hJ : InIdealGroupPrimeToModulus m J) :\n    InIdealGroupPrimeToModulus m (I * J) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.idealGroupPrimeToModulus_mul_mem"
+    },
+    {
+      "basename": "idealGroupPrimeToModulus_inv_mem",
+      "body": "theorem idealGroupPrimeToModulus_inv_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (I : IdealGroup K)\n    (hI : InIdealGroupPrimeToModulus m I) :\n    InIdealGroupPrimeToModulus m I⁻¹ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.idealGroupPrimeToModulus_inv_mem"
+    },
+    {
+      "basename": "subgroupRestrict_one_mem",
+      "body": "theorem subgroupRestrict_one_mem\n    (G : Type*) [Group G] (H J : Subgroup G) (h : H ≤ J) :\n    ((1 : J) : G) ∈ H := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.subgroupRestrict_one_mem"
+    },
+    {
+      "basename": "subgroupRestrict_mul_mem",
+      "body": "theorem subgroupRestrict_mul_mem\n    (G : Type*) [Group G] (H J : Subgroup G) (h : H ≤ J)\n    (a b : J) (ha : (a : G) ∈ H) (hb : (b : G) ∈ H) :\n    ((a * b : J) : G) ∈ H := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.subgroupRestrict_mul_mem"
+    },
+    {
+      "basename": "subgroupRestrict_inv_mem",
+      "body": "theorem subgroupRestrict_inv_mem\n    (G : Type*) [Group G] (H J : Subgroup G) (h : H ≤ J)\n    (a : J) (ha : (a : G) ∈ H) :\n    ((a⁻¹ : J) : G) ∈ H := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.subgroupRestrict_inv_mem"
+    },
+    {
+      "basename": "rayIdealGroup_one_mem",
+      "body": "theorem rayIdealGroup_one_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    ∃ x : Kˣ, InKPowModulusOne m x ∧ (1 : IdealGroup K) = PrincipalIdealOfUnit x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroup_one_mem"
+    },
+    {
+      "basename": "rayIdealGroup_mul_mem",
+      "body": "theorem rayIdealGroup_mul_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (I J : IdealGroup K)\n    (hI : ∃ x : Kˣ, InKPowModulusOne m x ∧ I = PrincipalIdealOfUnit x)\n    (hJ : ∃ x : Kˣ, InKPowModulusOne m x ∧ J = PrincipalIdealOfUnit x) :\n    ∃ x : Kˣ, InKPowModulusOne m x ∧ I * J = PrincipalIdealOfUnit x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroup_mul_mem"
+    },
+    {
+      "basename": "rayIdealGroup_inv_mem",
+      "body": "theorem rayIdealGroup_inv_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (I : IdealGroup K)\n    (hI : ∃ x : Kˣ, InKPowModulusOne m x ∧ I = PrincipalIdealOfUnit x) :\n    ∃ x : Kˣ, InKPowModulusOne m x ∧ I⁻¹ = PrincipalIdealOfUnit x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroup_inv_mem"
+    },
+    {
+      "basename": "rayIdealGroup_le_idealGroupPrimeToModulus",
+      "body": "theorem rayIdealGroup_le_idealGroupPrimeToModulus\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    RayIdealGroup K m ≤ IdealGroupPrimeToModulus K m := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroup_le_idealGroupPrimeToModulus"
+    },
+    {
+      "basename": "kPowModulus_one_mem",
+      "body": "theorem kPowModulus_one_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    InKPowModulus m (1 : Kˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulus_one_mem"
+    },
+    {
+      "basename": "kPowModulus_mul_mem",
+      "body": "theorem kPowModulus_mul_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (x y : Kˣ) (hx : InKPowModulus m x) (hy : InKPowModulus m y) :\n    InKPowModulus m (x * y) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulus_mul_mem"
+    },
+    {
+      "basename": "kPowModulus_inv_mem",
+      "body": "theorem kPowModulus_inv_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (x : Kˣ) (hx : InKPowModulus m x) :\n    InKPowModulus m x⁻¹ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulus_inv_mem"
+    },
+    {
+      "basename": "kPowModulusOne_one_mem",
+      "body": "theorem kPowModulusOne_one_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    InKPowModulusOne m ((1 : ↥(KPowModulus K m)) : Kˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_one_mem"
+    },
+    {
+      "basename": "kPowModulusOne_mul_mem",
+      "body": "theorem kPowModulusOne_mul_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (x y : ↥(KPowModulus K m))\n    (hx : InKPowModulusOne m (x : Kˣ)) (hy : InKPowModulusOne m (y : Kˣ)) :\n    InKPowModulusOne m (↑(x * y) : Kˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_mul_mem"
+    },
+    {
+      "basename": "kPowModulusOne_inv_mem",
+      "body": "theorem kPowModulusOne_inv_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (x : ↥(KPowModulus K m)) (hx : InKPowModulusOne m (x : Kˣ)) :\n    InKPowModulusOne m (↑x⁻¹ : Kˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_inv_mem"
+    },
+    {
+      "basename": "unitInKPowModulusOne_one_mem",
+      "body": "theorem unitInKPowModulusOne_one_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    InKPowModulusOne m (unitToFieldUnit K (1 : (𝓞 K)ˣ)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.unitInKPowModulusOne_one_mem"
+    },
+    {
+      "basename": "unitInKPowModulusOne_mul_mem",
+      "body": "theorem unitInKPowModulusOne_mul_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (u v : (𝓞 K)ˣ)\n    (hu : InKPowModulusOne m (unitToFieldUnit K u))\n    (hv : InKPowModulusOne m (unitToFieldUnit K v)) :\n    InKPowModulusOne m (unitToFieldUnit K (u * v)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.unitInKPowModulusOne_mul_mem"
+    },
+    {
+      "basename": "unitInKPowModulusOne_inv_mem",
+      "body": "theorem unitInKPowModulusOne_inv_mem\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (u : (𝓞 K)ˣ) (hu : InKPowModulusOne m (unitToFieldUnit K u)) :\n    InKPowModulusOne m (unitToFieldUnit K u⁻¹) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.unitInKPowModulusOne_inv_mem"
+    },
+    {
+      "basename": "unitToFieldUnit_mem_kPowModulus",
+      "body": "theorem unitToFieldUnit_mem_kPowModulus\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) (u : (𝓞 K)ˣ) :\n    unitToFieldUnit K u ∈ KPowModulus K m := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.unitToFieldUnit_mem_kPowModulus"
+    },
+    {
+      "basename": "unitToKPowModulus_map_one",
+      "body": "theorem unitToKPowModulus_map_one\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    unitToFieldUnit K (1 : (𝓞 K)ˣ) = (1 : Kˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.unitToKPowModulus_map_one"
+    },
+    {
+      "basename": "unitToKPowModulus_map_mul",
+      "body": "theorem unitToKPowModulus_map_mul\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) (u v : (𝓞 K)ˣ) :\n    unitToFieldUnit K (u * v) = unitToFieldUnit K u * unitToFieldUnit K v := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.unitToKPowModulus_map_mul"
+    },
+    {
+      "basename": "principalIdealOfUnit_mem_idealGroupPrimeToModulus",
+      "body": "theorem principalIdealOfUnit_mem_idealGroupPrimeToModulus\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (x : ↥(KPowModulus K m)) :\n    PrincipalIdealOfUnit (x : Kˣ) ∈ IdealGroupPrimeToModulus K m := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.principalIdealOfUnit_mem_idealGroupPrimeToModulus"
+    },
+    {
+      "basename": "principalIdealMap_map_one",
+      "body": "theorem principalIdealMap_map_one\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    PrincipalIdealOfUnit ((1 : ↥(KPowModulus K m)) : Kˣ) = (1 : IdealGroup K) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.principalIdealMap_map_one"
+    },
+    {
+      "basename": "principalIdealMap_map_mul",
+      "body": "theorem principalIdealMap_map_mul\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K)\n    (x y : ↥(KPowModulus K m)) :\n    PrincipalIdealOfUnit (↑(x * y) : Kˣ) =\n      PrincipalIdealOfUnit (x : Kˣ) * PrincipalIdealOfUnit (y : Kˣ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.principalIdealMap_map_mul"
+    },
+    {
+      "basename": "kPowModulusOne_le_ker_rayClassComp",
+      "body": "theorem kPowModulusOne_le_ker_rayClassComp\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    KPowModulusOne K m ≤\n      ((QuotientGroup.mk' (RayIdealGroupInPrimeTo K m)).comp\n        (principalIdealMap K m)).ker := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_le_ker_rayClassComp"
+    },
+    {
+      "basename": "exists_idealGroupToClassGroup",
+      "body": "theorem exists_idealGroupToClassGroup\n    (K : Type*) [Field K] [NumberField K] :\n    ∃ φ : IdealGroup K →* OrdinaryClassGroup K,\n      ∀ x : Kˣ, φ (PrincipalIdealOfUnit x) = 1 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.exists_idealGroupToClassGroup"
+    },
+    {
+      "basename": "rayIdealGroupInPrimeTo_le_ker_classGroup",
+      "body": "theorem rayIdealGroupInPrimeTo_le_ker_classGroup\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    RayIdealGroupInPrimeTo K m ≤ (idealGroupPrimeToModulusToClassGroup K m).ker := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.rayIdealGroupInPrimeTo_le_ker_classGroup"
+    },
+    {
+      "basename": "exists_signResidueMap",
+      "body": "theorem exists_signResidueMap\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    ∃ φ : KPowModulus K m →* SignResidueGroup K m,\n      ∀ x : KPowModulus K m, SignResidueCompatible m x (φ x) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.exists_signResidueMap"
+    },
+    {
+      "basename": "kPowModulusOne_le_ker_signResidueMap",
+      "body": "theorem kPowModulusOne_le_ker_signResidueMap\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    KPowModulusOne K m ≤ (signResidueMap K m).ker := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.kPowModulusOne_le_ker_signResidueMap"
+    },
+    {
+      "basename": "Theorem21_8",
+      "body": "theorem Theorem21_8\n    (K : Type*) [Field K] [NumberField K] (m : Modulus K) :\n    ExactSequence21_8 K m ∧\n      ∃ e : KPowModulusQuotient K m ≃* SignResidueGroup K m,\n        IsCanonicalSignResidueEquiv m e := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Theorem21_8.Theorem21_8"
+    }
+  ],
+  "id": "number_theory_Theorem21_8",
+  "module": "LeanEval.AutoformBench.value_pinned.Number_Theory_I.number_theory_Theorem21_8"
+}

@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_7_8_3_bogolyubov_fpn",
+      "body": "theorem theorem_7_8_3_bogolyubov_fpn\n    {p n : ℕ} [Fact p.Prime]\n    (A : Finset (Fpn p n)) (α : ℝ)\n    (hα : 0 < α)\n    (hA : (A.card : ℝ) = α * (p : ℝ) ^ n) :\n    ∃ H : Submodule (ZMod p) (Fpn p n),\n      (H : Set (Fpn p n)) ⊆ twoA_sub_twoA (↑A : Set (Fpn p n)) ∧\n      (Module.finrank (ZMod p) ((Fpn p n) ⧸ H) : ℝ) < 1 / α ^ (2 : ℕ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_7_8_5_bogolyubov_zmod.theorem_7_8_3_bogolyubov_fpn"
+    },
+    {
+      "basename": "theorem_7_8_5_bogolyubov_zmod",
+      "body": "theorem theorem_7_8_5_bogolyubov_zmod\n    {N : ℕ} [NeZero N]\n    (A : Finset (ZMod N)) (α : ℝ)\n    (hα : 0 < α)\n    (hA : (A.card : ℝ) = α * (N : ℝ)) :\n    ∃ R : Finset (ZMod N),\n      bohrSet N R (1 / 4 : ℝ) ⊆ twoA_sub_twoA (↑A : Set (ZMod N)) ∧\n      (R.card : ℝ) < 1 / α ^ (2 : ℕ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_7_8_5_bogolyubov_zmod.theorem_7_8_5_bogolyubov_zmod"
+    }
+  ],
+  "id": "graph_theory_theorem_7_8_5_bogolyubov_zmod",
+  "module": "LeanEval.AutoformBench.Graph_Theory_and_Additive_Combinatorics.graph_theory_theorem_7_8_5_bogolyubov_zmod"
+}

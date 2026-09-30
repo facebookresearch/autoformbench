@@ -1,0 +1,60 @@
+{
+  "holes": [
+    {
+      "basename": "mulByPolynomial_map_smul",
+      "body": "theorem mulByPolynomial_map_smul {n : ℕ} (p : PolyH n) (a : ℂ) (q : PolyH n) :\n    p * a • q = (RingHom.id ℂ) a • (p * q) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.mulByPolynomial_map_smul"
+    },
+    {
+      "basename": "directionalDerivative_map_add",
+      "body": "theorem directionalDerivative_map_add {n : ℕ} (y : Vec n) (p q : PolyH n) :\n    ∑ i : Fin n, MvPolynomial.C (y i) * MvPolynomial.pderiv i (p + q) =\n      (∑ i : Fin n, MvPolynomial.C (y i) * MvPolynomial.pderiv i p) +\n        ∑ i : Fin n, MvPolynomial.C (y i) * MvPolynomial.pderiv i q := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.directionalDerivative_map_add"
+    },
+    {
+      "basename": "directionalDerivative_map_smul",
+      "body": "theorem directionalDerivative_map_smul {n : ℕ} (y : Vec n) (a : ℂ) (p : PolyH n) :\n    ∑ i : Fin n, MvPolynomial.C (y i) * MvPolynomial.pderiv i (a • p) =\n      (RingHom.id ℂ) a • ∑ i : Fin n, MvPolynomial.C (y i) * MvPolynomial.pderiv i p := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.directionalDerivative_map_smul"
+    },
+    {
+      "basename": "exists_reflectionDifferenceQuotient",
+      "body": "theorem exists_reflectionDifferenceQuotient {n : ℕ}\n    (Γ : FiniteOrthogonalLinearGroup.{u} n)\n    (RS : ReflectionSystem Γ)\n    (s : RS.S)\n    (p : PolyH n) :\n    ∃ q : PolyH n,\n      alphaPolynomial RS s * q =\n        p - polynomialGActionAlgHom Γ (RS.refl s).elt p := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.exists_reflectionDifferenceQuotient"
+    },
+    {
+      "basename": "polynomialYAction_map_add",
+      "body": "theorem polynomialYAction_map_add {n : ℕ}\n    (Γ : FiniteOrthogonalLinearGroup.{u} n)\n    (RS : ReflectionSystem Γ)\n    (y : Vec n) (p q : PolyH n) :\n    directionalDerivative y (p + q) -\n        ∑ s : RS.S,\n          MvPolynomial.C\n              ((2 * RS.param s * ((RS.refl s).alpha y)) /\n                ((1 : ℂ) - (RS.refl s).eig)) *\n            reflectionDifferenceQuotient Γ RS s (p + q) =\n      (directionalDerivative y p -\n          ∑ s : RS.S,\n            MvPolynomial.C\n                ((2 * RS.param s * ((RS.refl s).alpha y)) /\n                  ((1 : ℂ) - (RS.refl s).eig)) *\n              reflectionDifferenceQuotient Γ RS s p) +\n        (directionalDerivative y q -\n          ∑ s : RS.S,\n            MvPolynomial.C\n                ((2 * RS.param s * ((RS.refl s).alpha y)) /\n                  ((1 : ℂ) - (RS.refl s).eig)) *\n              reflectionDifferenceQuotient Γ RS s q) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.polynomialYAction_map_add"
+    },
+    {
+      "basename": "polynomialYAction_map_smul",
+      "body": "theorem polynomialYAction_map_smul {n : ℕ}\n    (Γ : FiniteOrthogonalLinearGroup.{u} n)\n    (RS : ReflectionSystem Γ)\n    (y : Vec n) (a : ℂ) (p : PolyH n) :\n    directionalDerivative y (a • p) -\n        ∑ s : RS.S,\n          MvPolynomial.C\n              ((2 * RS.param s * ((RS.refl s).alpha y)) /\n                ((1 : ℂ) - (RS.refl s).eig)) *\n            reflectionDifferenceQuotient Γ RS s (a • p) =\n      (RingHom.id ℂ) a •\n        (directionalDerivative y p -\n          ∑ s : RS.S,\n            MvPolynomial.C\n                ((2 * RS.param s * ((RS.refl s).alpha y)) /\n                  ((1 : ℂ) - (RS.refl s).eig)) *\n              reflectionDifferenceQuotient Γ RS s p) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.polynomialYAction_map_smul"
+    },
+    {
+      "basename": "exists_polynomialRepresentation",
+      "body": "theorem exists_polynomialRepresentation {n : ℕ}\n    (Γ : FiniteOrthogonalLinearGroup.{u} n)\n    (RS : ReflectionSystem Γ) :\n    ∃ Rep : H1cCherednikAlgebra Γ RS →ₐ[ℂ] Module.End ℂ (PolyH n),\n      (∀ x : Vec n →ₗ[ℂ] ℂ,\n        Rep (h1cX (RS := RS) x) = polynomialXAction x) ∧\n      (∀ y : Vec n,\n        Rep (h1cY (RS := RS) y) = polynomialYAction Γ RS y) ∧\n      (∀ g : Γ.G,\n        Rep (h1cG (RS := RS) g) = polynomialGAction Γ g) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.exists_polynomialRepresentation"
+    },
+    {
+      "basename": "exists_inducedPolynomialQuotientAction",
+      "body": "theorem exists_inducedPolynomialQuotientAction {n : ℕ}\n    (Γ : FiniteOrthogonalLinearGroup.{u} n)\n    (RS : ReflectionSystem Γ)\n    (J : PolynomialIdeal n)\n    (hstable : J.IsHStable Γ RS) :\n    ∃ ρ : H1cCherednikAlgebra Γ RS →ₐ[ℂ]\n        Module.End ℂ (PolynomialQuotient J),\n      ∀ (h : H1cCherednikAlgebra Γ RS) (p : PolyH n),\n        ρ h (polynomialQuotientMap J p) =\n          polynomialQuotientMap J (polynomialRepresentation Γ RS h p) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.exists_inducedPolynomialQuotientAction"
+    },
+    {
+      "basename": "theorem_3_43_irreducible_iff_frobenius",
+      "body": "theorem theorem_3_43_irreducible_iff_frobenius {n : ℕ}\n    (Γ : FiniteOrthogonalLinearGroup.{u} n)\n    (RS : ReflectionSystem Γ)\n    (Q : FiniteDimensionalPolynomialRepresentationQuotient Γ RS) :\n    IsIrreduciblePolynomialRepresentationQuotient Q ↔\n      IsFrobeniusPolynomialQuotient Q.J := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.theorem_3_43_irreducible_iff_frobenius"
+    }
+  ],
+  "id": "double_hecke_theorem_3_43_irreducible_iff_frobenius",
+  "module": "LeanEval.AutoformBench.value_pinned.Double_Hecke_Algebras.double_hecke_theorem_3_43_irreducible_iff_frobenius"
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_5_1",
+      "body": "theorem proposition_5_1 {p : ℕ}\n    (Ω : Seminorm ℝ (Fin p → ℝ))\n    (hΩ_definite : ∀ w, Ω w = 0 ↔ w = 0) :\n    ∃ g : Matrix (Fin p) (Fin p) ℝ → ℝ,\n      \n      ConvexOn ℝ\n        {Λ : Matrix (Fin p) (Fin p) ℝ | Λ.PosSemidef} g ∧\n\n      \n      g 0 = 0 ∧\n      (∀ Λ : Matrix (Fin p) (Fin p) ℝ,\n        Λ.PosSemidef → Λ ≠ 0 → 0 < g Λ) ∧\n\n      \n      (∀ (c : ℝ) (Λ : Matrix (Fin p) (Fin p) ℝ),\n        0 ≤ c →\n        Λ.PosSemidef →\n        g (c • Λ) = c * g Λ) ∧\n\n      \n      ∀ w : Fin p → ℝ,\n        IsLeast\n            ((fun Λ : Matrix (Fin p) (Fin p) ℝ =>\n                matrixFractional Λ w ^ (1 / 2 : ℝ)) ''\n              {Λ : Matrix (Fin p) (Fin p) ℝ |\n                Λ.PosSemidef ∧ g Λ ≤ 1})\n            (ENNReal.ofReal (Ω w)) ∧\n        IsLeast\n            ((fun Λ : Matrix (Fin p) (Fin p) ℝ =>\n                matrixFractional Λ w + ENNReal.ofReal (g Λ)) ''\n              {Λ : Matrix (Fin p) (Fin p) ℝ |\n                Λ.PosSemidef})\n            (2 * ENNReal.ofReal (Ω w)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Optimizing_with_sparsity_inducing_penalties_sparsity_proposition_5_1.proposition_5_1"
+    }
+  ],
+  "id": "sparsity_proposition_5_1",
+  "module": "LeanEval.AutoformBench.Optimizing_with_sparsity_inducing_penalties.sparsity_proposition_5_1"
+}

@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "prod_of_spectralSpaces_is_spectralSpace",
+      "body": "theorem prod_of_spectralSpaces_is_spectralSpace\n  (X Y : Type*)\n  [TopologicalSpace X] [SpectralSpace X]\n  [TopologicalSpace Y] [SpectralSpace Y] :\n    SpectralSpace (X × Y) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_prod_of_spectralSpaces_is_spectralSpace.prod_of_spectralSpaces_is_spectralSpace"
+    }
+  ],
+  "id": "stacks_prod_of_spectralSpaces_is_spectralSpace",
+  "module": "LeanEval.AutoformBench.Stacks_Project.stacks_prod_of_spectralSpaces_is_spectralSpace"
+}

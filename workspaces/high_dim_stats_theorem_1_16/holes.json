@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_1_16",
+      "body": "theorem theorem_1_16\n    {Ω : Type*} [MeasurableSpace Ω]\n    {μ : Measure Ω} [IsProbabilityMeasure μ]\n    {d N : ℕ} [NeZero N]\n    {P : Set (EuclideanSpace ℝ (Fin d))}\n    {vertices : Fin N → EuclideanSpace ℝ (Fin d)}\n    {X : Ω → EuclideanSpace ℝ (Fin d)} {sigma : ℝ}\n    (hP : IsListedConvexPolytope P vertices)\n    (h_vertex_subG :\n      ∀ i : Fin N, IsSubGaussian μ (vertexLinearForms vertices X i) sigma) :\n    (Integrable (pointwiseLinearFormSupOn P X) μ ∧\n      (∫ ω, pointwiseLinearFormSupOn P X ω ∂μ) ≤\n        sigma * Real.sqrt (2 * Real.log (N : ℝ))) ∧\n    (Integrable (pointwiseAbsLinearFormSupOn P X) μ ∧\n      (∫ ω, pointwiseAbsLinearFormSupOn P X ω ∂μ) ≤\n        sigma * Real.sqrt (2 * Real.log (2 * (N : ℝ)))) ∧\n    (∀ t : ℝ, 0 < t →\n      μ.real {ω | pointwiseLinearFormSupOn P X ω > t} ≤\n        (N : ℝ) * Real.exp (-(t ^ 2) / (2 * sigma ^ 2)) ∧\n      μ.real {ω | pointwiseAbsLinearFormSupOn P X ω > t} ≤\n        (2 * (N : ℝ)) * Real.exp (-(t ^ 2) / (2 * sigma ^ 2))) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_1_16.theorem_1_16"
+    }
+  ],
+  "id": "high_dim_stats_theorem_1_16",
+  "module": "LeanEval.AutoformBench.High_Dimensional_Statistics.high_dim_stats_theorem_1_16"
+}

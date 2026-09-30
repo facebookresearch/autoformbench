@@ -1,0 +1,54 @@
+{
+  "holes": [
+    {
+      "basename": "padicIntLimitTransition_dvd",
+      "body": "theorem padicIntLimitTransition_dvd (p n : ℕ) : p ^ (n + 1) ∣ p ^ (n + 2) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.padicIntLimitTransition_dvd"
+    },
+    {
+      "basename": "PadicIntLimitSubring_zero_mem",
+      "body": "theorem PadicIntLimitSubring_zero_mem (p : ℕ) [Fact (Nat.Prime p)] (n : ℕ) :\n    padicIntLimitTransition p n ((0 : (m : ℕ) → ZMod (p ^ (m + 1))) (n + 1))\n      = (0 : (m : ℕ) → ZMod (p ^ (m + 1))) n := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_zero_mem"
+    },
+    {
+      "basename": "PadicIntLimitSubring_one_mem",
+      "body": "theorem PadicIntLimitSubring_one_mem (p : ℕ) [Fact (Nat.Prime p)] (n : ℕ) :\n    padicIntLimitTransition p n ((1 : (m : ℕ) → ZMod (p ^ (m + 1))) (n + 1))\n      = (1 : (m : ℕ) → ZMod (p ^ (m + 1))) n := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_one_mem"
+    },
+    {
+      "basename": "PadicIntLimitSubring_add_mem",
+      "body": "theorem PadicIntLimitSubring_add_mem (p : ℕ) [Fact (Nat.Prime p)]\n    (a b : (m : ℕ) → ZMod (p ^ (m + 1)))\n    (ha : ∀ n : ℕ, padicIntLimitTransition p n (a (n + 1)) = a n)\n    (hb : ∀ n : ℕ, padicIntLimitTransition p n (b (n + 1)) = b n) :\n    ∀ n : ℕ, padicIntLimitTransition p n ((a + b) (n + 1)) = (a + b) n := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_add_mem"
+    },
+    {
+      "basename": "PadicIntLimitSubring_neg_mem",
+      "body": "theorem PadicIntLimitSubring_neg_mem (p : ℕ) [Fact (Nat.Prime p)]\n    (a : (m : ℕ) → ZMod (p ^ (m + 1)))\n    (ha : ∀ n : ℕ, padicIntLimitTransition p n (a (n + 1)) = a n) :\n    ∀ n : ℕ, padicIntLimitTransition p n ((-a) (n + 1)) = (-a) n := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_neg_mem"
+    },
+    {
+      "basename": "PadicIntLimitSubring_mul_mem",
+      "body": "theorem PadicIntLimitSubring_mul_mem (p : ℕ) [Fact (Nat.Prime p)]\n    (a b : (m : ℕ) → ZMod (p ^ (m + 1)))\n    (ha : ∀ n : ℕ, padicIntLimitTransition p n (a (n + 1)) = a n)\n    (hb : ∀ n : ℕ, padicIntLimitTransition p n (b (n + 1)) = b n) :\n    ∀ n : ℕ, padicIntLimitTransition p n ((a * b) (n + 1)) = (a * b) n := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_mul_mem"
+    },
+    {
+      "basename": "instIsDomainPadicIntLimit",
+      "body": "instance instIsDomainPadicIntLimit (p : ℕ) [Fact (Nat.Prime p)] :\n    IsDomain (PadicIntLimit p) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.instIsDomainPadicIntLimit"
+    },
+    {
+      "basename": "padic_completion_rat_iso_fraction_field_padic_int_limit",
+      "body": "theorem padic_completion_rat_iso_fraction_field_padic_int_limit\n    (p : ℕ) [Fact (Nat.Prime p)] :\n    Nonempty (ℚ_[p] ≃+* FractionRing (PadicIntLimit p)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.padic_completion_rat_iso_fraction_field_padic_int_limit"
+    }
+  ],
+  "id": "arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit",
+  "module": "LeanEval.AutoformBench.value_pinned.Introduction_to_Arithmetic_Geometry.arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit"
+}

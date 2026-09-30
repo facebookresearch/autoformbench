@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_1_3",
+      "body": "theorem proposition_1_3\n    {𝕜 : Type u} [RCLike 𝕜]\n    {V : Type*} [NormedAddCommGroup V] [NormedSpace ℝ V] [NormedSpace 𝕜 V] [IsScalarTower ℝ 𝕜 V]\n    (u : V →ₗ[ℝ] ℝ) :\n    (Continuous u ↔ ContinuousAt u 0) ∧\n    (Continuous u ↔ ∃ C : ℝ, ∀ v : V, ‖v‖ ≤ 1 → ‖u v‖ ≤ C) ∧\n    (Continuous u ↔ ∃ C : ℝ, ∀ v : V, ‖u v‖ ≤ C * ‖v‖) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Differential_Analysis_diff_analysis_proposition_1_3.proposition_1_3"
+    }
+  ],
+  "id": "diff_analysis_proposition_1_3",
+  "module": "LeanEval.AutoformBench.Differential_Analysis.diff_analysis_proposition_1_3"
+}

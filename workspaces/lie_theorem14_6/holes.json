@@ -1,0 +1,24 @@
+{
+  "holes": [
+    {
+      "basename": "existsUnique_oneParameterSubgroup",
+      "body": "theorem existsUnique_oneParameterSubgroup\n    [LieGroup I ⊤ G] [CompleteSpace E] [FiniteDimensional 𝕜 E]\n    (x : GroupLieAlgebra I G) :\n    ∃! γ : OneParameterSubgroup I G,\n      γ.velocityAtZero = x := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem14_6.existsUnique_oneParameterSubgroup"
+    },
+    {
+      "basename": "theorem_7_5_i_local_diffeomorph_at_zero",
+      "body": "theorem theorem_7_5_i_local_diffeomorph_at_zero\n    [LieGroup I ⊤ G] [CompleteSpace E] [FiniteDimensional 𝕜 E] :\n    IsLocalDiffeomorphAt\n      (modelWithCornersSelf 𝕜 E)\n      I\n      ⊤\n      (fun v : E =>\n        lieExpModel (I := I) (G := G) v)\n      (0 : E) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem14_6.theorem_7_5_i_local_diffeomorph_at_zero"
+    },
+    {
+      "basename": "theorem14_6",
+      "body": "theorem theorem14_6\n    (n : ℕ) (hn : 1 ≤ n) :\n    ∃ Pn : UniversalBCHLiePolynomial,\n      ∀ {𝕜 : Type u𝕜} [RCLike 𝕜] [CharZero 𝕜]\n        [Algebra ℚ 𝕜]\n        {H : Type uH} [TopologicalSpace H]\n        {E : Type uE} [NormedAddCommGroup E] [NormedSpace 𝕜 E]\n        {I : ModelWithCorners 𝕜 E H}\n        {G : Type uG} [TopologicalSpace G] [ChartedSpace H G] [Group G]\n        [LieGroup I ⊤ G] [LieGroup I (minSmoothness 𝕜 3) G]\n        [CompleteSpace E] [FiniteDimensional 𝕜 E]\n        [LieAlgebra ℚ (GroupLieAlgebra I G)]\n        [IsScalarTower ℚ 𝕜 (GroupLieAlgebra I G)]\n        (x y : GroupLieAlgebra I G),\n          evalUniversalBCHLiePolynomial Pn x y\n            =\n          bchMuCoeff (𝕜 := 𝕜) (I := I) (G := G) n x y := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Lie_groups_lie_algebras_lie_theorem14_6.theorem14_6"
+    }
+  ],
+  "id": "lie_theorem14_6",
+  "module": "LeanEval.AutoformBench.Lie_groups_lie_algebras.lie_theorem14_6"
+}

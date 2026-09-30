@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "northcott_25_18",
+      "body": "theorem northcott_25_18\n    (B d n : ℕ) (hB : 0 < B) (hd : 0 < d) (hn : 0 < n) :\n    (NorthcottSet B d n).Finite := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_northcott_25_18.northcott_25_18"
+    }
+  ],
+  "id": "arith_geom_northcott_25_18",
+  "module": "LeanEval.AutoformBench.Introduction_to_Arithmetic_Geometry.arith_geom_northcott_25_18"
+}

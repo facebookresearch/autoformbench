@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "slide174_threeSAT_polyTime_reduces_clique",
+      "body": "theorem slide174_threeSAT_polyTime_reduces_clique :\n    Nonempty (ThreeSAT ≤ₚ[encodeThreeCNF, CliqueInstance.encode] CLIQUE) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Introduction_to_the_Theory_of_Computation_computation_slide174_threeSAT_polyTime_reduces_clique.slide174_threeSAT_polyTime_reduces_clique"
+    }
+  ],
+  "id": "computation_slide174_threeSAT_polyTime_reduces_clique",
+  "module": "LeanEval.AutoformBench.Introduction_to_the_Theory_of_Computation.computation_slide174_threeSAT_polyTime_reduces_clique"
+}

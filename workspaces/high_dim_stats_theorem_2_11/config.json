@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_2_11.mse_of_ort",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_2_11.subGaussianSequenceModel_of_ort",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_2_11.ort_of_subGaussianSequenceModel",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_2_11.theorem_2_11"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

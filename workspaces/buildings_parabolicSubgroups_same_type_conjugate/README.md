@@ -1,0 +1,25 @@
+# `buildings_parabolicSubgroups_same_type_conjugate`
+
+This directory is one source-free AutoformBench proof-completion workspace.
+
+- Problem ID: `buildings_parabolicSubgroups_same_type_conjugate`
+- Graded declarations:
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_one_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_mul_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.isometryGroup_inv_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_one_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_mul_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.conjugateSubgroupBy_inv_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_one_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_mul_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.flagStabilizerParabolic_inv_mem`
+- `Autoform_Buildings_and_Classical_Groups_buildings_parabolicSubgroups_same_type_conjugate.parabolicSubgroups_same_type_conjugate`
+
+Replace every target `sorry` in `Submission.lean`. Auxiliary definitions and
+lemmas may be added below `Submission/` and imported by `Submission.lean`.
+Do not modify the trusted challenge or grading files.
+
+`lake build` checks that the local project elaborates. Official clean-room
+grading uses the Harbor verifier documented in `../../harbor/README.md`; direct
+`lake test` additionally requires the pinned Comparator, lean4export, nanoda,
+and landrun binaries.

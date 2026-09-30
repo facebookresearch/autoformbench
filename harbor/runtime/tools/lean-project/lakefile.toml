@@ -1,0 +1,17 @@
+name = "autoform_tools"
+version = "0.1.0"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "905b95818eb32af7874a58b427f50c1711a5e96c"
+
+[[require]]
+name = "REPL"
+git = "https://github.com/leanprover-community/repl"
+rev = "v4.32.0"
+
+[[require]]
+name = "loogle"
+git = "https://github.com/nomeata/loogle"
+rev = "9f11169aaebf1ed1e7dcc4077f2aafe0fcf66fd0"

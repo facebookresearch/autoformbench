@@ -1,0 +1,30 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_18_15a_universal_splitting_exists",
+      "body": "theorem theorem_18_15a_universal_splitting_exists\n    [IsAzumaya R A]\n    (hd : 0 < d)\n    (h_rank : HasConstantRankDegreeSquared R A d) :\n    Nonempty (UniversalMatrixSplittingAlgebra R A d) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_18_15_universal_splitting.theorem_18_15a_universal_splitting_exists"
+    },
+    {
+      "basename": "theorem_18_15b_universal_splitting_formallySmooth",
+      "body": "theorem theorem_18_15b_universal_splitting_formallySmooth\n    [IsAzumaya R A]\n    (hd : 0 < d)\n    (h_rank : HasConstantRankDegreeSquared R A d)\n    (U : UniversalMatrixSplittingAlgebra R A d) :\n    Algebra.FormallySmooth R U.S_univ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_18_15_universal_splitting.theorem_18_15b_universal_splitting_formallySmooth"
+    },
+    {
+      "basename": "theorem_18_15b_universal_splitting_faithfullyFlat",
+      "body": "theorem theorem_18_15b_universal_splitting_faithfullyFlat\n    [IsAzumaya R A]\n    [IsNoetherianRing R]\n    (hd : 0 < d)\n    (h_rank : HasConstantRankDegreeSquared R A d)\n    (U : UniversalMatrixSplittingAlgebra R A d) :\n    RingHom.FaithfullyFlat (algebraMap R U.S_univ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_18_15_universal_splitting.theorem_18_15b_universal_splitting_faithfullyFlat"
+    },
+    {
+      "basename": "theorem_18_15_universal_splitting",
+      "body": "theorem theorem_18_15_universal_splitting\n    [IsAzumaya R A]\n    (hd : 0 < d)\n    (h_rank : HasConstantRankDegreeSquared R A d) :\n    ∃ U : UniversalMatrixSplittingAlgebra R A d,\n      Algebra.FormallySmooth R U.S_univ ∧\n        (IsNoetherianRing R →\n          RingHom.FaithfullyFlat (algebraMap R U.S_univ)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_18_15_universal_splitting.theorem_18_15_universal_splitting"
+    }
+  ],
+  "id": "noncomm_alg_theorem_18_15_universal_splitting",
+  "module": "LeanEval.AutoformBench.Noncommutative_Algebra.noncomm_alg_theorem_18_15_universal_splitting"
+}

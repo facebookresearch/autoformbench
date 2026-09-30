@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "theorem_9_0_1_green_tao",
+      "body": "theorem theorem_9_0_1_green_tao :\n    ∀ k : ℕ, ∃ a d : ℕ, 0 < d ∧ ∀ i < k, Nat.Prime (a + d * i) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_9_0_1_green_tao.theorem_9_0_1_green_tao"
+    }
+  ],
+  "id": "graph_theory_theorem_9_0_1_green_tao",
+  "module": "LeanEval.AutoformBench.Graph_Theory_and_Additive_Combinatorics.graph_theory_theorem_9_0_1_green_tao"
+}

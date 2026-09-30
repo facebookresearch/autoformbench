@@ -1,0 +1,15 @@
+import Mathlib
+import Submission.Helpers
+
+open CategoryTheory AlgebraicTopology
+
+namespace Submission
+
+theorem theorem52_integral {X Y : TopCat} {f₀ f₁ : X ⟶ Y}
+    (H : f₀.hom.Homotopy f₁.hom) :
+    ∀ n : ℕ,
+      (((singularHomologyFunctor (ModuleCat ℤ) n).obj (ModuleCat.of ℤ ℤ)).map f₀) =
+      (((singularHomologyFunctor (ModuleCat ℤ) n).obj (ModuleCat.of ℤ ℤ)).map f₁) := by
+  sorry
+
+end Submission

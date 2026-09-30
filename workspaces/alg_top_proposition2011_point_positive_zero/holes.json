@@ -1,0 +1,36 @@
+{
+  "holes": [
+    {
+      "basename": "onSubspace_continuous",
+      "body": "theorem onSubspace_continuous\n    {P Q : TopPair} (f : TopPairMap P Q) :\n    Continuous\n      (fun x : ↑(PairSubspace P) =>\n        (⟨f.toMap.hom x.1, f.mapsTo x.1 x.2⟩ : ↑(PairSubspace Q))) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.onSubspace_continuous"
+    },
+    {
+      "basename": "onSubspace_comm",
+      "body": "theorem onSubspace_comm\n    {P Q : TopPair} (f : TopPairMap P Q) :\n    PairInclusion P ≫ f.toMap =\n      TopPairMap.onSubspace f ≫ PairInclusion Q := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.onSubspace_comm"
+    },
+    {
+      "basename": "relativeChainMapWithCoefficients_comp_eq_zero",
+      "body": "theorem relativeChainMapWithCoefficients_comp_eq_zero\n    (M : ZModCat) {P Q : TopPair} (f : TopPairMap P Q) :\n    SingCCMapWithCoefficients M (PairInclusion P) ≫\n        SingCCMapWithCoefficients M f.toMap ≫\n          cokernel.π (SingCCMapWithCoefficients M (PairInclusion Q)) = 0 := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.relativeChainMapWithCoefficients_comp_eq_zero"
+    },
+    {
+      "basename": "coproductInclusion_continuous",
+      "body": "theorem coproductInclusion_continuous\n    {ι : Type} (X : ι → TopCat) (i : ι) :\n    Continuous\n      (fun x : ↑(X i) => (⟨i, x⟩ : ↑(coproductSpace X))) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.coproductInclusion_continuous"
+    },
+    {
+      "basename": "proposition2011",
+      "body": "theorem proposition2011 (M : ZModCat) :\n    EilenbergSteenrodAxiomsWithCoefficients M := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.proposition2011"
+    }
+  ],
+  "id": "alg_top_proposition2011_point_positive_zero",
+  "module": "LeanEval.AutoformBench.value_pinned.Algebraic_Topology_I.alg_top_proposition2011_point_positive_zero"
+}

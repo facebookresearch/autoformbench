@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_5_2",
+      "body": "theorem proposition_5_2 [Nonempty ι]\n    (F : Finset ι → ℝ)\n    (hF_empty : F ∅ = 0)\n    (hF_submodular : IsSubmodular F)\n    (hF_mono : Monotone F) :\n    (IsRealVectorNorm (omegaInfinity F) ↔\n        ∀ i : ι, 0 < F ({i} : Finset ι)) ∧\n      ((∀ i : ι, 0 < F ({i} : Finset ι)) →\n        ∀ s : ι → ℝ,\n          dualNormOf (omegaInfinity F) s = dualOmegaInfinityFormula F s) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Learning_with_Submodular_Functions_submodular_proposition_5_2.proposition_5_2"
+    }
+  ],
+  "id": "submodular_proposition_5_2",
+  "module": "LeanEval.AutoformBench.Learning_with_Submodular_Functions.submodular_proposition_5_2"
+}

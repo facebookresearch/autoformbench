@@ -1,0 +1,3 @@
+import ChallengeDeps
+import Submission
+open Autoform_Algebraic_Geometry_I_alg_geom_chow_lemma.AlgebraicGeometryI.ChowLemma

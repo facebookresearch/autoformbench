@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "lemma_29_5",
+      "body": "theorem lemma_29_5\n    {C : Type u} [Category.{u} C]\n    (J : GrothendieckTopology C)\n    {I : Type u}\n    (F : I → Sheaf J (Type u)) :\n    Nonempty (Witness J F) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Stacks_Project_stacks_lemma_29_5.lemma_29_5"
+    }
+  ],
+  "id": "stacks_lemma_29_5",
+  "module": "LeanEval.AutoformBench.Stacks_Project.stacks_lemma_29_5"
+}

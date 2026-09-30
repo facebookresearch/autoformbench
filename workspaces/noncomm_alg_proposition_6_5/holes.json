@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "proposition_6_5",
+      "body": "theorem proposition_6_5\n    (R : Type u) [Ring R]\n    (M : Type v) [AddCommGroup M] [Module R M] :\n    Nonempty (ProjectiveSurjection R M) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Noncommutative_Algebra_noncomm_alg_proposition_6_5.proposition_6_5"
+    }
+  ],
+  "id": "noncomm_alg_proposition_6_5",
+  "module": "LeanEval.AutoformBench.Noncommutative_Algebra.noncomm_alg_proposition_6_5"
+}

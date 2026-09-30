@@ -1,0 +1,168 @@
+{
+  "holes": [
+    {
+      "basename": "actionByActingObject_map_id",
+      "body": "theorem actionByActingObject_map_id\n    (C : Type uC) (M : Type uM)\n    [Category.{vC} C] [MonoidalCategory C]\n    [Category.{vM} M] [MonoidalLeftAction C M]\n    (X : C) (m : M) :\n    (X ⊴ₗ (𝟙 m)) = 𝟙 (X ⊙ₗ m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByActingObject_map_id"
+    },
+    {
+      "basename": "actionByActingObject_map_comp",
+      "body": "theorem actionByActingObject_map_comp\n    (C : Type uC) (M : Type uM)\n    [Category.{vC} C] [MonoidalCategory C]\n    [Category.{vM} M] [MonoidalLeftAction C M]\n    (X : C) {m n p : M} (f : m ⟶ n) (g : n ⟶ p) :\n    (X ⊴ₗ (f ≫ g)) = (X ⊴ₗ f) ≫ (X ⊴ₗ g) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByActingObject_map_comp"
+    },
+    {
+      "basename": "actionByModuleObject_map_id",
+      "body": "theorem actionByModuleObject_map_id\n    (C : Type uC) (M : Type uM)\n    [Category.{vC} C] [MonoidalCategory C]\n    [Category.{vM} M] [MonoidalLeftAction C M]\n    (m : M) (X : C) :\n    ((𝟙 X) ⊵ₗ m) = 𝟙 (X ⊙ₗ m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByModuleObject_map_id"
+    },
+    {
+      "basename": "actionByModuleObject_map_comp",
+      "body": "theorem actionByModuleObject_map_comp\n    (C : Type uC) (M : Type uM)\n    [Category.{vC} C] [MonoidalCategory C]\n    [Category.{vM} M] [MonoidalLeftAction C M]\n    (m : M) {X Y Z : C} (f : X ⟶ Y) (g : Y ⟶ Z) :\n    ((f ≫ g) ⊵ₗ m) = (f ⊵ₗ m) ≫ (g ⊵ₗ m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByModuleObject_map_comp"
+    },
+    {
+      "basename": "moduleFunctorCategory_id_compatible",
+      "body": "theorem moduleFunctorCategory_id_compatible\n    (F : ModuleFunctor k C M N) (X : C) (m : M) :\n    NatTrans.app (𝟙 F.toFunctor) (X ⊙ₗ m) ≫ (F.strength X m).hom =\n      (F.strength X m).hom ≫ (X ⊴ₗ NatTrans.app (𝟙 F.toFunctor) m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_id_compatible"
+    },
+    {
+      "basename": "moduleFunctorCategory_comp_compatible",
+      "body": "theorem moduleFunctorCategory_comp_compatible\n    {F G H : ModuleFunctor k C M N}\n    (η : ModuleFunctor.Hom F G) (θ : ModuleFunctor.Hom G H) (X : C) (m : M) :\n    (η.τ ≫ θ.τ).app (X ⊙ₗ m) ≫ (H.strength X m).hom =\n      (F.strength X m).hom ≫ (X ⊴ₗ (η.τ ≫ θ.τ).app m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_comp_compatible"
+    },
+    {
+      "basename": "moduleFunctorCategory_id_comp",
+      "body": "theorem moduleFunctorCategory_id_comp\n    {F G : ModuleFunctor k C M N} (η : ModuleFunctor.Hom F G) :\n    𝟙 F.toFunctor ≫ η.τ = η.τ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_id_comp"
+    },
+    {
+      "basename": "moduleFunctorCategory_comp_id",
+      "body": "theorem moduleFunctorCategory_comp_id\n    {F G : ModuleFunctor k C M N} (η : ModuleFunctor.Hom F G) :\n    η.τ ≫ 𝟙 G.toFunctor = η.τ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_comp_id"
+    },
+    {
+      "basename": "moduleFunctorCategory_assoc",
+      "body": "theorem moduleFunctorCategory_assoc\n    {F G H I : ModuleFunctor k C M N}\n    (η : ModuleFunctor.Hom F G) (θ : ModuleFunctor.Hom G H)\n    (κ : ModuleFunctor.Hom H I) :\n    (η.τ ≫ θ.τ) ≫ κ.τ = η.τ ≫ (θ.τ ≫ κ.τ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_assoc"
+    },
+    {
+      "basename": "moduleFunctorComp_strength_naturality_left",
+      "body": "theorem moduleFunctorComp_strength_naturality_left\n    (F G : ModuleFunctor k C M M) {X Y : C} (f : X ⟶ Y) (m : M) :\n    (G.toFunctor ⋙ F.toFunctor).map (f ⊵ₗ m) ≫\n        (F.toFunctor.mapIso (G.strength Y m) ≪≫\n          F.strength Y (G.toFunctor.obj m)).hom =\n      (F.toFunctor.mapIso (G.strength X m) ≪≫\n          F.strength X (G.toFunctor.obj m)).hom ≫\n        (f ⊵ₗ (G.toFunctor ⋙ F.toFunctor).obj m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_naturality_left"
+    },
+    {
+      "basename": "moduleFunctorComp_strength_naturality_right",
+      "body": "theorem moduleFunctorComp_strength_naturality_right\n    (F G : ModuleFunctor k C M M) (X : C) {m n : M} (g : m ⟶ n) :\n    (G.toFunctor ⋙ F.toFunctor).map (X ⊴ₗ g) ≫\n        (F.toFunctor.mapIso (G.strength X n) ≪≫\n          F.strength X (G.toFunctor.obj n)).hom =\n      (F.toFunctor.mapIso (G.strength X m) ≪≫\n          F.strength X (G.toFunctor.obj m)).hom ≫\n        (X ⊴ₗ (G.toFunctor ⋙ F.toFunctor).map g) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_naturality_right"
+    },
+    {
+      "basename": "moduleFunctorComp_strength_assoc",
+      "body": "theorem moduleFunctorComp_strength_assoc\n    (F G : ModuleFunctor k C M M) (X Y : C) (m : M) :\n    (G.toFunctor ⋙ F.toFunctor).map ((αₗ X Y m).hom) ≫\n        (F.toFunctor.mapIso (G.strength X (Y ⊙ₗ m)) ≪≫\n            F.strength X (G.toFunctor.obj (Y ⊙ₗ m))).hom ≫\n          (X ⊴ₗ (F.toFunctor.mapIso (G.strength Y m) ≪≫\n            F.strength Y (G.toFunctor.obj m)).hom) =\n      (F.toFunctor.mapIso (G.strength (X ⊗ Y) m) ≪≫\n          F.strength (X ⊗ Y) (G.toFunctor.obj m)).hom ≫\n        (αₗ X Y ((G.toFunctor ⋙ F.toFunctor).obj m)).hom := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_assoc"
+    },
+    {
+      "basename": "moduleFunctorComp_strength_unit",
+      "body": "theorem moduleFunctorComp_strength_unit\n    (F G : ModuleFunctor k C M M) (m : M) :\n    (G.toFunctor ⋙ F.toFunctor).map ((λₗ[C] m).hom) =\n      (F.toFunctor.mapIso (G.strength (𝟙_ C) m) ≪≫\n          F.strength (𝟙_ C) (G.toFunctor.obj m)).hom ≫\n        (λₗ[C] ((G.toFunctor ⋙ F.toFunctor).obj m)).hom := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_unit"
+    },
+    {
+      "basename": "doubleDualFunctorCategory_id_compatible",
+      "body": "theorem doubleDualFunctorCategory_id_compatible\n    (S : DoubleDualFunctor k C M) (F : DualCategory k C M) (m : M) :\n    NatTrans.app (𝟙 S.toFunctor) (F.toFunctor.obj m) ≫ (S.commute F m).hom =\n      (S.commute F m).hom ≫ F.toFunctor.map (NatTrans.app (𝟙 S.toFunctor) m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_id_compatible"
+    },
+    {
+      "basename": "doubleDualFunctorCategory_comp_compatible",
+      "body": "theorem doubleDualFunctorCategory_comp_compatible\n    {S T U : DoubleDualFunctor k C M}\n    (η : DoubleDualFunctor.Hom S T) (θ : DoubleDualFunctor.Hom T U)\n    (F : DualCategory k C M) (m : M) :\n    (η.τ ≫ θ.τ).app (F.toFunctor.obj m) ≫ (U.commute F m).hom =\n      (S.commute F m).hom ≫ F.toFunctor.map ((η.τ ≫ θ.τ).app m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_comp_compatible"
+    },
+    {
+      "basename": "doubleDualFunctorCategory_id_comp",
+      "body": "theorem doubleDualFunctorCategory_id_comp\n    {S T : DoubleDualFunctor k C M} (η : DoubleDualFunctor.Hom S T) :\n    𝟙 S.toFunctor ≫ η.τ = η.τ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_id_comp"
+    },
+    {
+      "basename": "doubleDualFunctorCategory_comp_id",
+      "body": "theorem doubleDualFunctorCategory_comp_id\n    {S T : DoubleDualFunctor k C M} (η : DoubleDualFunctor.Hom S T) :\n    η.τ ≫ 𝟙 T.toFunctor = η.τ := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_comp_id"
+    },
+    {
+      "basename": "doubleDualFunctorCategory_assoc",
+      "body": "theorem doubleDualFunctorCategory_assoc\n    {R S T U : DoubleDualFunctor k C M}\n    (η : DoubleDualFunctor.Hom R S) (θ : DoubleDualFunctor.Hom S T)\n    (κ : DoubleDualFunctor.Hom T U) :\n    (η.τ ≫ θ.τ) ≫ κ.τ = η.τ ≫ (θ.τ ≫ κ.τ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_assoc"
+    },
+    {
+      "basename": "canObj_commute_naturality_m",
+      "body": "theorem canObj_commute_naturality_m\n    (X : C) (F : DualCategory k C M) {m n : M} (f : m ⟶ n) :\n    (actionByActingObject C M X).map (F.toFunctor.map f) ≫\n        (F.strength X n).symm.hom =\n      (F.strength X m).symm.hom ≫\n        F.toFunctor.map ((actionByActingObject C M X).map f) := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_naturality_m"
+    },
+    {
+      "basename": "canObj_commute_naturality_F",
+      "body": "theorem canObj_commute_naturality_F\n    (X : C) {F G : DualCategory k C M} (η : F ⟶ G) (m : M) :\n    (actionByActingObject C M X).map (η.τ.app m) ≫ (G.strength X m).symm.hom =\n      (F.strength X m).symm.hom ≫\n        η.τ.app ((actionByActingObject C M X).obj m) := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_naturality_F"
+    },
+    {
+      "basename": "canObj_commute_unit",
+      "body": "theorem canObj_commute_unit (X : C) (m : M) :\n    ((ModuleFunctor.id k C M).strength X m).symm.hom =\n      𝟙 ((actionByActingObject C M X).obj m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_unit"
+    },
+    {
+      "basename": "canObj_commute_comp",
+      "body": "theorem canObj_commute_comp\n    (X : C) (F G : DualCategory k C M) (m : M) :\n    ((ModuleFunctor.comp F G).strength X m).symm.hom =\n      (F.strength X (G.toFunctor.obj m)).symm.hom ≫\n        F.toFunctor.map ((G.strength X m).symm.hom) := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_comp"
+    },
+    {
+      "basename": "canFunctor_map_naturality",
+      "body": "theorem canFunctor_map_naturality\n    {X Y : C} (f : X ⟶ Y) {m n : M} (g : m ⟶ n) :\n    (canObj k C M X).toFunctor.map g ≫ (f ⊵ₗ n) =\n      (f ⊵ₗ m) ≫ (canObj k C M Y).toFunctor.map g := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_naturality"
+    },
+    {
+      "basename": "canFunctor_map_compatible",
+      "body": "theorem canFunctor_map_compatible\n    {X Y : C} (f : X ⟶ Y) (F : DualCategory k C M) (m : M) :\n    (f ⊵ₗ F.toFunctor.obj m) ≫ ((canObj k C M Y).commute F m).hom =\n      ((canObj k C M X).commute F m).hom ≫ F.toFunctor.map (f ⊵ₗ m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_compatible"
+    },
+    {
+      "basename": "canFunctor_map_id",
+      "body": "theorem canFunctor_map_id\n    (k : Type uk) (C : Type uC) (M : Type uM)\n    [Field k]\n    [Category.{vC} C] [Abelian C] [Linear k C]\n    [MonoidalCategory C] [MonoidalPreadditive C] [MonoidalLinear k C]\n    [LeftRigidCategory C] [RightRigidCategory C]\n    [FiniteMultitensorCategory k C]\n    [Category.{vM} M] [Abelian M] [Linear k M]\n    [FiniteAbelianCategory k M]\n    [MonoidalLeftAction C M]\n    [FiniteModuleCategory k C M]\n    (X : C) (m : M) :\n    ((𝟙 X) ⊵ₗ m) = 𝟙 (X ⊙ₗ m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_id"
+    },
+    {
+      "basename": "canFunctor_map_comp",
+      "body": "theorem canFunctor_map_comp\n    (k : Type uk) (C : Type uC) (M : Type uM)\n    [Field k]\n    [Category.{vC} C] [Abelian C] [Linear k C]\n    [MonoidalCategory C] [MonoidalPreadditive C] [MonoidalLinear k C]\n    [LeftRigidCategory C] [RightRigidCategory C]\n    [FiniteMultitensorCategory k C]\n    [Category.{vM} M] [Abelian M] [Linear k M]\n    [FiniteAbelianCategory k M]\n    [MonoidalLeftAction C M]\n    [FiniteModuleCategory k C M]\n    {X Y Z : C} (f : X ⟶ Y) (g : Y ⟶ Z) (m : M) :\n    ((f ≫ g) ⊵ₗ m) = (f ⊵ₗ m) ≫ (g ⊵ₗ m) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_comp"
+    },
+    {
+      "basename": "theorem_2_14_6",
+      "body": "theorem theorem_2_14_6\n    (k : Type uk) [Field k] [IsAlgClosed k]\n    (C : Type uC)\n    [Category.{vC} C] [Abelian C] [Linear k C]\n    [MonoidalCategory C] [MonoidalPreadditive C] [MonoidalLinear k C]\n    [LeftRigidCategory C] [RightRigidCategory C]\n    [FiniteMultitensorCategory k C]\n    (M : Type uM)\n    [Category.{vM} M] [Abelian M] [Linear k M]\n    [FiniteAbelianCategory k M]\n    [MonoidalLeftAction C M]\n    [ExactModuleCategory k C M]\n    [FaithfulModuleCategory C M] :\n    (canFunctor k C M).IsEquivalence := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.theorem_2_14_6"
+    }
+  ],
+  "id": "tensor_cat_theorem_2_14_6",
+  "module": "LeanEval.AutoformBench.value_pinned.Tensor_Categories.tensor_cat_theorem_2_14_6"
+}

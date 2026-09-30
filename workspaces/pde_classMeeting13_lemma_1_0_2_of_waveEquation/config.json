@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_PDEs_pde_classMeeting13_lemma_1_0_2_of_waveEquation.classMeeting13_lemma_1_0_2",
+    "Autoform_Introduction_to_PDEs_pde_classMeeting13_lemma_1_0_2_of_waveEquation.classMeeting13_lemma_1_0_2_of_waveEquation"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

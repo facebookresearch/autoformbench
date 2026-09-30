@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "Proposition20_4",
+      "body": "theorem Proposition20_4\n    (p ell exponent : ℕ)\n    [Fact p.Prime] [Fact ell.Prime]\n    (hneq : ell ≠ p)\n    (K : Type*) [Field K]\n    [Algebra ℚ_[p] K]\n    [FiniteDimensional ℚ_[p] K]\n    [IsGalois ℚ_[p] K]\n    [IsCyclic (K ≃ₐ[ℚ_[p]] K)]\n    (hdeg : Module.finrank ℚ_[p] K = ell ^ exponent) :\n    ContainedInCyclotomicField ℚ_[p] K := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Number_Theory_I_number_theory_Proposition20_4.Proposition20_4"
+    }
+  ],
+  "id": "number_theory_Proposition20_4",
+  "module": "LeanEval.AutoformBench.Number_Theory_I.number_theory_Proposition20_4"
+}

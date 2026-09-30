@@ -1,0 +1,12 @@
+{
+  "holes": [
+    {
+      "basename": "specialSubset_reverseInclusion_equiv_properParabolic_reverseInclusion",
+      "body": "theorem specialSubset_reverseInclusion_equiv_properParabolic_reverseInclusion\n    (bn : StrictBNPair G ι M) [Fintype ι] :\n    ∃ e : SpecialSubset bn ≃ ProperParabolicSubset bn,\n      (∀ (g : G) (P : Subgroup G) (hP : IsSpecialSubgroup bn P),\n        carrier (e (specialSubsetOf bn g P hP)) = conjugateSet g (P : Set G)) ∧\n      (∀ Y Z : SpecialSubset bn,\n        specialSubsetReverseLe Y Z ↔ properParabolicSubsetReverseLe (e Y) (e Z)) ∧\n      (∀ (a : G) (Y : SpecialSubset bn),\n        e (specialSubsetLeftTranslate bn a Y) = properParabolicConjugate bn a (e Y)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Buildings_and_Classical_Groups_buildings_specialSubset_reverseInclusion_equiv_properParabolic_reverseInclusion.specialSubset_reverseInclusion_equiv_properParabolic_reverseInclusion"
+    }
+  ],
+  "id": "buildings_specialSubset_reverseInclusion_equiv_properParabolic_reverseInclusion",
+  "module": "LeanEval.AutoformBench.Buildings_and_Classical_Groups.buildings_specialSubset_reverseInclusion_equiv_properParabolic_reverseInclusion"
+}

@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Topology_I_alg_top_theorem183_expanded.finiteCW_has_cellDimensionBound",
+    "Autoform_Algebraic_Topology_I_alg_top_theorem183_expanded.theorem183_with_dimension_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

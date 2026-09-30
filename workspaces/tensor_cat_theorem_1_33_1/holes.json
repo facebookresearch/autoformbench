@@ -1,0 +1,60 @@
+{
+  "holes": [
+    {
+      "basename": "ueaComulPrimitive_map_add",
+      "body": "theorem ueaComulPrimitive_map_add\n    (k : Type uK) (L : Type uL)\n    [CommRing k] [LieRing L] [LieAlgebra k L] (x y : L) :\n    ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) (x + y)) ⊗ₜ[k] (1 : UEA k L)\n        + (1 : UEA k L) ⊗ₜ[k]\n            ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) (x + y))\n      = (((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x) ⊗ₜ[k] (1 : UEA k L)\n            + (1 : UEA k L) ⊗ₜ[k]\n                ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x))\n        + (((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) y) ⊗ₜ[k] (1 : UEA k L)\n            + (1 : UEA k L) ⊗ₜ[k]\n                ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) y)) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaComulPrimitive_map_add"
+    },
+    {
+      "basename": "ueaComulPrimitive_map_smul",
+      "body": "theorem ueaComulPrimitive_map_smul\n    (k : Type uK) (L : Type uL)\n    [CommRing k] [LieRing L] [LieAlgebra k L] (a : k) (x : L) :\n    ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) (a • x)) ⊗ₜ[k] (1 : UEA k L)\n        + (1 : UEA k L) ⊗ₜ[k]\n            ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) (a • x))\n      = (RingHom.id k) a •\n          (((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x) ⊗ₜ[k] (1 : UEA k L)\n            + (1 : UEA k L) ⊗ₜ[k]\n                ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x)) := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaComulPrimitive_map_smul"
+    },
+    {
+      "basename": "ueaComulPrimitive_map_lie",
+      "body": "theorem ueaComulPrimitive_map_lie\n    (k : Type uK) (L : Type uL)\n    [CommRing k] [LieRing L] [LieAlgebra k L] (x y : L) :\n    ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) ⁅x, y⁆) ⊗ₜ[k] (1 : UEA k L)\n        + (1 : UEA k L) ⊗ₜ[k]\n            ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) ⁅x, y⁆)\n      = ⁅((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x) ⊗ₜ[k] (1 : UEA k L)\n            + (1 : UEA k L) ⊗ₜ[k]\n                ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x),\n          ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) y) ⊗ₜ[k] (1 : UEA k L)\n            + (1 : UEA k L) ⊗ₜ[k]\n                ((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) y)⁆ := by\n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaComulPrimitive_map_lie"
+    },
+    {
+      "basename": "ueaAntipodePrimitiveOp_map_add",
+      "body": "theorem ueaAntipodePrimitiveOp_map_add\n    (k : Type uK) (L : Type uL)\n    [CommRing k] [LieRing L] [LieAlgebra k L] (x y : L) :\n    MulOpposite.op\n        (-((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) (x + y)))\n      = MulOpposite.op\n            (-((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x))\n        + MulOpposite.op\n            (-((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) y)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipodePrimitiveOp_map_add"
+    },
+    {
+      "basename": "ueaAntipodePrimitiveOp_map_smul",
+      "body": "theorem ueaAntipodePrimitiveOp_map_smul\n    (k : Type uK) (L : Type uL)\n    [CommRing k] [LieRing L] [LieAlgebra k L] (a : k) (x : L) :\n    MulOpposite.op\n        (-((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) (a • x)))\n      = (RingHom.id k) a •\n          MulOpposite.op\n            (-((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x)) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipodePrimitiveOp_map_smul"
+    },
+    {
+      "basename": "ueaAntipodePrimitiveOp_map_lie",
+      "body": "theorem ueaAntipodePrimitiveOp_map_lie\n    (k : Type uK) (L : Type uL)\n    [CommRing k] [LieRing L] [LieAlgebra k L] (x y : L) :\n    MulOpposite.op\n        (-((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) ⁅x, y⁆))\n      = ⁅MulOpposite.op\n            (-((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) x)),\n          MulOpposite.op\n            (-((UniversalEnvelopingAlgebra.ι k : L →ₗ⁅k⁆ UEA k L) y))⁆ := by\n  \n  \n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipodePrimitiveOp_map_lie"
+    },
+    {
+      "basename": "ueaAntipode_map_add",
+      "body": "theorem ueaAntipode_map_add\n    (k : Type uK) (L : Type uL)\n    [CommRing k] [LieRing L] [LieAlgebra k L] (a b : UEA k L) :\n    MulOpposite.unop ((ueaAntipodeToOpAlgHom k L) (a + b))\n      = MulOpposite.unop ((ueaAntipodeToOpAlgHom k L) a)\n        + MulOpposite.unop ((ueaAntipodeToOpAlgHom k L) b) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipode_map_add"
+    },
+    {
+      "basename": "ueaAntipode_map_smul",
+      "body": "theorem ueaAntipode_map_smul\n    (k : Type uK) (L : Type uL)\n    [CommRing k] [LieRing L] [LieAlgebra k L] (c : k) (a : UEA k L) :\n    MulOpposite.unop ((ueaAntipodeToOpAlgHom k L) (c • a))\n      = (RingHom.id k) c • MulOpposite.unop ((ueaAntipodeToOpAlgHom k L) a) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipode_map_smul"
+    },
+    {
+      "basename": "theorem_1_33_1",
+      "body": "theorem theorem_1_33_1\n    (k : Type uK) [Field k] [IsAlgClosed k] [CharZero k]\n    (H : Type uH) [Ring H] [HopfAlgebra k H]\n    [HasBijectiveAntipode k H]\n    [Coalgebra.IsCocomm k H] :\n    ∃ (G : Type uH) (_ : Group G)\n      (L : Type uH) (_ : LieRing L) (_ : LieAlgebra k L)\n      (ρ : LieAction k G L),\n        Nonempty (CartierKostantEquiv k H G L ρ) := by\n  sorry",
+      "kind": "theorem",
+      "name": "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.theorem_1_33_1"
+    }
+  ],
+  "id": "tensor_cat_theorem_1_33_1",
+  "module": "LeanEval.AutoformBench.value_pinned.Tensor_Categories.tensor_cat_theorem_1_33_1"
+}

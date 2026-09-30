@@ -1,0 +1,38 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.brauerGroupLaw_exists",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.one_isSplitBy",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.mul_isSplitBy",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.inv_isSplitBy",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.isSplitBy_of_algHom",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycles_one_mem",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycles_mul_mem",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycles_inv_mem",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCoboundaries_one_mem",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCoboundaries_mul_mem",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCoboundaries_inv_mem",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.refl_restriction_surjective",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.refl_equivariant",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.comp_restriction_surjective",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.comp_equivariant",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.mapTwoCochain_isMulCocycle\u2082",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.mapTwoCochain_isMulCoboundary\u2082",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycleTransition_map_one",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycleTransition_map_mul",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisTwoCocycleTransition_mem_coboundaries",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.relativeBrauerTransition_refl",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.relativeBrauerTransition_comp",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisH2Transition_refl",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.galoisH2Transition_comp",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.theorem_15_1_natural",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_15_1.theorem_15_1"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

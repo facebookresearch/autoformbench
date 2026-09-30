@@ -1,0 +1,15 @@
+import ChallengeDeps
+
+open Autoform_Lie_groups_lie_algebras_lie_proposition_19_3
+
+variable {K L : Type*}
+variable [Field K] [CharZero K]
+variable [LieRing L] [LieAlgebra K L]
+variable [FiniteDimensional K L]
+
+theorem proposition_19_3 [LieAlgebra.HasTrivialRadical K L] (x : L) :
+    (∃! xsn : L × L,
+      IsAddJordanChevalleyDecomposition (K := K) (L := L) x xsn.1 xsn.2) ∧
+    (∀ xs xn : L, IsAddJordanChevalleyDecomposition (K := K) (L := L) x xs xn →
+      ∀ y : L, ⁅x,y⁆ = 0 → ⁅xs,y⁆ = 0 ∧ ⁅xn,y⁆ = 0) := by
+  sorry
