@@ -1,0 +1,25 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.mem_nonZeroDivisors_of_nonzeroIntegralIdeal",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.isUnit_fractionalIdealOfNonzeroIntegralIdeal",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.idealGroupPrimeToModulus_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.idealGroupPrimeToModulus_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.idealGroupPrimeToModulus_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.rayIdealGroup_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.rayIdealGroup_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.rayIdealGroup_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.subgroupRestrict_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.subgroupRestrict_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.subgroupRestrict_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.rayIdealGroup_le_idealGroupPrimeToModulus",
+    "Autoform_Number_Theory_I_number_theory_Proposition22_19.Proposition22_19"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

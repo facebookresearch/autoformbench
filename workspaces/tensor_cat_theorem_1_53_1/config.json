@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_53_1.doubleDualFunctor_map_id",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_53_1.doubleDualFunctor_map_comp",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_53_1.doubleDualFunctor_additive",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_53_1.theorem_1_53_1"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

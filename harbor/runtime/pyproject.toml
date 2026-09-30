@@ -1,0 +1,26 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+#
+# This source code is licensed under the CC BY-NC 4.0 license found in the
+# LICENSE file in the root directory of this source tree.
+
+[project]
+name = "autoform-evaluations"
+version = "0.1.0"
+description = "Lean REPL + Loogle MCP servers for tooled-agent evaluation of AutoformBench."
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.0",
+    "psutil>=5.9",
+    "pyyaml>=6.0",
+]
+
+# We don't build/install this dir as a package — the vendored lean_repl_mcp
+# package is imported from cwd via `python -m`. uv only manages the deps.
+[tool.uv]
+package = false
+
+# Linting: `uvx ruff check` (or `uv run ruff check`). Default rule set (E/F).
+# The generated Lean project trees and data dirs are not Python — excluded.
+[tool.ruff]
+target-version = "py311"
+extend-exclude = [".lake", "**/.lake"]

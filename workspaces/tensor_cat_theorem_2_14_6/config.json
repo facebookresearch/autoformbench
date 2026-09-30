@@ -1,0 +1,39 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByActingObject_map_id",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByActingObject_map_comp",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByModuleObject_map_id",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.actionByModuleObject_map_comp",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_id_compatible",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_comp_compatible",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_id_comp",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_comp_id",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorCategory_assoc",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_naturality_left",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_naturality_right",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_assoc",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.moduleFunctorComp_strength_unit",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_id_compatible",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_comp_compatible",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_id_comp",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_comp_id",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.doubleDualFunctorCategory_assoc",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_naturality_m",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_naturality_F",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_unit",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canObj_commute_comp",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_naturality",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_compatible",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_id",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.canFunctor_map_comp",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_2_14_6.theorem_2_14_6"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

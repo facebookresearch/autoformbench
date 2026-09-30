@@ -1,0 +1,30 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.LeftInvariantTensorFields_zero_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.LeftInvariantTensorFields_add_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.LeftInvariantTensorFields_smul_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.RightInvariantTensorFields_zero_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.RightInvariantTensorFields_add_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.RightInvariantTensorFields_smul_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.proposition_5_10_i",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_map_add",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_map_smul",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_left_inv",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.leftInvariantFieldsEquivLieTensor_right_inv",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_map_add",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_map_smul",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_left_inv",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.rightInvariantFieldsEquivLieTensor_right_inv",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_5_10_ii.proposition_5_10_ii"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

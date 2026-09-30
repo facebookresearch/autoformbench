@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Stacks_Project_stacks_tag_05Q9_of_saturated.tag_05Q9",
+    "Autoform_Stacks_Project_stacks_tag_05Q9_of_saturated.tag_05Q9_of_saturated"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

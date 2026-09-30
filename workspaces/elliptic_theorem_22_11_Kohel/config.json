@@ -1,0 +1,39 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.geometricCurve_isElliptic",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.algebraicIsogeny_degree_unique",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.EndSubring_one_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.EndSubring_add_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.EndSubring_neg_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.EndSubring_mul_mem",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.endomorphism_has_isogeny_data",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.exists_unique_dualEnd",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.exists_unique_endomorphismTrace",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.ellipticCurveWithJ_exists",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.cyclicIsogenyKernel_count_independent_of_source",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_zero",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_one",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_add",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_neg",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.idealMultiplier_mul",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.topIdeal_ne_bot",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.topIdeal_finite",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.topIdeal_multiplier",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.mulIdeal_ne_bot",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.mulIdeal_finite",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.mulIdeal_proper",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.exists_positive_principal_power",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.qPowerFrobenius_nonsingular",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.qPowerFrobeniusPointMap_add",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.qPowerFrobenius_algebraic",
+    "Autoform_Elliptic_Curves_elliptic_theorem_22_11_Kohel.theorem_22_11_Kohel"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,36 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.map_neg",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.ring_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.ring_mul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.maximalIdeal_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.maximalIdeal_smul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.maximalIdeal_isMaximal",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.residueField_finiteDimensional",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.riemannRochSpace_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.riemannRochSpace_smul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.riemannRochSpace_finiteDimensional",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCauchySeq_const_cauchy",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCauchySeq_add_cauchy",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCauchySeq_smulBase_cauchy",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCauchySeqEquivalent_refl",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCauchySeqEquivalent_symm",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCauchySeqEquivalent_trans",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCompletionAdd_respects",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCompletionSMul_respects",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.localCompletionValuationAtLeast_respects",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.adele_zero_finite_nonintegral",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.adele_add_finite_nonintegral",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.adele_smul_finite_nonintegral",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.principalAdele_finite_nonintegral",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_riemann_roch_22_21.riemann_roch_22_21"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Geometry_I_alg_geom_bezout_plane_projective_curves.vanishesAt_scaling_forward",
+    "Autoform_Algebraic_Geometry_I_alg_geom_bezout_plane_projective_curves.vanishesAt_scaling_reverse",
+    "Autoform_Algebraic_Geometry_I_alg_geom_bezout_plane_projective_curves.affinePointIdeal_isPrime",
+    "Autoform_Algebraic_Geometry_I_alg_geom_bezout_plane_projective_curves.bezout_plane_projective_curves"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_mazur_24_20.EllipticCurveRationalTorsionSubgroup_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_mazur_24_20.EllipticCurveRationalTorsionSubgroup_neg_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_mazur_24_20.mazur_24_20"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

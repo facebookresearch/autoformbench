@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Learning_with_Submodular_Functions_submodular_proposition_5_1_convex_relaxation_of_supports.exists_decreasingEnumeration",
+    "Autoform_Learning_with_Submodular_Functions_submodular_proposition_5_1_convex_relaxation_of_supports.proposition_5_1_convex_relaxation_of_supports"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,21 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaComulPrimitive_map_add",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaComulPrimitive_map_smul",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaComulPrimitive_map_lie",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipodePrimitiveOp_map_add",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipodePrimitiveOp_map_smul",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipodePrimitiveOp_map_lie",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipode_map_add",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.ueaAntipode_map_smul",
+    "Autoform_Tensor_Categories_tensor_cat_theorem_1_33_1.theorem_1_33_1"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

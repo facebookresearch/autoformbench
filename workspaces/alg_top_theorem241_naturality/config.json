@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Topology_I_alg_top_theorem241_naturality.pid_moduleCat_hasProjectiveResolutions",
+    "Autoform_Algebraic_Topology_I_alg_top_theorem241_naturality.theorem241"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

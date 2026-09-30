@@ -1,0 +1,30 @@
+/-
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+This source code is licensed under the CC BY-NC 4.0 license found in the
+LICENSE file in the root directory of this source tree.
+-/
+
+import ChallengeDeps
+import Submission.Helpers
+
+open Autoform_Double_Hecke_Algebras_double_hecke_theorem_8_14
+open scoped BigOperators
+open Presentation
+
+universe u v
+
+variable (D : SymplecticReflectionDatum)
+
+namespace Submission
+
+theorem theorem_8_14 (c : D.G → ℂ)
+    (hc : ConjInvariantOnSymplecticReflections D c)
+    (grZ0c : Type*) [CommRing grZ0c] [Algebra ℂ grZ0c]
+    (hgr : IsAssociatedGradedPBWCenter D c grZ0c) :
+    (∀ t : ℂ, t ≠ 0 → CenterIsTrivial D t c) ∧
+      Nonempty (grZ0c ≃ₐ[ℂ] ↥(Center D 0 (zeroParameter D))) ∧
+      FiniteOverCenter D c := by
+  sorry
+
+end Submission

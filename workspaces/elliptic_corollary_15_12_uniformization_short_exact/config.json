@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_corollary_15_12_uniformization_short_exact.latticeCurveModel_isElliptic",
+    "Autoform_Elliptic_Curves_elliptic_corollary_15_12_uniformization_short_exact.corollary_15_12_uniformization",
+    "Autoform_Elliptic_Curves_elliptic_corollary_15_12_uniformization_short_exact.corollary_15_12_uniformization_short_exact"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

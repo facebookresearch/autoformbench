@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_17_10_brauerGroup_localField.brauerGroupAdditiveLaw_exists",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_17_10_brauerGroup_localField.theorem_17_10_brauerGroup_localField"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

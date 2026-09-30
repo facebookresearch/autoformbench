@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_the_Theory_of_Computation_computation_slide194_NP_subset_PSPACE.slide194_relationships",
+    "Autoform_Introduction_to_the_Theory_of_Computation_computation_slide194_NP_subset_PSPACE.slide194_P_subset_PSPACE",
+    "Autoform_Introduction_to_the_Theory_of_Computation_computation_slide194_NP_subset_PSPACE.slide194_NP_subset_PSPACE"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

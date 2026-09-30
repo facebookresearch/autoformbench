@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.standard_form_degree_unique",
+    "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.integer_scalar_endomorphisms_injective",
+    "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.exists_unique_dual",
+    "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.exists_unique_trace",
+    "Autoform_Elliptic_Curves_elliptic_theorem_6_18_statement_6_18_shortcurve.theorem_6_18_statement"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

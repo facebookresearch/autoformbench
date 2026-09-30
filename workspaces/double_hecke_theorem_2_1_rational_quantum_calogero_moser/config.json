@@ -1,0 +1,32 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPermAlgEquiv_ratVar",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_left_inv",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_right_inv",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_map_mul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.polyScaleAlgEquiv_commutes",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunScaleAlgEquiv_ratVar",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_map_one_eq_zero",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_leibniz",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.ratFunPDeriv_algebraMap",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.mulLeft_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.toEnd_injective",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.toEnd_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.toEnd_permuteOperator",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.syntacticSymmetricGroupInvariant_iff_operatorSymmetricGroupInvariant",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.toEnd_scaleOperator",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.syntacticHomogeneousOfDegreeNeg_iff_operatorHomogeneousOfDegreeNeg",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_2_1_rational_quantum_calogero_moser.theorem_2_1_rational_quantum_calogero_moser"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

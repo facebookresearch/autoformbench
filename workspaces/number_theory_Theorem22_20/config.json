@@ -1,0 +1,27 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.toNonzeroDivisors_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.fractionalIdealOfNonzeroIntegralIdeal_isUnit",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.IdealGroupPrimeToModulus_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.IdealGroupPrimeToModulus_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.IdealGroupPrimeToModulus_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.subgroupRestrict_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.subgroupRestrict_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.subgroupRestrict_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.RayIdealGroup_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.RayIdealGroup_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.RayIdealGroup_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.RayIdealGroup_le_IdealGroupPrimeToModulus",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.rayClassToCongruenceQuotient_existsUnique",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.primeToMonotone_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem22_20.Theorem22_20"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

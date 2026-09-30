@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_2_2_part2.theorem_2_2_part1",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_2_2_part2.theorem_2_2_part2"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

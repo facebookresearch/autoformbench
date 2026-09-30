@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Geometry_I_alg_geom_morphisms_to_projectiveSpace_equiv_generatedLineBundles.setoid_refl",
+    "Autoform_Algebraic_Geometry_I_alg_geom_morphisms_to_projectiveSpace_equiv_generatedLineBundles.setoid_symm",
+    "Autoform_Algebraic_Geometry_I_alg_geom_morphisms_to_projectiveSpace_equiv_generatedLineBundles.setoid_trans",
+    "Autoform_Algebraic_Geometry_I_alg_geom_morphisms_to_projectiveSpace_equiv_generatedLineBundles.morphisms_to_projectiveSpace_equiv_generatedLineBundles"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

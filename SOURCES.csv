@@ -1,0 +1,25 @@
+book,title,authors,url
+algebraic_combinatorics,Topics in Algebraic Combinatorics,Richard P. Stanley,https://ocw.mit.edu/courses/18-318-topics-in-algebraic-combinatorics-spring-2006/
+algebraic_geometry_i,Algebraic Geometry I,Roman Bezrukavnikov et al.,https://ocw.mit.edu/courses/18-725-algebraic-geometry-fall-2015/
+algebraic_topology_i,Lectures on Algebraic Topology,Haynes Miller; notes by Sanath Devalapurkar,https://ocw.mit.edu/courses/18-905-algebraic-topology-i-fall-2016/
+boolean_functions,Analysis of Boolean Functions,Dor Minzer,https://ocw.mit.edu/courses/18-218-topics-in-combinatorics-analysis-of-boolean-functions-spring-2021/
+buildings,Buildings,Paul Garrett,https://www-users.cse.umn.edu/~garrett/m/buildings/book.pdf
+differential_analysis,Differential Analysis,Richard B. Melrose,https://ocw.mit.edu/courses/18-155-differential-analysis-fall-2004/
+double_hecke_algebras,Lecture Notes on Cherednik Algebras,Pavel Etingof; Xiaoguang Ma,https://arxiv.org/abs/1001.0432
+elliptic_curves,Elliptic Curves,Andrew V. Sutherland,https://ocw.mit.edu/courses/18-783-elliptic-curves-spring-2021/
+functions_of_a_complex_variable,Functions of a Complex Variable,Sigurdur Helgason,https://ocw.mit.edu/courses/18-112-functions-of-a-complex-variable-fall-2008/
+generalized_low_rank_models,Generalized Low Rank Models,Madeleine Udell; Corinne Horn; Reza Zadeh; Stephen Boyd,https://arxiv.org/abs/1410.0342
+graph_theory_and_additive_combinatorics,Graph Theory and Additive Combinatorics,Yufei Zhao,https://ocw.mit.edu/courses/18-225-graph-theory-and-additive-combinatorics-fall-2023/
+high_dimensional_statistics,High-Dimensional Statistics,Philippe Rigollet; Jan-Christian Hütter,https://ocw.mit.edu/courses/18-s997-high-dimensional-statistics-spring-2015/
+introduction_to_arithmetic_geometry,Introduction to Arithmetic Geometry,Andrew V. Sutherland,https://ocw.mit.edu/courses/18-782-introduction-to-arithmetic-geometry-fall-2013/
+introduction_to_pdes,Introduction to Partial Differential Equations,Jared Speck,https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/
+learning_with_submodular_functions,Learning with Submodular Functions,Francis Bach,https://arxiv.org/abs/1111.6453
+lie_groups_lie_algebras,Lie Groups and Lie Algebras,Pavel Etingof,https://arxiv.org/abs/2201.09397
+matrix_concentration_inequalities,An Introduction to Matrix Concentration Inequalities,Joel A. Tropp,https://arxiv.org/abs/1501.01571
+noncommutative_algebra,Noncommutative Algebra,Roman Bezrukavnikov,https://ocw.mit.edu/courses/18-706-noncommutative-algebra-spring-2023/
+number_theory_i,Number Theory I,Andrew V. Sutherland,https://ocw.mit.edu/courses/18-785-number-theory-i-fall-2021/
+optimizing_with_sparsity_inducing_penalties,Optimization with Sparsity-Inducing Penalties,Francis Bach; Rodolphe Jenatton; Julien Mairal; Guillaume Obozinski,https://arxiv.org/abs/1108.0775
+stacks_project,The Stacks Project,The Stacks Project Authors,https://stacks.math.columbia.edu/
+tensor_categories,Tensor Categories,Pavel Etingof; Shlomo Gelaki; Dmitri Nikshych; Victor Ostrik,https://ocw.mit.edu/courses/18-769-topics-in-lie-theory-tensor-categories-spring-2009/
+theory_of_computation,Introduction to the Theory of Computation,Michael Sipser,https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/
+theory_of_probability,Theory of Probability,Scott Sheffield,https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014/

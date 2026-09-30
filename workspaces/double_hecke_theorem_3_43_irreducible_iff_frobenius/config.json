@@ -1,0 +1,21 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.mulByPolynomial_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.directionalDerivative_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.directionalDerivative_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.exists_reflectionDifferenceQuotient",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.polynomialYAction_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.polynomialYAction_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.exists_polynomialRepresentation",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.exists_inducedPolynomialQuotientAction",
+    "Autoform_Double_Hecke_Algebras_double_hecke_theorem_3_43_irreducible_iff_frobenius.theorem_3_43_irreducible_iff_frobenius"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

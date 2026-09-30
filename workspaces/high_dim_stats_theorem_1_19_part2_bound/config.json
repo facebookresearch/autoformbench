@@ -1,0 +1,18 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_1_19_part2_bound.theorem_1_19_left_sup_mem",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_1_19_part2_bound.theorem_1_19_right_sup_mem",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_1_19_part2_bound.theorem_1_19_part1_eq",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_1_19_part2_bound.theorem_1_19_part1_bound",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_1_19_part2_bound.theorem_1_19_part2_eq",
+    "Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_1_19_part2_bound.theorem_1_19_part2_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

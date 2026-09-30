@@ -1,0 +1,22 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.mem_nonZeroDivisors_of_nonzeroIntegralIdeal",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.isUnit_fractionalIdealOfNonzeroIntegralIdeal",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.prime_asIdeal_ne_bot",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.idealGroupPrimeToModulus_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.idealGroupPrimeToModulus_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.idealGroupPrimeToModulus_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.primeIdealAsIdealGroup_mem_idealGroupPrimeToModulus",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.exists_unique_frobeniusElementAtUnramifiedPrime",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.exists_unique_artinMapAtModulus",
+    "Autoform_Number_Theory_I_number_theory_Theorem21_20.Theorem21_20"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

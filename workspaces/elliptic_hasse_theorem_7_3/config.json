@@ -1,0 +1,20 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_hasse_theorem_7_3.frobeniusPointMap_nonsingular",
+    "Autoform_Elliptic_Curves_elliptic_hasse_theorem_7_3.frobeniusEndomorphism_morphism_representative",
+    "Autoform_Elliptic_Curves_elliptic_hasse_theorem_7_3.frobeniusEndomorphism_point_map_agrees",
+    "Autoform_Elliptic_Curves_elliptic_hasse_theorem_7_3.frobeniusEndomorphism_map_add",
+    "Autoform_Elliptic_Curves_elliptic_hasse_theorem_7_3.exists_frobeniusDual",
+    "Autoform_Elliptic_Curves_elliptic_hasse_theorem_7_3.exists_unique_frobeniusTrace",
+    "Autoform_Elliptic_Curves_elliptic_hasse_theorem_7_3.rational_points_equiv_frobenius_fixed",
+    "Autoform_Elliptic_Curves_elliptic_hasse_theorem_7_3.hasse_theorem_7_3"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}
