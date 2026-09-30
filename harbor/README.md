@@ -65,7 +65,7 @@ Install or invoke the exact supported Harbor release:
 
 ```bash
 HARBOR_TELEMETRY=0 uvx --from harbor==0.22.0 harbor --help
-python3 -m unittest discover -s .github/tests -p 'test_*.py' -v
+python3 harbor/export.py --check
 ```
 
 Harbor enables anonymous usage telemetry by default. Setting

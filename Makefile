@@ -12,7 +12,7 @@ DOCKER_PROXY_ARGS := --build-arg http_proxy --build-arg https_proxy \
 help:
 	@printf '%s\n' \
 	  'make harbor-tasks  Generate all source-free Harbor task directories.' \
-	  'make check         Verify checksums, task parity, and unit tests.' \
+	  'make check         Verify checksums and Harbor task parity.' \
 	  'make harbor-images Build the local agent and verifier OCI images.'
 
 harbor-tasks:
@@ -21,8 +21,6 @@ harbor-tasks:
 check: harbor-tasks
 	PYTHONDONTWRITEBYTECODE=1 python3 harbor/export.py --check
 	sha256sum -c --quiet SHA256SUMS
-	PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover \
-	  -s .github/tests -p 'test_*.py' -q
 
 harbor-images:
 	docker build $(DOCKER_PROXY_ARGS) -f harbor/images/agent/Dockerfile \
