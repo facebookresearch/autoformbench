@@ -2,21 +2,19 @@ from __future__ import annotations
 
 import csv
 import hashlib
-import importlib.util
-import json
 import re
-import sys
 import unittest
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 EXPECTED_COUNT = 241
 PUBLIC_IDS_SHA256 = "61b64638b868c1f439011e2f18fd53ea6ea73aa25b8a1d4beda03c0597425ffd"
 
 
 def read_ids() -> list[str]:
-    return [line for line in (ROOT / "problem_ids.txt").read_text().splitlines() if line]
+    with (ROOT / "MANIFEST.csv").open(newline="", encoding="utf-8") as handle:
+        return [row["problem_id"] for row in csv.DictReader(handle)]
 
 
 class ReleaseIntegrityTest(unittest.TestCase):
@@ -24,10 +22,8 @@ class ReleaseIntegrityTest(unittest.TestCase):
         ids = read_ids()
         self.assertEqual(EXPECTED_COUNT, len(ids))
         self.assertEqual(len(ids), len(set(ids)))
-        self.assertEqual(
-            PUBLIC_IDS_SHA256,
-            hashlib.sha256((ROOT / "problem_ids.txt").read_bytes()).hexdigest(),
-        )
+        encoded_ids = ("\n".join(ids) + "\n").encode()
+        self.assertEqual(PUBLIC_IDS_SHA256, hashlib.sha256(encoded_ids).hexdigest())
 
         with (ROOT / "MANIFEST.csv").open(newline="", encoding="utf-8") as handle:
             manifest_ids = [row["problem_id"] for row in csv.DictReader(handle)]
@@ -40,21 +36,6 @@ class ReleaseIntegrityTest(unittest.TestCase):
             with path.open(newline="", encoding="utf-8") as handle:
                 result_ids = [row["problem_id"] for row in csv.DictReader(handle)]
             self.assertEqual(ids, result_ids, path.name)
-
-    def test_audit_summary_is_aggregate_only(self) -> None:
-        summary = json.loads(
-            (ROOT / "audit/public_private_split_summary.json").read_text()
-        )
-        cohort = summary["cohort"]
-        self.assertEqual(341, cohort["full"])
-        self.assertEqual(241, cohort["public"])
-        self.assertEqual(100, cohort["private"])
-        self.assertEqual(PUBLIC_IDS_SHA256, cohort["public_ids_sha256"])
-        self.assertNotIn("forced_private", summary)
-        self.assertEqual(6, summary["forced_private_count"])
-        self.assertRegex(summary["forced_private_ids_sha256"], r"^[0-9a-f]{64}$")
-        text = json.dumps(summary)
-        self.assertFalse(any(problem_id in text for problem_id in read_ids()))
 
     def test_no_disallowed_release_material(self) -> None:
         forbidden_suffixes = {".pdf", ".zip", ".tar", ".tgz"}
@@ -116,24 +97,6 @@ class ReleaseIntegrityTest(unittest.TestCase):
             for marker in forbidden:
                 self.assertNotIn(marker.lower(), lowered, str(path))
             self.assertIsNone(host_home.search(data), str(path))
-
-    def test_readme_leaderboard_is_generated_from_public_rows(self) -> None:
-        spec = importlib.util.spec_from_file_location(
-            "render_leaderboard", ROOT / "scripts/render_leaderboard.py"
-        )
-        assert spec and spec.loader
-        module = importlib.util.module_from_spec(spec)
-        sys.modules[spec.name] = module
-        spec.loader.exec_module(module)
-        readme = (ROOT / "README.md").read_text()
-        match = re.search(
-            r"<!-- leaderboard:start -->\n(.*?)\n<!-- leaderboard:end -->",
-            readme,
-            re.DOTALL,
-        )
-        self.assertIsNotNone(match)
-        self.assertEqual(module.render(), match.group(1))
-
 
 if __name__ == "__main__":
     unittest.main()

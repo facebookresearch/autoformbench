@@ -9,7 +9,8 @@ from pathlib import Path
 from unittest import mock
 
 
-VERIFY_PATH = Path(__file__).with_name("verify.py")
+ROOT = Path(__file__).resolve().parents[2]
+VERIFY_PATH = ROOT / "harbor/images/verifier/verify.py"
 SPEC = importlib.util.spec_from_file_location("autoform_verify", VERIFY_PATH)
 VERIFY = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader is not None

@@ -9,7 +9,8 @@ import tomllib
 import unittest
 from pathlib import Path
 
-EXPORT_PATH = Path(__file__).with_name("export.py")
+ROOT = Path(__file__).resolve().parents[2]
+EXPORT_PATH = ROOT / "harbor/export.py"
 SPEC = importlib.util.spec_from_file_location("final_benchmark_harbor_export", EXPORT_PATH)
 assert SPEC is not None and SPEC.loader is not None
 EXPORT = importlib.util.module_from_spec(SPEC)

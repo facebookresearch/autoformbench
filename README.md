@@ -53,15 +53,10 @@ counts, pairwise model overlap, and broad difficulty strata. Related theorem
 families are kept on the same side of the split. Selection used a constrained
 binary optimization with deterministic SHA-256 tie-breaking.
 
-The public IDs are listed in [`problem_ids.txt`](problem_ids.txt), and their
-SHA-256 commitment is
-`61b64638b868c1f439011e2f18fd53ea6ea73aa25b8a1d4beda03c0597425ffd`.
-The sanitized [split audit summary](audit/public_private_split_summary.json)
-contains aggregate diagnostics and commitments but no private task IDs.
-
 Six tasks that received benchmark-quality flags during audit were required to
 remain private. This constraint takes precedence over theorem-family grouping
-and is reflected in the aggregate audit summary.
+and is reflected in the aggregate leaderboard results above. The public task
+IDs are the `problem_id` column of [`MANIFEST.csv`](MANIFEST.csv).
 
 ## Repository contents
 
@@ -82,7 +77,7 @@ material can be obtained independently through the public references in
 ## Use a workspace directly
 
 Each workspace contains a trusted challenge, a submission skeleton, and a
-clean-room grader. Pick an ID from `problem_ids.txt`, then:
+clean-room grader. Pick an ID from `MANIFEST.csv`, then:
 
 ```bash
 cd workspaces/<problem_id>
@@ -111,7 +106,7 @@ The generated `harbor/tasks/` directory is intentionally not tracked. See the
 
 `make check` verifies:
 
-- the 241-way parity among the manifest, ID list, workspaces, and leaderboard;
+- the 241-way parity among the manifest, workspaces, and leaderboard;
 - deterministic Harbor generation;
 - release checksums and privacy invariants; and
 - the adapter and verifier unit tests.
