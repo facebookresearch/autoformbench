@@ -1,6 +1,6 @@
 # AutoformBench
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Lean 4.32.2](https://img.shields.io/badge/Lean-4.32.2-purple.svg)](https://lean-lang.org/)
 
 AutoformBench is a benchmark for evaluating the formalization of mathematical
@@ -13,10 +13,10 @@ The benchmark uses Lean `v4.32.2` and Mathlib commit
 
 ## Leaderboard
 
-The official ranking uses the full frozen **341-task** benchmark in the
-source-free condition. Public and private aggregate scores are shown to make
-the split auditable; the linked task-level CSVs contain only the 241 public
-tasks and do not disclose holdout membership or outcomes.
+The official ranking uses the full frozen **341-task** benchmark in the paper's
+source-present evaluation condition. Public and private aggregate scores are
+shown to make the split auditable; the linked task-level CSVs contain only the
+241 public tasks and do not disclose holdout membership or per-task outcomes.
 
 <!-- leaderboard:start -->
 | Rank | Model | Full benchmark | Public | Private | Public results |
@@ -36,9 +36,11 @@ tasks and do not disclose holdout membership or outcomes.
 <!-- leaderboard:end -->
 
 Only aggregate statistics for the private holdout are published. Pass rates
-should be compared together with each run's model, agent scaffold, tool access,
-token budget, and stopping policy. The public CSV files preserve the reported
-token, cost, turn, and code-size measurements for reproducible analysis.
+should be compared together with each run's model, agent scaffold, source
+access, tool access, token budget, and stopping policy. The public CSV files
+preserve the reported token, cost, turn, and code-size measurements for
+reproducible analysis; the source excerpts used in those evaluations are not
+redistributed here.
 
 ## Public/private split
 
@@ -108,6 +110,8 @@ details for the mathematical sources are retained in `SOURCES.csv`.
 
 ## License
 
-AutoformBench is released under the [MIT License](LICENSE). Referenced and
-downloaded third-party projects remain subject to their own licenses; see
+AutoformBench is released under the [Apache License 2.0](LICENSE). It is
+intended for evaluation and research, not for use as training data; see
+[`NOTICE`](NOTICE). Referenced and downloaded third-party projects remain
+subject to their own licenses; see
 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
