@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Stacks_Project_stacks_isEquivalenceIn2Category_of_isEquivalence_003Z.faithful_iff_fiberwise_faithful_003Z",
+    "Autoform_Stacks_Project_stacks_isEquivalenceIn2Category_of_isEquivalence_003Z.full_iff_fiberwise_full_003Z",
+    "Autoform_Stacks_Project_stacks_isEquivalenceIn2Category_of_isEquivalence_003Z.isEquivalence_iff_fiberwise_isEquivalence_003Z",
+    "Autoform_Stacks_Project_stacks_isEquivalenceIn2Category_of_isEquivalence_003Z.isEquivalenceIn2Category_of_isEquivalence_003Z"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Combinatorics_alg_comb_boolean_quotient_rank_unimodal_sperner.permuteSubset_subset_iff",
+    "Autoform_Algebraic_Combinatorics_alg_comb_boolean_quotient_rank_unimodal_sperner.orbitSetoid_symm",
+    "Autoform_Algebraic_Combinatorics_alg_comb_boolean_quotient_rank_unimodal_sperner.orbitSetoid_trans",
+    "Autoform_Algebraic_Combinatorics_alg_comb_boolean_quotient_rank_unimodal_sperner.QuotientPartialOrder",
+    "Autoform_Algebraic_Combinatorics_alg_comb_boolean_quotient_rank_unimodal_sperner.boolean_quotient_rank_unimodal_sperner"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

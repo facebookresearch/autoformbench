@@ -1,0 +1,7 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+
+* text=auto eol=lf
+
+# Canonical benchmark sources are checksum-protected. Preserve their exact
+# bytes without repository whitespace diagnostics.
+workspaces/** -whitespace

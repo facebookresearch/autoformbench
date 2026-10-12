@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Stacks_Project_stacks_lemma29_3.sheafPushforwardCompIsoApp_naturality",
+    "Autoform_Stacks_Project_stacks_lemma29_3.lemma29_3SectionMap_id",
+    "Autoform_Stacks_Project_stacks_lemma29_3.lemma29_3SectionMap_comp",
+    "Autoform_Stacks_Project_stacks_lemma29_3.lemma29_3SectionCoconeApp_naturality",
+    "Autoform_Stacks_Project_stacks_lemma29_3.lemma29_3"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

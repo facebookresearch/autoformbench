@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Lie_groups_lie_algebras_lie_theorem23_7_ii.theorem23_7_i",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem23_7_ii.theorem23_7_ii"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_theorem_23_20_weil_reciprocity.rationalPointStalkIsDVR",
+    "Autoform_Elliptic_Curves_elliptic_theorem_23_20_weil_reciprocity.orderAt_finite_support",
+    "Autoform_Elliptic_Curves_elliptic_theorem_23_20_weil_reciprocity.exists_localUnit_of_orderAt_eq_zero",
+    "Autoform_Elliptic_Curves_elliptic_theorem_23_20_weil_reciprocity.theorem_23_20_weil_reciprocity"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,18 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_20_10.lieGroupAd_map_add",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_20_10.lieGroupAd_map_smul",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_20_10.lieGroupAd_map_lie",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_20_10.lieGroupAd_left_inv",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_20_10.lieGroupAd_right_inv",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_20_10.theorem_20_10"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

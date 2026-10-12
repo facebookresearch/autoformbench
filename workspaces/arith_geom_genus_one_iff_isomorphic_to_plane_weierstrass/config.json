@@ -1,0 +1,23 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.map_neg",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.ring_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.ring_mul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.maximalIdeal_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.maximalIdeal_smul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.maximalIdeal_isMaximal",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.residueField_finiteDimensional",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.riemannRochSpace_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.riemannRochSpace_smul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.riemannRochSpace_finiteDimensional",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_genus_one_iff_isomorphic_to_plane_weierstrass.genus_one_iff_isomorphic_to_plane_weierstrass"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,28 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.reflection_fixes_point_iff_root_vanishes",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.discriminant_local_factorization",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.localDiscriminantUnit_nonvanishing_near_zero",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.discriminant_zero_set_null",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.stabilizer_discriminant_zero_set_null",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.macdonaldMehtaIntegrable_on_initial_domain",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.macdonaldMehtaStabilizerIntegrable_on_initial_domain",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.macdonaldMehtaIntegral_eq_function_on_initial_domain",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.macdonaldMehtaIntegralStabilizer_eq_function_on_initial_domain",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.degreeRootCountsEqual_iff_denominatorCountsEqual",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.isSchwartzFunction_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.isSchwartzFunction_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.xiDensityPairing_integrable_initial_region",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.macdonaldMehtaXi_support_iff_stabilizerRatioNonzero",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.macdonaldMehta_ratio_nonzero_iff_relative_poincare_nonzero",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_4_26_support_of_xi_denominator_form.relative_poincare_nonzero_iff_degree_counts_equal"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

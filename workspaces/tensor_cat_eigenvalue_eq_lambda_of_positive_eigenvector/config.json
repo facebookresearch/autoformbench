@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Tensor_Categories_tensor_cat_eigenvalue_eq_lambda_of_positive_eigenvector.perron_frobenius_nonnegative",
+    "Autoform_Tensor_Categories_tensor_cat_eigenvalue_eq_lambda_of_positive_eigenvector.perron_frobenius_positive",
+    "Autoform_Tensor_Categories_tensor_cat_eigenvalue_eq_lambda_of_positive_eigenvector.eigenvalue_eq_lambda_of_positive_eigenvector"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Number_Theory_I_number_theory_Theorem24_7.exists_unique_galoisUnitEquiv",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_7.exists_unique_galoisInfinitePlaceEquiv",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_7.Theorem24_7"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

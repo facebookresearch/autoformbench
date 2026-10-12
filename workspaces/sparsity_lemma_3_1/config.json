@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Optimizing_with_sparsity_inducing_penalties_sparsity_lemma_3_1.existsUniqueProximalPoint",
+    "Autoform_Optimizing_with_sparsity_inducing_penalties_sparsity_lemma_3_1.existsUniqueDualBallProjection",
+    "Autoform_Optimizing_with_sparsity_inducing_penalties_sparsity_lemma_3_1.lemma_3_1"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

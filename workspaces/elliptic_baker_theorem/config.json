@@ -1,0 +1,19 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_baker_theorem.interiorLatticePoints_finite",
+    "Autoform_Elliptic_Curves_elliptic_baker_theorem.v_eq_ord_of_ne_zero",
+    "Autoform_Elliptic_Curves_elliptic_baker_theorem.riemannRochSpace_add_mem",
+    "Autoform_Elliptic_Curves_elliptic_baker_theorem.riemannRochSpace_smul_mem",
+    "Autoform_Elliptic_Curves_elliptic_baker_theorem.coordinateRing_isDomain_of_geometricallyIrreducible",
+    "Autoform_Elliptic_Curves_elliptic_baker_theorem.functionField_hasRiemannRochTheory",
+    "Autoform_Elliptic_Curves_elliptic_baker_theorem.baker_theorem"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

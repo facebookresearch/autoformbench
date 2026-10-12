@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_the_Theory_of_Computation_computation_NL_subset_SPACE_logSquared.L_subset_P",
+    "Autoform_Introduction_to_the_Theory_of_Computation_computation_NL_subset_SPACE_logSquared.NL_subset_SPACE_logSquared"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

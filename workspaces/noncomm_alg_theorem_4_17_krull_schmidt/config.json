@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_4_17_krull_schmidt.theorem_4_17_exists",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_4_17_krull_schmidt.theorem_4_17_unique",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_theorem_4_17_krull_schmidt.theorem_4_17_krull_schmidt"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

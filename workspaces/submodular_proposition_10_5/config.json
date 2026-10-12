@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Learning_with_Submodular_Functions_submodular_proposition_10_5.existsLovaszOrder",
+    "Autoform_Learning_with_Submodular_Functions_submodular_proposition_10_5.lovaszSumFromList_order_independent",
+    "Autoform_Learning_with_Submodular_Functions_submodular_proposition_10_5.proposition_10_5"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

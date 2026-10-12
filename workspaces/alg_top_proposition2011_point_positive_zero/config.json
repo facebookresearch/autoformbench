@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.onSubspace_continuous",
+    "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.onSubspace_comm",
+    "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.relativeChainMapWithCoefficients_comp_eq_zero",
+    "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.coproductInclusion_continuous",
+    "Autoform_Algebraic_Topology_I_alg_top_proposition2011_point_positive_zero.proposition2011"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

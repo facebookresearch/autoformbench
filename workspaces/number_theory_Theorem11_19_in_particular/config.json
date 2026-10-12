@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Number_Theory_I_number_theory_Theorem11_19_in_particular.Theorem11_19",
+    "Autoform_Number_Theory_I_number_theory_Theorem11_19_in_particular.Theorem11_19_in_particular"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_26_4_weyl_character_formula.rootAsIntegralWeight_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_26_4_weyl_character_formula.weylActionOnIntegralWeight_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_26_4_weyl_character_formula.existsFiniteIntegralWeightSupport",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_26_4_weyl_character_formula.LCharacterOfDominant_finiteDimensional",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_26_4_weyl_character_formula.theorem_26_4_weyl_character_formula"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

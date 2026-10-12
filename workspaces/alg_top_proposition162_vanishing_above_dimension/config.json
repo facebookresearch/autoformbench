@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Topology_I_alg_top_proposition162_vanishing_above_dimension.proposition162",
+    "Autoform_Algebraic_Topology_I_alg_top_proposition162_vanishing_above_dimension.proposition162_vanishing_above_dimension"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

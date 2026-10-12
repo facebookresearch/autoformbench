@@ -1,0 +1,18 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Number_Theory_I_number_theory_Theorem24_12.mem_nonZeroDivisors_of_nonzeroIntegralIdeal",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_12.isUnit_fractionalIdealOfNonzeroIntegralIdeal",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_12.exists_nonzeroIntegralIdeal_relNorm",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_12.exists_unique_idealNormHom",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_12.exists_unique_infinitePlaceRestriction",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_12.Theorem24_12"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

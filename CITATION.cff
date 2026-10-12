@@ -1,0 +1,32 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+#
+# This source code is licensed under the CC BY-NC 4.0 license found in the
+# LICENSE file in the root directory of this source tree.
+
+cff-version: 1.2.0
+message: "If you use AutoformBench, please cite the accompanying paper."
+title: "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics"
+type: dataset
+authors:
+  - given-names: Charles
+    family-names: Arnal
+  - given-names: Ahmad
+    family-names: Rammal
+  - given-names: Niket
+    family-names: Patel
+  - given-names: Fabian
+    family-names: Gloeckle
+  - given-names: Bartosz
+    family-names: Piotrowski
+  - given-names: Amaury
+    family-names: Hayat
+  - given-names: Julia
+    family-names: Kempe
+  - given-names: Rémi
+    family-names: Munos
+  - given-names: Vivien
+    family-names: Cabannes
+repository-code: "https://github.com/facebookresearch/autoformbench"
+version: "1.0.0-rc1"
+date-released: 2026-09-30
+license: CC-BY-NC-4.0

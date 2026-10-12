@@ -1,0 +1,26 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Stacks_Project_stacks_lemma18_5.coverage_pullback",
+    "Autoform_Stacks_Project_stacks_lemma18_5.toMathlib",
+    "Autoform_Stacks_Project_stacks_lemma18_5.sheafPushforward_isRightAdjoint",
+    "Autoform_Stacks_Project_stacks_lemma18_5.lemma18_2_site_hasIsos",
+    "Autoform_Stacks_Project_stacks_lemma18_5.lemma18_2_site_hasPullbacks",
+    "Autoform_Stacks_Project_stacks_lemma18_5.lemma18_2_site_stableUnderBaseChange",
+    "Autoform_Stacks_Project_stacks_lemma18_5.lemma18_2_site_stableUnderComposition",
+    "Autoform_Stacks_Project_stacks_lemma18_5.inclusionIsMorphism_mapsCoverings",
+    "Autoform_Stacks_Project_stacks_lemma18_5.inclusionIsMorphism_preservesCoverPullbacks",
+    "Autoform_Stacks_Project_stacks_lemma18_5.inclusionIsMorphism_leftExact",
+    "Autoform_Stacks_Project_stacks_lemma18_5.lemma18_5Diagram_map_id",
+    "Autoform_Stacks_Project_stacks_lemma18_5.lemma18_5Diagram_map_comp",
+    "Autoform_Stacks_Project_stacks_lemma18_5.lemma18_5Cocone_naturality",
+    "Autoform_Stacks_Project_stacks_lemma18_5.lemma18_5"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

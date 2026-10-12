@@ -1,0 +1,18 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_22_15.mapChamber_is_connected",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_22_15.mapChamber_subset_regular",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_22_15.mapChamber_maximal_connected",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_22_15.instMulActionWeylGroupWeylChamber_one_smul",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_22_15.instMulActionWeylGroupWeylChamber_mul_smul",
+    "Autoform_Lie_groups_lie_algebras_lie_proposition_22_15.proposition_22_15"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

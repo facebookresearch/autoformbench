@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_9_11_bijective.lieSubalgebra_lie_mem",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_9_11_bijective.theorem_9_11_bijective"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

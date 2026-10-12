@@ -1,0 +1,24 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.zeroCocycle_continuous",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.addCocycle_continuous",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.addCocycle_cocycle",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.cohomologous_refl",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.cohomologous_symm",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.cohomologous_trans",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.continuousTorsorIso_refl",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.continuousTorsorIso_symm",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.continuousTorsorIso_trans",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.trivialContinuousTorsor_vadd_free",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.trivialContinuousTorsor_vadd_transitive",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_weil_chatelet_group_iso_H1_postDescent.weil_chatelet_group_iso_H1_postDescent"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

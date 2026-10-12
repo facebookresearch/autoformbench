@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_theorem_5_25.mulByXCoord_denominator_ne_zero",
+    "Autoform_Elliptic_Curves_elliptic_theorem_5_25.mulByXCoord_numerator_coprime_denominator",
+    "Autoform_Elliptic_Curves_elliptic_theorem_5_25.theorem_5_25"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

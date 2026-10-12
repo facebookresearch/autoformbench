@@ -1,0 +1,31 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.DegreeDLocalization_add_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.DegreeDLocalization_neg_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.DegreeZeroLocalization_one_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.DegreeZeroLocalization_add_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.DegreeZeroLocalization_neg_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.DegreeZeroLocalization_mul_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.DegreeZeroLocalization_smul_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.TwistingSections_zero_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.TwistingSections_add_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.TwistingSections_neg_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.RegularTwistingSections_zero_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.RegularTwistingSections_one_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.RegularTwistingSections_add_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.RegularTwistingSections_neg_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.RegularTwistingSections_mul_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.regularSectionSmul_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.twistingSectionsRestrict_mem",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.existsSerreTwistConstruction",
+    "Autoform_Algebraic_Geometry_I_alg_geom_grothendieck_birkhoff.grothendieck_birkhoff"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

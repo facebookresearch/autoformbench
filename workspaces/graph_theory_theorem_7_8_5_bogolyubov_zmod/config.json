@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_7_8_5_bogolyubov_zmod.theorem_7_8_3_bogolyubov_fpn",
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_7_8_5_bogolyubov_zmod.theorem_7_8_5_bogolyubov_zmod"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

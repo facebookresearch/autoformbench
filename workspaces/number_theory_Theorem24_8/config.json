@@ -1,0 +1,30 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.exists_unique_galoisUnitEquiv",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.FixedSubgroup_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.FixedSubgroup_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.FixedSubgroup_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.cyclicNormHom_map_one",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.cyclicNormHom_map_mul",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.differenceHom_map_one",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.differenceHom_map_mul",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.NormSubgroupInFixed_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.NormSubgroupInFixed_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.NormSubgroupInFixed_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.DifferenceSubgroupInNormKernel_one_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.DifferenceSubgroupInNormKernel_mul_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.DifferenceSubgroupInNormKernel_inv_mem",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.exists_unique_infinitePlaceRestriction",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.Theorem24_8_finrank_pos",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.Theorem24_8_pow_eq_one",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_8.Theorem24_8"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

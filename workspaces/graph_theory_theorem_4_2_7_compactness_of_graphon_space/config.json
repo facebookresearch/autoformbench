@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_4_2_7_compactness_of_graphon_space.cutDistance_self",
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_4_2_7_compactness_of_graphon_space.cutDistance_comm",
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_4_2_7_compactness_of_graphon_space.cutDistance_triangle",
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_4_2_7_compactness_of_graphon_space.theorem_4_2_7_compactness_of_graphon_space"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

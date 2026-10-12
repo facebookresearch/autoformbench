@@ -1,0 +1,35 @@
+/-
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+This source code is licensed under the CC BY-NC 4.0 license found in the
+LICENSE file in the root directory of this source tree.
+-/
+
+import ChallengeDeps
+import Submission.Helpers
+
+open Autoform_Introduction_to_PDEs_pde_lemma_1_0_3
+open Set MeasureTheory
+open scoped MeasureTheory
+
+namespace Submission
+
+theorem lemma_1_0_3 (n : ℕ)
+    (D : ℝ)
+    (hD : 0 < D)
+    (φ : EuclideanSpace ℝ (Fin n) → ℝ)
+    (hφ : Continuous φ)
+    (hφ_growth :
+      ∃ a b : ℝ,
+        0 ≤ a ∧
+        0 ≤ b ∧
+        ∀ x, |φ x| ≤ a * Real.exp (b * ‖x‖ ^ (2 : ℕ))) :
+    Filter.Tendsto
+      (fun t : ℝ =>
+        ∫ x : EuclideanSpace ℝ (Fin n),
+          (heatFundamentalSolution n D t x * φ x) ∂volume)
+      (nhdsWithin (0 : ℝ) (Ioi 0))
+      (nhds (φ 0)) := by
+  sorry
+
+end Submission

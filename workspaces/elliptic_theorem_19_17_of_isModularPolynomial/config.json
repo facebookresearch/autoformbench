@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_theorem_19_17_of_isModularPolynomial.exists_isModularPolynomial",
+    "Autoform_Elliptic_Curves_elliptic_theorem_19_17_of_isModularPolynomial.theorem_19_17_of_isModularPolynomial"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

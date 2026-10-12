@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Matrix_Concentration_Inequalities_matrix_conc_matrix_chernoff_statement.isHermitian_integral",
+    "Autoform_Matrix_Concentration_Inequalities_matrix_conc_matrix_chernoff_statement.integrable_univ_sum_matrix",
+    "Autoform_Matrix_Concentration_Inequalities_matrix_conc_matrix_chernoff_statement.matrix_chernoff_statement"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Noncommutative_Algebra_noncomm_alg_remark_16_5_cyclic_relative_brauer_group.relativeBrauerGroupLaw_exists",
+    "Autoform_Noncommutative_Algebra_noncomm_alg_remark_16_5_cyclic_relative_brauer_group.remark_16_5_cyclic_relative_brauer_group"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

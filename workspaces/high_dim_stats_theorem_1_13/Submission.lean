@@ -1,0 +1,31 @@
+/-
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+This source code is licensed under the CC BY-NC 4.0 license found in the
+LICENSE file in the root directory of this source tree.
+-/
+
+import ChallengeDeps
+import Submission.Helpers
+
+open Autoform_High_Dimensional_Statistics_high_dim_stats_theorem_1_13
+open ProbabilityTheory MeasureTheory Real Finset
+open scoped ENNReal BigOperators
+
+variable {Ω : Type*} [MeasurableSpace Ω] {P : Measure Ω} [IsProbabilityMeasure P]
+
+namespace Submission
+
+theorem theorem_1_13 {n : ℕ} (hn : 0 < n)
+    {X : Fin n → Ω → ℝ} (hXm : ∀ i, Measurable (X i))
+    {lam : ℝ} (hlam : 0 < lam)
+    (hXsub : ∀ i, definition_1_11 (X i) P lam)
+    (hind : iIndepFun X P)
+    {t : ℝ} (ht : 0 < t) :
+    P {ω | (1 / ↑n) * (∑ i, X i ω) > t} ≤
+      ENNReal.ofReal (exp (-(↑n / 2) * min (t ^ 2 / lam ^ 2) (t / lam))) ∧
+    P {ω | (1 / ↑n) * (∑ i, X i ω) < -t} ≤
+      ENNReal.ofReal (exp (-(↑n / 2) * min (t ^ 2 / lam ^ 2) (t / lam))) := by
+  sorry
+
+end Submission

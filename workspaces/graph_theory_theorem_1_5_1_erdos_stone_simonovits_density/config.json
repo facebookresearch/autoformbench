@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_1_5_1_erdos_stone_simonovits_density.theorem_1_5_1_erdos_stone_simonovits_asymptotic",
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_1_5_1_erdos_stone_simonovits_density.theorem_1_5_1_erdos_stone_simonovits_density"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

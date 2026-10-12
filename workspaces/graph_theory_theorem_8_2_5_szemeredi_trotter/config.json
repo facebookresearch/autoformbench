@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_8_2_5_szemeredi_trotter.theorem_8_2_3_crossing_number_inequality",
+    "Autoform_Graph_Theory_and_Additive_Combinatorics_graph_theory_theorem_8_2_5_szemeredi_trotter.theorem_8_2_5_szemeredi_trotter"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

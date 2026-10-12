@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_factorial_isLocallyFactorial.heightOnePrime_isUnit_asFractionalIdeal",
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_factorial_isLocallyFactorial.affine_locallyFactorial_weilToCartierDivisor_bijective",
+    "Autoform_Algebraic_Geometry_I_alg_geom_affine_factorial_isLocallyFactorial.affine_factorial_isLocallyFactorial"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

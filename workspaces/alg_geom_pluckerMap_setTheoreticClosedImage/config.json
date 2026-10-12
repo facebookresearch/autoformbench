@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Algebraic_Geometry_I_alg_geom_pluckerMap_setTheoreticClosedImage.pluckerLine_finrank",
+    "Autoform_Algebraic_Geometry_I_alg_geom_pluckerMap_setTheoreticClosedImage.pluckerMap_isProjectiveClosedEmbedding",
+    "Autoform_Algebraic_Geometry_I_alg_geom_pluckerMap_setTheoreticClosedImage.pluckerMap_setTheoreticClosedImage"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

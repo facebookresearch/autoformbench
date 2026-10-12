@@ -1,0 +1,20 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.padicIntLimitTransition_dvd",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_zero_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_one_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_neg_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.PadicIntLimitSubring_mul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.instIsDomainPadicIntLimit",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_padic_completion_rat_iso_fraction_field_padic_int_limit.padic_completion_rat_iso_fraction_field_padic_int_limit"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

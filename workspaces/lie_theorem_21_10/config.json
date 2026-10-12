@@ -1,0 +1,26 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productPairingAux_map_add",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productPairingAux_map_smul",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productPairing_map_add",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productPairing_map_smul",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productRootFun_injective",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productCorootFun_injective",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productRootPairing_map_add",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productRootPairing_map_smul",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productRootPairing_isPerfPair",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productRootPairing_root_coroot_two",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productRootPairing_reflectionPerm_root",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.productRootPairing_reflectionPerm_coroot",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.instIsRootSystemProduct",
+    "Autoform_Lie_groups_lie_algebras_lie_theorem_21_10.theorem_21_10"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Tensor_Categories_tensor_cat_proposition_1_45_5.perronRoot_exists",
+    "Autoform_Tensor_Categories_tensor_cat_proposition_1_45_5.TransitiveZPlusRing.proposition_1_45_5"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

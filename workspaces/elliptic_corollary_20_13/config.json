@@ -1,0 +1,19 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Elliptic_Curves_elliptic_corollary_20_13.nonsingularLift_of_nonsingular",
+    "Autoform_Elliptic_Curves_elliptic_corollary_20_13.endRing_zero_mem",
+    "Autoform_Elliptic_Curves_elliptic_corollary_20_13.endRing_one_mem",
+    "Autoform_Elliptic_Curves_elliptic_corollary_20_13.endRing_add_mem",
+    "Autoform_Elliptic_Curves_elliptic_corollary_20_13.endRing_neg_mem",
+    "Autoform_Elliptic_Curves_elliptic_corollary_20_13.endRing_mul_mem",
+    "Autoform_Elliptic_Curves_elliptic_corollary_20_13.corollary_20_13"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,25 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.mem_nonZeroDivisors_of_nonzeroIntegralIdeal",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.exists_unique_galoisImageIdeal",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.exists_unique_galoisClassGroupEquiv",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.one_mem_ambiguousClassGroup",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.mul_mem_ambiguousClassGroup",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.inv_mem_ambiguousClassGroup",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.norm_ne_zero_of_unit",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.one_mem_fieldNormUnitIntersection",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.mul_mem_fieldNormUnitIntersection",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.inv_mem_fieldNormUnitIntersection",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.exists_finiteRamificationSupport",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.exists_unique_infinitePlaceRestriction",
+    "Autoform_Number_Theory_I_number_theory_Theorem24_10.Theorem24_10"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

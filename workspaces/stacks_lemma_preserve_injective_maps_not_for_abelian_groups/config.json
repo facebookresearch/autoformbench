@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Stacks_Project_stacks_lemma_preserve_injective_maps_not_for_abelian_groups.lemma_preserve_injective_maps",
+    "Autoform_Stacks_Project_stacks_lemma_preserve_injective_maps_not_for_abelian_groups.lemma_preserve_injective_maps_not_for_abelian_groups"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,23 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.rootLinear_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.rootLinear_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.ratFunPDeriv_map_add",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.ratFunPDeriv_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.ratFunPDeriv_map_one_eq_zero",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.ratFunPDeriv_leibniz",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.ratFunPDeriv_algebraMap",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.mulLeft_map_smul",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.isRealReflection_conj",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.conjugateReflection_isRealReflection",
+    "Autoform_Double_Hecke_Algebras_double_hecke_proposition_2_18_delta_conjugates_bar_hamiltonian.proposition_2_18_delta_conjugates_bar_hamiltonian"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,23 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.map_neg",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.ring_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.ring_mul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.maximalIdeal_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.maximalIdeal_smul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.maximalIdeal_isMaximal",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.residueField_finiteDimensional",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.RiemannRochSpace_add_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.RiemannRochSpace_smul_mem",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.riemannRochSpace_finiteDimensional",
+    "Autoform_Introduction_to_Arithmetic_Geometry_arith_geom_faltings_1983_functionField.faltings_1983_functionField"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

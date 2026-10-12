@@ -1,0 +1,34 @@
+/-
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+This source code is licensed under the CC BY-NC 4.0 license found in the
+LICENSE file in the root directory of this source tree.
+-/
+
+import ChallengeDeps
+
+open Autoform_Learning_with_Submodular_Functions_submodular_proposition_B_3
+open scoped BigOperators
+
+theorem proposition_B_3 {α β : Type*}
+    [Fintype α] [DecidableEq α] [Fintype β] [DecidableEq β]
+    (G : Finset (α ⊕ β) → ℝ)
+    (hG_sub : IsSubmodular G)
+    (hG_empty : G ∅ = 0) :
+    let F : Finset α → ℝ := partialMinimum (α := α) (β := β) G
+    IsSubmodular F ∧
+      F ∅ = 0 ∧
+      (subsetMinimum
+          (fun B : Finset β => G (sumSubset (∅ : Finset α) B)) = 0 →
+        ((∀ w : α → ℝ,
+            (∀ i : α, 0 ≤ w i) →
+              IsLeast
+                ((fun v : β → ℝ =>
+                    lovaszExtension G (Sum.elim w v)) ''
+                  {v : β → ℝ | ∀ j : β, 0 ≤ v j})
+                (lovaszExtension F w)) ∧
+          (submodularPolyhedron F =
+            {s : α → ℝ | ∃ t : β → ℝ,
+              (∀ j : β, 0 ≤ t j) ∧
+              Sum.elim s t ∈ submodularPolyhedron G}))) := by
+  sorry

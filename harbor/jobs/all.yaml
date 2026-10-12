@@ -1,0 +1,22 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+#
+# This source code is licensed under the CC BY-NC 4.0 license found in the
+# LICENSE file in the root directory of this source tree.
+
+job_name: autoformbench-source-free
+jobs_dir: harbor/runs
+n_attempts: 1
+timeout_multiplier: 1.0
+n_concurrent_trials: 1
+quiet: false
+environment:
+  type: docker
+  force_build: false
+  delete: true
+  override_cpus: 4
+  override_memory_mb: 16384
+  override_storage_mb: 51200
+agents:
+  - name: nop
+datasets:
+  - path: harbor/tasks
